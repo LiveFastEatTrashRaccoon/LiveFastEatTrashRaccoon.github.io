@@ -1,0 +1,23 @@
+title: Procyon Project
+description: Open source KMP apps for the Fediverse
+url: "https://LiveFastEatTrashRaccoon.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site settings
+author:
+  name: LiveFastEatTrashRaccoon
+  email: livefast.eattrash.raccoon@gmail.com
+
+# Navigation (minima theme)
+header_pages:
+  - index.md
+  - blog.md
+  - about.md
