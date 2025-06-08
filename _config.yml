@@ -19,5 +19,7 @@ author:
 # Navigation (minima theme)
 header_pages:
   - index.md
+  - raccoon-lemmy.md
+  - raccoon-friendica.md
   - blog.md
   - about.md

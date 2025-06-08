@@ -12,6 +12,21 @@ that connect people through decentralized social networks.
 We want to make it easier for everyone to find and access their favorite space in the Fediverse, be
 it in discussion or social networking.
 
+## Our Apps
+
+### 🦝 Raccoon for Lemmy
+
+A modern, feature-rich client for Lemmy — the federated link aggregator and discussion platform.
+
+[Learn More](raccoon-lemmy.md){: .btn .btn-primary}
+
+### 🦝 Raccoon for Friendica
+
+Connect with friends and communities on Friendica, the distributed social network that puts you in
+control, but you can also use it with Mastodon and other compatible platforms.
+
+[Learn More](raccoon-friendica.md){: .btn .btn-primary}
+
 ## Why choose Procyon apps?
 
 - **Open source**: All our code is freely available and auditable
