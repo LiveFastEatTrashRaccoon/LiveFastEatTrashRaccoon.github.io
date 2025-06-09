@@ -16,12 +16,12 @@ decentralized social networks without sacrificing privacy or digital rights.
 
 ## Why "Procyon"?
 
-Procyon is Latin word for "raccoon" and raccoons are adorable, aren't they? Such cute and
-intelligent animals definitely deserve more recognition!
+_Procyon lotor_ is the Latin expression for "raccoon" and aren't those animals are adorable, are
+they? Such cute and intelligent mammals definitely deserve more recognition!
 
 The original Lemmy app was called Raccoon, following a tradition according to which Lemmy clients
 were named after small mammals (Lemmur, Jerboa, Fennec, etc.). The idea was so nice that it became
-natural to name the Friendica client after it.
+natural to name the Friendica/Mastodon client after it.
 
 Raccoons are very clever animals that adapt to live in harsh conditions, finding a way to survive
 even with what we consider «trash». They look like masked criminals but do not harm anyone, they are

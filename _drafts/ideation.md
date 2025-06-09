@@ -57,5 +57,5 @@ Keep engagement in mind:
 - Design principles for social media apps
 - Accessibility first: building inclusive social media
 - Customization vs simplicity in UI design
-- Mobile-first vs responsive design considerations
+- Create adaptive multiplatform designs with window size classes
 - The onboarding problem: making the Fediverse accessible
