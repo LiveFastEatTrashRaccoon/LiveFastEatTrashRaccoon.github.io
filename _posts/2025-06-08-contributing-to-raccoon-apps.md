@@ -2,7 +2,7 @@
 layout: post
 title: "Contributing to Raccoon apps"
 date: 2025-06-08
-categories: [ community, contributing, foss ]
+tag: community foss 
 ---
 
 ## A Community-driven approach
@@ -60,3 +60,5 @@ better Friendica or Lemmy client for the community.
 *Ready to contribute? Head over to
 the [RaccoonForLemmy repository](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy) and
 check out the `CONTRIBUTING.md` file for detailed guidelines.*
+
+{% include tag_footer.html %}

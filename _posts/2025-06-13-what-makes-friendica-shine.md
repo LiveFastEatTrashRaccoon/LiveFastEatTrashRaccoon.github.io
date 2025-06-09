@@ -2,7 +2,7 @@
 layout: post
 title: "Friendica: the Swiss Army knife of the Fediverse"
 date: 2025-06-13
-categories: [ friendica, social, activitypub ]
+tag: friendica activitypub
 ---
 
 While most fediverse platforms force you to choose between microblogging, photo sharing, or link
@@ -107,3 +107,5 @@ Ideally, an app for Friendica should have at least the following features:
 [Raccoon for Friendica](https://play.google.com/store/apps/details?id=com.livefast.eattrash.raccoonforfriendica)
 comes in, trying to provide a mobile solution functional and aesthetically convenient at the same
 time.*
+
+{% include tag_footer.html %}

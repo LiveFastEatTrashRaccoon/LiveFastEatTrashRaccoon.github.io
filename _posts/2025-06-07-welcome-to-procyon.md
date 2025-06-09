@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to the Procyon Project!"
 date: 2025-06-07
-categories: [ announcement ]
+tag: announcement
 ---
 
 Welcome to the official blog of the Procyon Project! This is where I'll be sharing updates about our
@@ -44,3 +44,5 @@ In this blog I am going to share my insights on the following main areas:
 
 Stay tuned for more updates, and **thank you** for supporting open source software and digital
 freedom!
+
+{% include tag_footer.html %}
