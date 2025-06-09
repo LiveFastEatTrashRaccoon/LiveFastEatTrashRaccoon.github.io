@@ -2,7 +2,7 @@
 layout: post
 title: "Building modern Fediverse apps: Why Kotlin + Compose Multiplatform is the perfect match"
 date: 2025-06-10
-categories: [ kotlin, compose, qa, contributing, foss ]
+tag: kotlin compose qa community foss
 ---
 
 The Fediverse represents the future of social media—decentralized, open, and user-controlled. As
@@ -194,3 +194,5 @@ and Compose Multiplatform deliver exactly that.
 
 *Ready to build the next great Fediverse app? The tools are here, the protocols are maturing, and
 the community is waiting.*
+
+{% include tag_footer.html %}
