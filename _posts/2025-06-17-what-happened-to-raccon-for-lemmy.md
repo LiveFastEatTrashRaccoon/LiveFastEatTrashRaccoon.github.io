@@ -2,7 +2,7 @@
 layout: post
 title: "What happened to Raccoon for Lemmy?"
 date: 2025-06-17
-tag: lemmy community 
+tags: [ "lemmy", "community" ]
 ---
 
 Many people have wondered what happened during August 2024 to the Raccoon for Lemmy app. The

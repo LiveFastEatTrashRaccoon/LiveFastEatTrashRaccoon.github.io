@@ -2,7 +2,7 @@
 layout: post
 title: "Contributing to Raccoon apps"
 date: 2025-06-08
-tag: community foss 
+tags: [ "community", "foss" ]
 ---
 
 ## A Community-driven approach

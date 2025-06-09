@@ -1,26 +1,31 @@
+---
+permalink: /archive.html
+layout: page
+---
+
 <div>
-    Search through all of posts by tag! 🦝🦝🦝
+  Search through all of posts by tag! 🦝🦝🦝
 </div>
 
-</br>
+<br />
 
 <div id="tags-list">
-    {% for tag in site.tags %}
-    {% assign tag_name = tag | first %}
-    {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
-    <div class="tag-list">
-        <div id="#{{ tag_name | slugize }}"></div>
-        <h3 class="post-list-heading line-bottom"> In #{{ tag_name }}: </h3>
-        <a name="{{ tag_name | slugize }}"></a>
-        <ul class="post-list post-list-narrow">
-            {% for post in site.tags[tag_name] %}
-            <li>
-                <b>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </b> - <i>{{ post.date | date: "%B %d, %Y" }}</i>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    {% endfor %}
+{% for tag in site.tags %}
+  {% assign tag_name = tag | first %}
+  {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
+  <div class="tag-list">
+  <div id="#{{ tag_name | slugize }}"></div>
+  <h3 class="post-list-heading line-bottom"> In #{{ tag_name }}: </h3>
+  <a name="{{ tag_name | slugize }}"></a>
+   <ul class="post-list post-list-narrow">
+     {% for post in site.tags[tag_name] %}
+     <li>
+       <b>
+         <a href="{{ post.url }}">{{ post.title }}</a>
+       </b> - <i>{{ post.date | date: "%B %d, %Y" }}</i>
+     </li>
+     {% endfor %}
+   </ul>
+  </div>
+{% endfor %}
 </div>

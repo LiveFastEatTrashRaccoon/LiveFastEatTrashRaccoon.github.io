@@ -2,7 +2,7 @@
 layout: post
 title: "Friendica: the Swiss Army knife of the Fediverse"
 date: 2025-06-13
-tag: friendica activitypub
+tags: ["friendica", "activitypub"]
 ---
 
 While most fediverse platforms force you to choose between microblogging, photo sharing, or link

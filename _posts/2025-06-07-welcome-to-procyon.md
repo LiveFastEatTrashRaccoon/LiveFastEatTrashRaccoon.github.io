@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to the Procyon Project!"
 date: 2025-06-07
-tag: announcement
+tags: [ "announcement" ]
 ---
 
 Welcome to the official blog of the Procyon Project! This is where I'll be sharing updates about our
