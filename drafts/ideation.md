@@ -1,6 +1,6 @@
 # Editorial plan
 
-Keep engagement in mind:
+Tips for engagement:
 - end posts with a question (or a call to action)
 - use categories and tags consistently
 - share development progress updates
@@ -25,7 +25,7 @@ Keep engagement in mind:
 
 ## Project history & community
 
-- [ ] What happened to Raccoon for Lemmy? (17/06/25)
+- [x] What happened to Raccoon for Lemmy? (17/06/25)
 - [ ] Community feedback integration: case studies and lessons learned
 - [ ] Play with words and color theme: make styling fun again
 - [ ] Designing for decentralization: UX patterns for federated apps
@@ -54,8 +54,8 @@ Keep engagement in mind:
 
 ## User experience focus
 
-- Design principles for social media apps
-- Accessibility first: building inclusive social media
-- Customization vs simplicity in UI design
-- Create adaptive multiplatform designs with window size classes
-- The onboarding problem: making the Fediverse accessible
+- [ ] Design principles for social media apps
+- [ ] Accessibility first: building inclusive social media
+- [ ] Customization vs simplicity in UI design
+- [ ] Create adaptive multiplatform designs with window size classes
+- [ ] The onboarding problem: making the Fediverse accessible
