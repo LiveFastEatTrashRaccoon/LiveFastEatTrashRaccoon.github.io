@@ -2,7 +2,15 @@
 ---
 /* Override theme defaults */
 $base-font-family: "Atkinson Hyperlegible", sans-serif !default;
-$brand-color: #4169E1;
+$text-color:       #e8e8e8 !default;
+$background-color: #1a1a1a !default;
+$brand-color:      #4a9eff !default;
+$grey-color:       #a0a0a0 !default;
+
+$grey-color-light: #666666 !default;
+$grey-color-dark:  #cccccc !default;
+$code-background-color: #2d2d2d !default;
+$code-text-color: #f8f8f2 !default;
 
 /* load _sass/minima.scss */
 @import "minima";
