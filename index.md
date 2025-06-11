@@ -34,12 +34,6 @@ control, but you can also use it with Mastodon and other compatible platforms.
 - **Community driven**: Built by users, for users
 - **Decentralized**: Support the federated web and digital freedom
 
-## Latest Updates
-
-{% for post in site.posts limit:3 %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
-
 [View All Posts](blog.md){: .btn}
 
 ---
