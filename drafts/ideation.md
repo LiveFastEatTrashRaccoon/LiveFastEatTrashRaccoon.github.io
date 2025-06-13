@@ -45,11 +45,11 @@ Tips for engagement:
 
 ## Development process
 
+- [x] Internationalization and localization challenges: make contributions count
 - [ ] From side project to Procyon: our development journey
 - [ ] Behind the scenes: from concept to release
 - [ ] Open source sustainability: balancing features and maintenance
 - [ ] Testing strategies for federated applications
-- [ ] Internationalization and localization challenges: make contributions count
 - [ ] Community-driven development: how user feedback shapes our roadmap
 
 ## User experience focus

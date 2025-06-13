@@ -2,7 +2,7 @@
 layout: post
 title: "Contributing to Raccoon apps"
 date: 2025-06-08
-tags: [ "community", "foss" ]
+tags: [ "community", "procyon" ]
 ---
 
 ## A Community-driven approach
