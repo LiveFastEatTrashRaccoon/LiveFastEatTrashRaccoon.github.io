@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building modern Fediverse apps: Why Kotlin + Compose Multiplatform is the perfect match"
+title: "Building modern Fediverse apps in KMP & Compose: the perfect match"
 date: 2025-06-10
 tags: ["kotlin", "compose", "community"]
 ---

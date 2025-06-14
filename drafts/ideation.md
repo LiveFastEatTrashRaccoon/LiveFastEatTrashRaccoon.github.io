@@ -5,15 +5,13 @@ Tips for engagement:
 - use categories and tags consistently
 - share development progress updates
 
-## Technical deep-dives
+## Technical deep-dives ("kotlin", "compose")
 
 - [x] Why Kotlin Multiplatform for Fediverse apps? (10/06/25)
-- [ ] Cross-platform consistency challenges and solutions
 - [ ] The importance of reproducible builds in open-source development
 - [ ] The Markdown rendering challenge: from plain text to rich content
 - [ ] Mastodon glitch-soc, a richer format for your posts
 - [ ] Swipe navigation, making the Fediverse more enjoyable
-- [ ] Design responsive apps for different screen sizes
 - [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] Keep your code spotless with lint tools
 - [ ] Koin vs Kodein for Multiplatform dependency injection
@@ -23,7 +21,7 @@ Tips for engagement:
 - [ ] Seamless mocks with mokkery
 - [ ] Run UI test on multiple platforms with Compose Multiplatform
 
-## Project history & community
+## Project history & community ("community", "procyon")
 
 - [x] What happened to Raccoon for Lemmy? (17/06/25)
 - [ ] Community feedback integration: case studies and lessons learned
@@ -32,7 +30,7 @@ Tips for engagement:
 - [ ] Moderation tools: empowering users in decentralized networks
 - [ ] The future of mobile Fediverse applications
 
-## Fediverse
+## Fediverse ("friendica", "lemmy", "activitpub")
 
 - [x] What makes Friendica shine in the Fediverse ecosystem (13/06/25)
 - [ ] ActivityPub dive-in: master the backbone of the Fediverse
@@ -43,16 +41,16 @@ Tips for engagement:
 - [ ] The future of interoperability between platforms
 - [ ] From forums to the Blogosphere, the future of discussion platforms
 
-## Development process
+## Development process ("procyon", "community")
 
-- [x] Internationalization and localization challenges: make contributions count
+- [x] Internationalization and localization challenges: make contributions count (20/06/2025)
 - [ ] From side project to Procyon: our development journey
 - [ ] Behind the scenes: from concept to release
 - [ ] Open source sustainability: balancing features and maintenance
 - [ ] Testing strategies for federated applications
 - [ ] Community-driven development: how user feedback shapes our roadmap
 
-## User experience focus
+## User experience focus ("ux", "a11y", "l10n")
 
 - [ ] Design principles for social media apps
 - [ ] Accessibility first: building inclusive social media
