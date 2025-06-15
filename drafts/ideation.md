@@ -11,7 +11,6 @@ Tips for engagement:
 - [ ] The importance of reproducible builds in open-source development
 - [ ] The Markdown rendering challenge: from plain text to rich content
 - [ ] Mastodon glitch-soc, a richer format for your posts
-- [ ] Swipe navigation, making the Fediverse more enjoyable
 - [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] Keep your code spotless with lint tools
 - [ ] Koin vs Kodein for Multiplatform dependency injection
@@ -52,6 +51,7 @@ Tips for engagement:
 
 ## User experience focus ("ux", "a11y", "l10n")
 
+- [x] Swipe navigation, making the Fediverse more enjoyable (24/06/2025)
 - [ ] Design principles for social media apps
 - [ ] Accessibility first: building inclusive social media
 - [ ] Customization vs simplicity in UI design
