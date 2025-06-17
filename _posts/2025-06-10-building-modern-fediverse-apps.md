@@ -2,7 +2,7 @@
 layout: post
 title: "Building modern Fediverse apps in KMP & Compose: the perfect match"
 date: 2025-06-10
-tags: ["kotlin", "compose", "community"]
+tags: ["kmp", "compose", "community"]
 ---
 
 The Fediverse represents the future of social media—decentralized, open, and user-controlled. As

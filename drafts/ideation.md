@@ -5,7 +5,7 @@ Tips for engagement:
 - use categories and tags consistently
 - share development progress updates
 
-## Technical deep-dives ("kotlin", "compose")
+## Technical deep-dives ("kmp", "compose")
 
 - [x] Why Kotlin Multiplatform for Fediverse apps? (10/06/25)
 - [ ] The importance of reproducible builds in open-source development
