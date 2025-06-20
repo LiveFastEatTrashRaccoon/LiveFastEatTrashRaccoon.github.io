@@ -8,12 +8,13 @@ Tips for engagement:
 ## Technical deep-dives ("kmp", "compose")
 
 - [x] Why Kotlin Multiplatform for Fediverse apps? (10/06/25)
+- [ ] Koin vs Kodein for Multiplatform dependency injection
+- [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] The importance of reproducible builds in open-source development
 - [ ] The Markdown rendering challenge: from plain text to rich content
 - [ ] Mastodon glitch-soc, a richer format for your posts
-- [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] Keep your code spotless with lint tools
-- [ ] Koin vs Kodein for Multiplatform dependency injection
+
 - [ ] To the infinity and beyond: Voyager and Compose navigation
 - [ ] Multiplatform mocks with Mokkery
 - [ ] Inline images in your posts: bring WordPress blog posts into the timeline

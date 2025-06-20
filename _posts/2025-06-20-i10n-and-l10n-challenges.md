@@ -140,4 +140,4 @@ home.
 *Want to contribute to Raccoon's localization efforts? Check out
 our Weblate projects ([here](https://hosted.weblate.org/engage/raccoonforlemmy)
 and [here](https://hosted.weblate.org/engage/raccoonforfriendica)) or visit
-our [GitHub page](https://github.com/LiveFastEatTrashRaccoon)to get started.*
+our [GitHub page](https://github.com/LiveFastEatTrashRaccoon) to get started.*
