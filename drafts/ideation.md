@@ -8,7 +8,7 @@ Tips for engagement:
 ## Technical deep-dives ("kmp", "compose")
 
 - [x] Why Kotlin Multiplatform for Fediverse apps? (10/06/25)
-- [ ] Koin vs Kodein for Multiplatform dependency injection
+- [ ] Koin vs Kodein for Multiplatform dependency injection (27/06/25)
 - [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] The importance of reproducible builds in open-source development
 - [ ] The Markdown rendering challenge: from plain text to rich content
