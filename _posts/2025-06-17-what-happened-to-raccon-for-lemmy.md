@@ -7,7 +7,7 @@ tags: [ "lemmy", "community" ]
 
 Many people have wondered what happened during August 2024 to the Raccoon for Lemmy app. The
 original repository was completely shut down overnight, and development continued in what was then
-the main fork—fortunately updated to the latest commit before the shutdown.
+the main fork — fortunately updated to the latest commit before the shutdown.
 
 The fork was initially owned by a contributor called N7-X (who had already submitted multiple PRs
 upstream during the previous months), then transferred to new ownership and hosted within
@@ -26,8 +26,8 @@ mid-2023 by a developer from Italy as a side project to experiment with Kotlin M
 technology.
 
 External contributions were always welcome. During spring 2024, N7-X began contributing, starting
-with smaller tasks and gradually taking on more significant features—including Markdown
-support—eventually becoming a *de facto* co-maintainer.
+with smaller tasks and gradually taking on more significant features — including Markdown
+support — eventually becoming a *de facto* co-maintainer.
 
 ## The Markdown benchmark incident
 

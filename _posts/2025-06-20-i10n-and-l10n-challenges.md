@@ -10,21 +10,21 @@ tags: [ "l10n", "community", "procyon" ]
 Let me start with an adaptation from the Raccoon for
 Lemmy [manifesto](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/blob/master/CONTRIBUTING.md):
 our goal is to offer an experience where everyone can "feel at home." This simple phrase
-encapsulates a fundamental principle—enabling users to interact with software in their native
+encapsulates a fundamental principle — enabling users to interact with software in their native
 language isn't just a nice-to-have feature, it's essential for true accessibility and inclusion.
 
 As someone who studied both computer science and humanities, with extensive coursework in foreign
 languages (English and Spanish), translation, and interpreting, I've always understood that
 localization goes far beyond simply translating text. My master's thesis focused on
 internationalization and open source localization tools, so when I began developing the Raccoon
-apps, multilingual support wasn't an afterthought—it was baked into the foundation from day one.
+apps, multilingual support wasn't an afterthought — it was baked into the foundation from day one.
 
 ## The philosophy: ownership through personalization
 
 A crucial aspect of making users truly **own** their application is allowing it to adapt to them,
 not the other way around. This means providing the most direct interaction possible, starting with
 language preference. When someone opens an app and sees their native language, there's an immediate
-sense of belonging—the software feels like it was made *for them*.
+sense of belonging — the software feels like it was made *for them*.
 
 This philosophy guided every technical decision I made about localization infrastructure.
 
@@ -52,7 +52,7 @@ in contributions for: Finnish, French, Irish, Norwegian, Romanian, Polish, Ukrai
 Our reach eventually extended beyond Europe's borders with the addition of Chinese (Traditional
 Taiwan `zh_TW`, Hong Kong `zh_HK`, and Simplified `zh_CN`) and Tamil.
 
-Each new language didn't just expand our user base—it brought new perspectives and cultural insights
+Each new language didn't just expand our user base — it brought new perspectives and cultural insights
 that improved the app for everyone. For this reason, I decided to create a dedicated
 «Acknowledgements» section in both apps and include all translators in the list of contributors, in
 order to give them visibility and recognize the importance of their work. The apps wouldn't be the
@@ -93,7 +93,7 @@ Lyricist offered excellent flexibility but came with significant challenges:
 ### The collaboration challenge
 
 Since these are community-driven projects, using professional translation platforms was essential. I
-still remember receiving Spanish translation reviews via email—there had to be a better way!
+still remember receiving Spanish translation reviews via email — there had to be a better way!
 
 When I set up our Weblate projects, I was still using Lyricist, which meant I had to write Python
 scripts to convert between XML and Kotlin for every translation update. This manual process was

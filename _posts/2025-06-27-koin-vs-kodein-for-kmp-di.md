@@ -30,7 +30,7 @@ With traditional solutions off the table, the KMP community turned to
 alternatives. [Koin](https://insert-koin.io/) emerged as a popular choice, with its lead developer
 Arnaud Giuliani making bold claims about multiplatform compatibility since 2021.
 
-But here's the thing: **Koin isn't actually a proper DI framework—it's a service locator**. This
+But here's the thing: **Koin isn't actually a proper DI framework — it's a service locator**. This
 distinction matters more than you might think. As a matter of fact, a lot of experienced Android
 developers do not consider Koin worth to be used large-scaled industry-level projects (as a rule of
 thumb, the greater the seniority the more "toy tools" are frowned upon). But why trusting blindly
@@ -168,7 +168,7 @@ successfully building on F-Droid, suddenly failed their reproducible build requi
 #### The root cause
 
 Koin-Annotations generates metadata classes with **time-based hashes** that change on every
-compilation. This breaks reproducible builds—a critical requirement for F-Droid's security policies.
+compilation. This breaks reproducible builds — a critical requirement for F-Droid's security policies.
 
 #### The maintainer response
 
@@ -296,7 +296,7 @@ and problematic execution.
 
 The journey taught me that in software development, as in life, **reliability trumps hype every
 time**. When building production applications that need to work across multiple platforms and
-distribution channels, choose tools that do what they say they will do—nothing more, nothing less.
+distribution channels, choose tools that do what they say they will do — nothing more, nothing less.
 
 For your next KMP project, consider giving Kodein a try. Your future self (and your F-Droid users)
 will thank you.
