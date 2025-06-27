@@ -90,12 +90,12 @@ promises of:
 
 #### KSP configuration hell
 
-Setting up KSP in a multi-module KMP project was brutal:
+Setting up KSP in a multi-module KMP project was not so easy:
 
 - Documentation was sparse (mid-2024)
 - Trial and error for days
-- Multiple modules made everything trickier, but I eventually created
-  a Gradle [convention plugin](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/blob/d4e3c7327b0c21355b372f9e1fdb117425fce94a/build-logic/convention/src/main/kotlin/plugins/KoinWithKspPlugin.kt)
+- Multiple modules made everything trickier, but I eventually created a
+  Gradle [convention plugin](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/blob/d4e3c7327b0c21355b372f9e1fdb117425fce94a/build-logic/convention/src/main/kotlin/plugins/KoinWithKspPlugin.kt)
   to properly configure all subprojects.
 
 #### Platform-specific bindings
@@ -124,7 +124,7 @@ actual val nativeModule = module {
 }
 ```
 
-**After (Annotations):**
+**After (with annotations):**
 
 ```kotlin
 // in commonMain source set
@@ -168,7 +168,8 @@ successfully building on F-Droid, suddenly failed their reproducible build requi
 #### The root cause
 
 Koin-Annotations generates metadata classes with **time-based hashes** that change on every
-compilation. This breaks reproducible builds — a critical requirement for F-Droid's security policies.
+compilation. This breaks reproducible builds — a critical requirement for F-Droid's security
+policies.
 
 #### The maintainer response
 
