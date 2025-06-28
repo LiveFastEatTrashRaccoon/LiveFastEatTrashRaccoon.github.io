@@ -88,7 +88,7 @@ Lyricist offered excellent flexibility but came with significant challenges:
 
 - **Advantage:** Full control over string resources;
 - **Problem**: Not compatible with standard translation platforms
-  like [Weblate](https://weblate.org/)-
+  like [Weblate](https://weblate.org/).
 
 ### The collaboration challenge
 
