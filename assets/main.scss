@@ -16,7 +16,33 @@ $code-text-color: #f8f8f2 !default;
 @import "minima";
 
 /* Put any custom CSS here */
+.highlight {
+  background-color: #2d2d2d !important;
+}
 
+.highlight pre {
+  background-color: #2d2d2d !important;
+  color: #f8f8f2 !important;
+}
+
+.highlight code {
+  background-color: #2d2d2d !important;
+  color: #f8f8f2 !important;
+}
+
+/* Code blocks without syntax highlighting */
+pre {
+  background-color: #2d2d2d !important;
+  color: #f8f8f2 !important;
+  border: 1px solid #404040 !important;
+}
+
+pre code {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* Inline code */
 code {
   background-color: #2d2d2d !important;
   color: #f8f8f2 !important;
