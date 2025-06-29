@@ -19,7 +19,7 @@ how I learned the hard way that not all DI solutions are created equal.
 
 The gold standards of Android DI face fundamental barriers in KMP:
 
-- **Java dependency**: noth rely heavily on generated Java code, making them incompatible with
+- **Java dependency**: both rely heavily on generated Java code, making them incompatible with
   native platforms like iOS;
 - **KAPT legacy**: until late 2023 (versions < 2.49), Dagger was tightly coupled with KAPT
   (Kotlin Annotation Processing Tool), while KMP uses **KSP** (Kotlin Symbol Processor).
