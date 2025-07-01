@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Playful themes: what's in the a name?"
+title: "Playful themes: what's in a name?"
 date: 2025-07-01
 tags: [ "l10n", "community" ]
 ---
