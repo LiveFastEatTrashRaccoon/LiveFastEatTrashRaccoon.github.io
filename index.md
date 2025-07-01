@@ -5,9 +5,9 @@ title: Mission
 
 # Building the future of social communication
 
-Welcome to the **Procyon Project** — creating open source Kotlin Multiplatform applications that
-make the Fediverse accessible to everyone. Our mission is to provide beautiful, user-friendly apps
-that connect people through decentralized social networks.
+Welcome to the **Procyon Project** — creating open source **Kotlin Multiplatform** applications that
+make the **Fediverse** accessible to everyone. Our mission is to provide beautiful, user-friendly
+apps that connect people through decentralized social networks.
 
 We want to make it easier for everyone to find and access their favorite space in the Fediverse, be
 it in discussion or social networking.
@@ -34,9 +34,10 @@ control, but you can also use it with Mastodon and other compatible platforms.
 - **Community driven**: Built by users, for users
 - **Decentralized**: Support the federated web and digital freedom
 
-[View All Posts](blog.md){: .btn}
+[View All Posts](blog.md){: .btn} | [Archive](archive.html){: .btn}
 
 ---
 
-*Join the movement towards a more open, decentralized Internet. Download our apps and be part of the
+*Join the movement towards a more open, decentralized Internet. Join us
+on [GitHub](https://github.com/LiveFastEatTrashRaccoon), download our apps and be part of the
 change!*
