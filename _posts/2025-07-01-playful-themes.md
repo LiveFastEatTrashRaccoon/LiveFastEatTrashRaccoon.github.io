@@ -21,7 +21,7 @@ themes based on an animal and to create noun-adjective alliterating pair, where 
 with the same syllable onset (or at least written with the same letter).
 
 <div align="center">
-    <img src="../assets/images/theme_bottom_sheet.png" width="300" />
+    <img src="/assets/images/theme_bottom_sheet.png" width="300" />
 </div>
 
 When translating this into languages other than English, I tried to retain the play on words and
