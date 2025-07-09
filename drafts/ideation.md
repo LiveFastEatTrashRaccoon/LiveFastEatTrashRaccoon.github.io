@@ -10,8 +10,8 @@ Tips for engagement:
 - [x] Why Kotlin Multiplatform for Fediverse apps? (10/06/25)
 - [x] Koin vs Kodein for Multiplatform dependency injection (27/06/25)
 - [x] Hold my state: why shared ViewModels are a life-changer (04/07/25)
-- [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] Navigation in Compose Multiplatform: to the infinity and beyond
+- [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] The importance of reproducible builds in open-source development
 - [ ] The Markdown rendering challenge: from plain text to rich content
 - [ ] Mastodon glitch-soc, a richer format for your posts
@@ -25,7 +25,7 @@ Tips for engagement:
 
 - [x] What happened to Raccoon for Lemmy? (17/06/25)
 - [x] Playful themes: what's in the a name? (01/07/25)
-- [ ] The Ktorfit affaire: some considerations about open source libraries (08/07/25)
+- [x] Why I decided to migrate away from the Ktorfit library (09/07/25)
 - [ ] Community feedback integration: case studies and lessons learned
 - [ ] Designing for decentralization: UX patterns for federated apps
 - [ ] Moderation tools: empowering users in decentralized networks
