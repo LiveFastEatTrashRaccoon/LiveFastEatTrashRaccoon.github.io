@@ -1,9 +1,15 @@
 ---
-layout: post
 title: "Playful themes: what's in a name?"
 date: 2025-07-01
-tags: [ "l10n", "community" ]
+categories:
+  - l10n
+  - community
+tags:
+  - l10n
+  - community
 ---
+
+*Published on July 1, 2025*
 
 Localization and customization are first-class citizens at
 Procyon, [as already discussed](2025-06-20-i10n-and-l10n-challenges.md). An feature in which they
@@ -21,7 +27,7 @@ themes based on an animal and to create noun-adjective alliterating pair, where 
 with the same syllable onset (or at least written with the same letter).
 
 <div align="center">
-    <img src="/assets/images/theme_bottom_sheet.png" width="300" />
+    <img src="../../assets/images/theme_bottom_sheet.png" width="300" />
 </div>
 
 When translating this into languages other than English, I tried to retain the play on words and

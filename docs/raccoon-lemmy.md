@@ -8,7 +8,7 @@ title: Raccoon for Lemmy
 A powerful, intuitive Android client for Lemmy — the federated Reddit alternative.
 
 <div align="center">
-    <img src="https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/blob/master/androidApp/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" alt="Raccoon for Lemmy screenshot" width="300" />
+    <img src="https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/blob/master/androidApp/src/main/res/mipmap-xxxhdpi/ic_launcher.webp?raw=true" alt="Raccoon for Lemmy logo" />
 </div>
 
 ## Features

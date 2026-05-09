@@ -1,9 +1,15 @@
 ---
-layout: post
 title: "Contributing to Raccoon apps"
 date: 2025-06-08
-tags: [ "community", "procyon" ]
+categories:
+  - community
+  - procyon
+tags:
+  - community
+  - procyon
 ---
+
+*Published on June 8, 2025*
 
 ## A Community-driven approach
 
@@ -60,5 +66,3 @@ better Friendica or Lemmy client for the community.
 *Ready to contribute? Head over to
 the [RaccoonForLemmy repository](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy) and
 check out the `CONTRIBUTING.md` file for detailed guidelines.*
-
-{% include tag_footer.html %}
