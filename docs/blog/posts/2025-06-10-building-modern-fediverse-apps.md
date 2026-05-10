@@ -58,9 +58,9 @@ business logic — ActivityPub implementation, federation handling, data models,
 while keeping platform-specific UI native. Otherwise, you can also share some UI parts or, if you
 are brave enough, all of it with Compose Multiplatform (CMP) as we do in Procyon.
 
-The key concept is, it is not an "all or nothing" choice where you either opt-in or opt-out
+The key concept is, it is not an "all or nothing" choice where you either opt in or opt out
 completely at once, you can gradually choose what to share and when to do it, which gives you as a
-developer great power (even to rollback some of your decisions if you want to).
+developer great power (even to roll back some of your decisions if you want to).
 
 The `expect`/`actual` mechanism, moreover, makes it possible to access underlying operating system
 features (such as filesystem, gallery, camera, video playback, push notifications, inter-process
@@ -78,7 +78,7 @@ like [LemmyBackwardsCompatibleAPI](https://github.com/MV-GH/LemmyBackwardsCompat
 abstractions for Lemmy data types and a unified adapter to endpoints which make it transparent for
 client-apps developers which version of the backend is used by the current instance.
 
-### Networking and serialization
+### Networking & serialization
 
 Libraries like [Ktor](https://ktor.io/), [Ktorfit](https://foso.github.io/Ktorfit/) and
 [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) provide first-class
@@ -90,16 +90,16 @@ extremely simple to define endpoint calls, handling asynchronous result and erro
 way. Dealing with KSP in a multi-module and multi-platform project may pose some difficulties,
 nonetheless, stay tuned for updates on this in future posts.
 
-### Coroutines and structured concurrency
+### Structured concurrency
 
 Kotlin coroutines excel at handling the asynchronous, real-time nature of social media
 apps. Parent-child relationships between tasks, when background operations are tied with the
 lifecycle of a screen, allow to gracefully cancel tasks when their result is not needed, saving
 battery power and limiting data transmission over the network.
 
-## Compose Multiplatform: a UI that scales
+## Compose Multiplatform
 
-### Declarative UI for complex social interfaces
+### Declarative UI
 
 Social media interfaces are inherently complex — timelines, media galleries, thread
 visualizations for discussions, and real-time updates. The declarative approach of Compose
@@ -122,7 +122,7 @@ the smooth scrolling and responsive interactions that social media users expect,
 especially important to make the Fediverse as engaging as possible for users and promote its
 adoption.
 
-## Real-World advantages for Fediverse development
+## Real-world advantages
 
 ### Faster federation support
 
@@ -198,7 +198,6 @@ The Fediverse represents a return to user agency and open protocols. Your develo
 embody those same principles: open, flexible, and designed for the long term. Kotlin Multiplatform
 and Compose Multiplatform deliver exactly that.
 
---- 
-
-*Ready to build the next great Fediverse app? The tools are here, the protocols are maturing, and
-the community is waiting.*
+!!! tip
+    Ready to build the next great Fediverse app? The tools are here, the protocols are maturing, 
+    and the community is waiting.

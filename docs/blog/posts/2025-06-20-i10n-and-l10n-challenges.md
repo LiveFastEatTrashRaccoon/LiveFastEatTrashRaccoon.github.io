@@ -15,11 +15,13 @@ tags:
 
 *How a humanities background shaped the technical decisions behind Raccoon's multilingual journey*
 
-Let me start with an adaptation from the Raccoon for
-Lemmy [manifesto](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/blob/master/CONTRIBUTING.md):
-our goal is to offer an experience where everyone can "feel at home." This simple phrase
-encapsulates a fundamental principle — enabling users to interact with software in their native
-language isn't just a nice-to-have feature, it's essential for true accessibility and inclusion.
+Let me start with an adaptation from the Raccoon for Lemmy [manifesto](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/blob/master/CONTRIBUTING.md):
+!!! quote
+    our goal is to offer an experience where everyone can "feel at home"
+
+This simple phrase encapsulates a fundamental principle — enabling users to interact with software 
+in their native language isn't just a nice-to-have feature, it's essential for true accessibility 
+and inclusion.
 
 As someone who studied both computer science and humanities, with extensive coursework in foreign
 languages (English and Spanish), translation, and interpreting, I've always understood that
@@ -27,7 +29,7 @@ localization goes far beyond simply translating text. My master's thesis focused
 internationalization and open source localization tools, so when I began developing the Raccoon
 apps, multilingual support wasn't an afterthought — it was baked into the foundation from day one.
 
-## The philosophy: ownership through personalization
+## Our philosophy
 
 A crucial aspect of making users truly **own** their application is allowing it to adapt to them,
 not the other way around. This means providing the most direct interaction possible, starting with
@@ -38,20 +40,20 @@ This philosophy guided every technical decision I made about localization infras
 
 ## Mapping our global expansion
 
-### Phase 1: Building the foundation
+### 1. Build the foundation
 
 I started by implementing support for the languages I could personally manage: English, Spanish, and
 Italian. This gave me direct control over quality and helped establish our localization workflow
 before opening it up to community contributions.
 
-### Phase 2: Community-driven growth
+### 2. Community-driven growth
 
 The Raccoon apps were adopted almost immediately across Europe, North and South America. Following
 true open source principles, I welcomed contributions from native speakers who wanted to help. The
 first community-contributed languages were: Portuguese (both European `pt` and Brazilian `pt_BR`
 variants, German and Spanish (community review and improvements).
 
-### Phase 3: Expansion across continents
+### 3. Expand across continents
 
 With a solid foundation in place, I proactively created base resources for additional European
 languages, hoping to attract new users and contributors. This strategy worked beautifully, bringing
@@ -60,13 +62,13 @@ in contributions for: Finnish, French, Irish, Norwegian, Romanian, Polish, Ukrai
 Our reach eventually extended beyond Europe's borders with the addition of Chinese (Traditional
 Taiwan `zh_TW`, Hong Kong `zh_HK`, and Simplified `zh_CN`) and Tamil.
 
-Each new language didn't just expand our user base — it brought new perspectives and cultural insights
-that improved the app for everyone. For this reason, I decided to create a dedicated
+Each new language didn't just expand our user base — it brought new perspectives and cultural 
+insights that improved the app for everyone. For this reason, I decided to create a dedicated
 «Acknowledgements» section in both apps and include all translators in the list of contributors, in
 order to give them visibility and recognize the importance of their work. The apps wouldn't be the
 same without it!
 
-## The technical journey: finding the right tools
+## Our technical journey
 
 ### Early days: third-party solutions (mid-2023)
 
@@ -76,7 +78,7 @@ worked well for simple cases but became unwieldy as our project grew in complexi
 module depend on resources created maintenance nightmares, especially with complex KSP (Kotlin
 Symbol Processing) configurations.
 
-### The Lyricist era: flexibility with tradeoffs
+### Lyricist (flexibility & tradeoffs)
 
 As Compose Multiplatform evolved and added built-in support for resources like drawables and fonts,
 I migrated away from third-party dependencies, however, localization support was still missing in
@@ -98,7 +100,7 @@ Lyricist offered excellent flexibility but came with significant challenges:
 - **Problem**: Not compatible with standard translation platforms
   like [Weblate](https://weblate.org/).
 
-### The collaboration challenge
+### Collaboration challenges
 
 Since these are community-driven projects, using professional translation platforms was essential. I
 still remember receiving Spanish translation reviews via email — there had to be a better way!
@@ -108,7 +110,7 @@ scripts to convert between XML and Kotlin for every translation update. This man
 error-prone and time-consuming, especially when using the Weblate-GitHub integration to open PRs
 with new translations, because I had to manually regenerate resources after every merge.
 
-### The breakthrough: native Compose Multiplatform support
+### Native Compose Multiplatform
 
 Finally, with version 1.6.10 (released in May 2024), Compose Multiplatform added native support for
 reading string values from the `composeResources` directory. This was the turning point — I could
@@ -143,9 +145,8 @@ strings — it's about creating an experience where every user feels the softwar
 specifically for them. That's when you know you've truly succeeded in making your app feel like
 home.
 
----
-
-*Want to contribute to Raccoon's localization efforts? Check out
-our Weblate projects ([here](https://hosted.weblate.org/engage/raccoonforlemmy)
-and [here](https://hosted.weblate.org/engage/raccoonforfriendica)) or visit
-our [GitHub page](https://github.com/LiveFastEatTrashRaccoon) to get started.*
+!!! example
+    Want to contribute to Raccoon's localization efforts? Check out:
+    
+    - our Weblate projects ([here](https://hosted.weblate.org/engage/raccoonforlemmy) and [here](https://hosted.weblate.org/engage/raccoonforfriendica))
+    - our [GitHub page](https://github.com/LiveFastEatTrashRaccoon) to get started

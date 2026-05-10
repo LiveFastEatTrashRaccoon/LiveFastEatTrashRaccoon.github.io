@@ -9,7 +9,8 @@ tags:
 
 *Published on June 24, 2025*
 
-**Tired of the endless tap-back-tap dance? There's a better way to browse.**
+!!! question
+    Tired of the endless tap-back-tap dance? There's a better way to browse!
 
 Picture this: You're deep-diving into your Mastodon timeline when you spot an intriguing post. You
 tap to read the full discussion, scan through replies, then… *tap back*. Find your place again.
@@ -19,7 +20,7 @@ What if scrolling through social content felt as natural as flipping through a m
 **swipe navigation** – the game-changing UX pattern that's transforming how we consume Fediverse
 content.
 
-## The Problem: lost in navigation hell
+## Problem: lost in navigation hell
 
 Every Fediverse platform has its building blocks – Lemmy's *posts*, Mastodon/GNU social's
 *statuses*, Friendica's *items* – but they all share the same fundamental challenge. These content
@@ -38,7 +39,7 @@ The typical mobile experience goes like this:
 This master-detail navigation works on large screens, but on mobile? It's a focus-killer and
 engagement-destroyer.
 
-## The solution: think like a book, not a database
+## Solution: think of a book, not a db
 
 Swipe navigation flips the script – literally. Instead of treating content as isolated database
 entries, it transforms your feed into a flowing narrative where each post is simply the next page in
@@ -51,12 +52,12 @@ your story.
 It's that simple. No more navigation gymnastics, no more losing your scroll position, no more
 breaking your reading flow.
 
-## The Technical Magic Behind the Scenes
+## The technical behind the scenes
 
 Making this feel effortless requires some clever engineering. Here's how we solved it in the Raccoon
 apps:
 
-### Smart Pagination Memory
+### Smart pagination memory
 
 We maintain a "snapshot" of your current browsing context:
 
@@ -70,7 +71,7 @@ We maintain a "snapshot" of your current browsing context:
 
 As you swipe toward the end of loaded content, the app quietly fetches the next batch in the
 background. You get the illusion of infinite content without wait times, data waste or battery
-draining, because only as much contents are downloaded as they are likely to be seen.
+draining, because only as many contents are downloaded as they are likely to be seen.
 
 ### Context navigation stack
 
@@ -127,7 +128,6 @@ intuitive exploration.
 you're a developer, consider implementing this pattern in your next project. Your users' engagement
 levels will thank you.
 
----
-
-*What navigation patterns do you think could improve the Fediverse experience? Share your thoughts
-and help us build better social tools for everyone.*
+!!! question
+    What navigation patterns do you think could improve the Fediverse experience?
+    Share your thoughts and help us build better social tools for everyone.

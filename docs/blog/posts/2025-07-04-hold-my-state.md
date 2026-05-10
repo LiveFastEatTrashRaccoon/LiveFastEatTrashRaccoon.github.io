@@ -62,7 +62,7 @@ hold the screen state, observe it in the Compose UI and properly manage their li
 cancelling pending asynchronous operations when the portion of UI they are tied to goes off screen,
 e.g. due to back navigation).
 
-### The early stages: third party solutions
+### Early stages: 3^rd^ party solutions
 
 Initially, when working with Compose Multiplatform, there was no official solution for ViewModels
 and the only available solution were third-party libraries
@@ -100,7 +100,7 @@ But, on the other hand, it has also several downsides:
   `BottomSheetNavigator` where Compose has `ModalBottomSheet`, etc.) which is needless and makes
   your project diverge more and more from mainstream.
 
-### AndroidX ViewModels to the rescue
+### AndroidX `ViewModels to the rescue
 
 This situation changed drastically once for all in May 2024 when JetBrains's port of the popular
 `org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose` library hit the stable distribution.
@@ -146,7 +146,7 @@ inline fun <reified T : ViewModel> getViewModel(arg: ViewModelCreationArgs? = nu
 }
 ```
 
-## Our experience at Procyon
+## Our experience
 
 Raccoon for Lemmy was born in 2023 with Voyager, because back then it was the best solution in terms
 of tradeoff between functionality, flexibility and ease of use. I had tried other alternatives in
@@ -155,9 +155,8 @@ or [Decompose](https://github.com/arkivanov/Decompose) but in all other solution
 outnumbered the pros.
 
 When I started working on Raccoon for Friendica in 2024, even if AndroidX ViewModels were already
-stable, I
-chose to continue with Voyager because I was already familiar with it and my idea was to create a
-proof-of-concept of a Friendica client as soon as possible so there was not room for
+stable, I chose to continue with Voyager because I was already familiar with it and my idea was to 
+create a proof-of-concept of a Friendica client as soon as possible so there wasn't much room for
 experimentation during project setup.
 
 The situation changed in 2025, when I had grown more and more dissatisfied with Voyager and wanted
@@ -180,7 +179,6 @@ One more time, being able to embrace change and being open minded towards techno
 made me a better software architect and resulted in a more solid app for end users (since making
 these changes was a great opportunity for refactoring and cleanup).
 
---- 
-
-*What do you think of navigation libraries on Compose or Compose Multiplatform? Have you ever tried
-Voyager, Decompose or Precompose and want to share your experience? Let us know!*  
+!!! question
+    What do you think of navigation libraries on Compose or Compose Multiplatform? Have you ever 
+    tried Voyager, Decompose or Precompose and want to share your experience? Let us know!

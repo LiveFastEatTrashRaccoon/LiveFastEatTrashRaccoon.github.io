@@ -17,8 +17,7 @@ the main fork — fortunately updated to the latest commit before the shutdown.
 
 The fork was initially owned by a contributor called N7-X (who had already submitted multiple PRs
 upstream during the previous months), then transferred to new ownership and hosted within
-an [organization](https://github.com/LiveFastEatTrashRaccoon), with N7-X and Akesi Seli as main
-contributors.
+an [organization](https://github.com/LiveFastEatTrashRaccoon), with N7-X and Akesi Seli as main contributors.
 
 What happened, and more importantly, why? This article recaps the situation before and after the
 change to clarify things for the community.
@@ -51,7 +50,7 @@ evaluated text within poorly-rendered tables. This caused the app to be «marked
 shouldn't have» ([see here](https://lemmy.world/comment/11516297)), resulting in an initially very
 low score (not even 5 out of 10), before the post was updated.
 
-## The unintended consequences
+## Unintended consequences
 
 What followed was unexpected and unfortunate. People began complaining about Raccoon's poor
 performance, others suggested migrating away from the app, and the main developer started receiving
@@ -62,7 +61,7 @@ damage his professional reputation. Concerned about potential impact on his curr
 job and future career prospects, he made the difficult decision to shut down the original
 repository.
 
-## A community-driven revival
+## Community-driven revival
 
 The original developer was planning to create a new anonymous account and republish the app with a
 different package name, but before he could do so, the community had already adopted N7-X's fork as
@@ -82,9 +81,9 @@ aspects of the app, including:
 - shared build logic among modules with Gradle convention plugins;
 - better quality assurance with static analysis tools.
 
-Today, Raccoon for Lemmy is in better condition than ever, with active community support and ongoing
-development. While the circumstances that led to the transition were unfortunate, they ultimately
-resulted in a stronger, more sustainable project structure.
+Today, Raccoon for Lemmy is in better condition than before, with active community support and 
+ongoing development. While the circumstances that led to the transition were unfortunate, they 
+ultimately resulted in a stronger, more sustainable project structure.
 
 The incident serves as a reminder of both the challenges facing open source maintainers and the
 resilience of community-driven development when people come together to support valuable projects.

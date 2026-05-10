@@ -48,5 +48,6 @@ In this blog I am going to share my insights on the following main areas:
 - News on the development process, with updates on new features
 - UI design with a focus on user experience
 
-Stay tuned for more updates, and **thank you** for supporting open source software and digital
-freedom!
+!!! tip
+    Stay tuned for more updates, and **thank you** for supporting open source software and 
+    digital freedom!

@@ -21,7 +21,7 @@ how I learned the hard way that not all DI solutions are created equal.
 
 ## The multiplatform DI dilemma
 
-### Why Dagger and Hilt don't work
+### Why Dagger & Hilt don't work
 
 The gold standards of Android DI face fundamental barriers in KMP:
 
@@ -42,7 +42,7 @@ developers do not consider Koin worth to be used large-scaled industry-level pro
 thumb, the greater the seniority the more "toy tools" are frowned upon). But why trusting blindly
 other people's prejudices, when you can try things directly?
 
-## Round 1: Koin without annotations
+## Round 1: Koin (no annotations)
 
 ### The setup
 
@@ -56,7 +56,7 @@ I went with the manual module definition approach, fully aware of the risks that
 `NoBeanDefFoundException` was just around the corner if I misconfigured the DI or forgot to define a
 binding.
 
-### The Reality Check
+### A reality check
 
 **The good:**
 
@@ -81,7 +81,7 @@ where DI errors prevent compilation, Koin happily lets you ship broken apps if y
 or including some module (it happened, for
 example [here](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/commit/020f322fa6345e9df2874c11a860d357169c9f70)).
 
-## Round 2: Koin-Annotations migration
+## Round 2: Koin-Annotations
 
 ### The promise
 
@@ -92,7 +92,7 @@ promises of:
 - Reduced boilerplate;
 - Industry-ready reliability.
 
-### The implementation nightmare
+### An implementation nightmare
 
 #### KSP configuration hell
 
@@ -260,7 +260,7 @@ struct iOSApp: App {
 
 ## Key lessons learned
 
-### 1. Tool selection matters
+### Tool selection matters
 
 For cross-functional infrastructure (DI, navigation, logging), choose tools based on:
 
@@ -269,14 +269,14 @@ For cross-functional infrastructure (DI, navigation, logging), choose tools base
 - **Documentation**: is it clear and comprehensive?
 - **Stability vs. innovation balance**: new features shouldn't compromise reliability
 
-### 2. Design for flexibility
+### Design for flexibility
 
 - Keep DI structure modular and replaceable
 - Abstract away framework-specific details
 - Design interfaces that don't leak implementation concerns
 - Changes are inevitable — embrace them as improvement opportunities
 
-### 3. Stay open to innovation
+### Stay open to innovation
 
 The KMP DI landscape continues evolving. Keep an eye on emerging solutions like:
 
@@ -308,7 +308,5 @@ distribution channels, choose tools that do what they say they will do — nothi
 For your next KMP project, consider giving Kodein a try. Your future self (and your F-Droid users)
 will thank you.
 
----
-
-*Have you had similar experiences with DI libraries in KMP? Reach out to your thoughts and war
-stories.*
+!!! question
+     Have you had similar experiences with DI libraries in KMP? Reach out to your thoughts and war stories!

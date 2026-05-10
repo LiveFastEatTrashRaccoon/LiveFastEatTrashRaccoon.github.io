@@ -26,9 +26,10 @@ Instead of just displaying the colors and maybe the hex code in the preview, I d
 themes based on an animal and to create noun-adjective alliterating pair, where both words started
 with the same syllable onset (or at least written with the same letter).
 
-<div align="center">
-    <img src="../../assets/images/theme_bottom_sheet.png" width="300" />
-</div>
+<figure markdown="span">
+    ![screenshot of theme selector](../../assets/images/theme_bottom_sheet.png){ width=300 }
+    <figcaption>A screenshot of the theme selector bottom sheet in the app.</figcaption>
+</figure>
 
 When translating this into languages other than English, I tried to retain the play on words and
 specified instructions for it on Weblate for collaborators.
@@ -95,7 +96,6 @@ In some other languages, though, the same effect was not retained and only occas
 alliteration is preserved, e.g. in Finnish the red theme 🦀 is "Rapea rapu" or in Russian the purple 
 theme 🐙 is rendered as "Океанический осьминог".
 
----
-
-_Do you want to help improving the existing translations or add a new one? Join our Weblate projects
-([here](https://hosted.weblate.org/engage/raccoonforlemmy) and [here](https://hosted.weblate.org/engage/raccoonforfriendica))!_
+!!! question
+    Do you want to help improving the existing translations or add a new one? Join our Weblate
+    projects ([here](https://hosted.weblate.org/engage/raccoonforlemmy) and [here](https://hosted.weblate.org/engage/raccoonforfriendica))!

@@ -14,7 +14,7 @@ We're building open source Kotlin Multiplatform applications that make the Fediv
 everyone. Our goal is to create beautiful, user-friendly apps that help people connect through
 decentralized social networks without sacrificing privacy or digital rights.
 
-## Why "Procyon"?
+## What's in a name?
 
 _Procyon lotor_ is the Latin expression for "raccoon" and aren't those animals are adorable, are
 they? Such cute and intelligent mammals definitely deserve more recognition!
@@ -30,14 +30,14 @@ lazy, chubby and absolutely cute.
 The 🦝 philosophy can be summarized in four simple words: «Live Fast Eat Trash» (abbreviated
 L.F.E.T.).
 
-## The Developer
+## The developer
 
-Hi! I'm an Android developer passionate about Kotlin Multiplatform and open source software. I
-believe in the power of free communication and decentralized networks to create a more open,
-equitable internet.
+Hi! Nice to meet you I'm an Android developer passionate about Kotlin Multiplatform and open source 
+software. I believe in the power of free communication and decentralized networks to create a more 
+open and equitable internet.
 
-When I'm not coding, you can find me exploring the Fediverse, or thinking about how technology can
-better serve humanity.
+When I'm not coding, you can find me exploring the Fediverse and thinking about how to make it more
+accessible and user-friendly and contribute to add some missing pieces to the puzzle.
 
 ## Get Involved
 
@@ -53,6 +53,5 @@ The Procyon Project is community-driven. Here's how you can help:
 - Mastodon: [@janTeko@androiddev.social](https://androiddev.social/@janTeko)
 - Email: livefast.eattrash.raccoon@gmail.com
 
----
-
-*Thank you for supporting open source software and the decentralized web!*
+!!! tip
+    Thank you for supporting open source software and the decentralized web!

@@ -107,9 +107,6 @@ Ideally, an app for Friendica should have at least the following features:
 - manage one's own photo gallery;
 - view one's own event calendar.
 
----
-
-*This is the point where
-[Raccoon for Friendica](https://play.google.com/store/apps/details?id=com.livefast.eattrash.raccoonforfriendica)
-comes in, trying to provide a mobile solution functional and aesthetically convenient at the same
-time.*
+!!! tip
+    This is the point where [Raccoon for Friendica](https://play.google.com/store/apps/details?id=com.livefast.eattrash.raccoonforfriendica) comes in, trying to provide a mobile 
+    solution functional and aesthetically convenient at the same time.
