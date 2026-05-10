@@ -1,9 +1,15 @@
 ---
-layout: post
 title: "What happened to Raccoon for Lemmy?"
 date: 2025-06-17
-tags: [ "lemmy", "community" ]
+categories:
+  - lemmy
+  - community
+tags:
+  - lemmy
+  - community
 ---
+
+*Published on June 17, 2025*
 
 Many people have wondered what happened during August 2024 to the Raccoon for Lemmy app. The
 original repository was completely shut down overnight, and development continued in what was then
@@ -82,5 +88,3 @@ resulted in a stronger, more sustainable project structure.
 
 The incident serves as a reminder of both the challenges facing open source maintainers and the
 resilience of community-driven development when people come together to support valuable projects.
-
-{% include tag_footer.html %}

@@ -1,9 +1,17 @@
 ---
-layout: post
 title: "Global localization: Building a truly international open source app"
 date: 2025-06-20
-tags: [ "l10n", "community", "procyon" ]
+categories:
+  - l10n
+  - community
+  - procyon
+tags:
+  - l10n
+  - community
+  - procyon
 ---
+
+*Published on June 20, 2025*
 
 *How a humanities background shaped the technical decisions behind Raccoon's multilingual journey*
 

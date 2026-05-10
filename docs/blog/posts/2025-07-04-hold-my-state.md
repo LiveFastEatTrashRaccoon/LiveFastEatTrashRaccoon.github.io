@@ -1,9 +1,13 @@
 ---
-layout: post
 title: "Hold my state: why shared ViewModels are a life-changer"
 date: 2025-07-04
-tags: [ "kmp" ]
+categories:
+  - kmp
+tags:
+  - kmp
 ---
+
+*Published on July 4, 2025*
 
 This week's technical post is going to deal with state holders and the major overhaul which Raccoon
 apps have undergone [here](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/pull/953)

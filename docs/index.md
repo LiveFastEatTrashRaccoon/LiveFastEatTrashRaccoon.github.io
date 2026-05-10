@@ -34,8 +34,6 @@ control, but you can also use it with Mastodon and other compatible platforms.
 - **Community driven**: Built by users, for users
 - **Decentralized**: Support the federated web and digital freedom
 
-[View All Posts](blog.md){: .btn} | [Archive](archive.html){: .btn}
-
 ---
 
 *Join the movement towards a more open, decentralized Internet. Join us

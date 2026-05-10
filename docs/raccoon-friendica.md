@@ -8,7 +8,7 @@ title: Raccoon for Friendica
 Your gateway to the Friendica social network — connecting people without corporate control.
 
 <div align="center">
-    <img src="https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/raw/b679628388ebad9299a06491334c27026d66b86c/androidApp/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" alt="Raccoon for Friendica screenshot" width="300" />
+    <img src="https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/raw/b679628388ebad9299a06491334c27026d66b86c/androidApp/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" alt="Raccoon for Friendica logo" />
 </div>
 
 ## Features
