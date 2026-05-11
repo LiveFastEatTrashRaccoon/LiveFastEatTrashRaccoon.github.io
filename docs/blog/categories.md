@@ -44,6 +44,7 @@ In `#libs`:
 
 - [Koin VS Kodein: a developer's journey through multiplatform DI hell](posts/2025-06-27-koin-vs-kodein-for-kmp-di.md)
 - [Why I decided to migrate away from Ktorfit](posts/2025-07-09-ktorfit.md)
+- [Zensical: A better way to manage project documentation](posts/2026-05-11-better-documentation-with-zensical.md)
 
 In `#localization`:
 

@@ -4,6 +4,10 @@ title: Archive
 
 # Blog Archive
 
+## May 2026
+
+- [Zensical: A better way to manage project documentation](posts/2026-05-11-better-documentation-with-zensical.md)
+
 ## July 2025
 
 - [Why I decided to migrate away from Ktorfit](posts/2025-07-09-ktorfit.md)

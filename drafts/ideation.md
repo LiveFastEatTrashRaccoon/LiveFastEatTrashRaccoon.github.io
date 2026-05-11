@@ -5,11 +5,12 @@ Tips for engagement:
 - use categories and tags consistently
 - share development progress updates
 
-## Technical deep-dives ("kmp", "compose")
+## Technical deep-dives ("kmp", "compose", "libs")
 
 - [x] Why Kotlin Multiplatform for Fediverse apps? (10/06/25)
 - [x] Koin vs Kodein for Multiplatform dependency injection (27/06/25)
 - [x] Hold my state: why shared ViewModels are a life-changer (04/07/25)
+- [x] Better documentation with Zensical (11/05/26)
 - [ ] Navigation in Compose Multiplatform: to the infinity and beyond
 - [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] The importance of reproducible builds in open-source development
