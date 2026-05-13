@@ -1,5 +1,4 @@
 ---
-layout: default
 title: About
 ---
 
@@ -16,7 +15,7 @@ decentralized social networks without sacrificing privacy or digital rights.
 
 ## What's in a name?
 
-_Procyon lotor_ is the Latin expression for "raccoon" and aren't those animals are adorable, are
+_Procyon lotor_ is the Latin word for "raccoon" and aren't those animals are adorable, are
 they? Such cute and intelligent mammals definitely deserve more recognition!
 
 The original Lemmy app was called Raccoon, following a tradition according to which Lemmy clients
@@ -44,14 +43,14 @@ accessible and user-friendly and contribute to add some missing pieces to the pu
 The Procyon Project is community-driven. Here's how you can help:
 
 - **Use our apps** and provide feedback
-- **Contribute code** - all our projects are open source
+- **Contribute code** – all our projects are open source
 - **Spread the word** about the Fediverse and decentralized social media
 
 ## Contact
 
-- GitHub: [@AkesiSeli](https://github.com/AkesiSeli)
-- Mastodon: [@janTeko@androiddev.social](https://androiddev.social/@janTeko)
-- Email: livefast.eattrash.raccoon@gmail.com
+- GitHub: [@AkesiSeli](https://github.com/AkesiSeli){ target = _blank }
+- Mastodon: [@janTeko@androiddev.social](https://androiddev.social/@janTeko){ target = _blank }
+- Email: [livefast.eattrash.raccoon at gmail.com](mailto://livefast.eattrash.raccoon@gmail.com)
 
 !!! tip
     Thank you for supporting open source software and the decentralized web!

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Raccoon for Lemmy
 ---
 
@@ -34,9 +33,9 @@ Raccoon for Lemmy makes this powerful platform accessible with:
 
 ## Download
 
-- [Google Play Store](https://play.google.com/store/apps/details?id=com.livefast.eattrash.raccoonforlemmy.android)
-- [F-Droid](https://f-droid.org/packages/com.livefast.eattrash.raccoonforlemmy.android)
-- [GitHub Releases](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/releases)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.livefast.eattrash.raccoonforlemmy.android){ target = _blank }
+- [F-Droid](https://f-droid.org/packages/com.livefast.eattrash.raccoonforlemmy.android){ target = _blank }
+- [GitHub Releases](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/releases){ target = _blank }
 
 ## Key Features
 
@@ -52,18 +51,18 @@ Raccoon for Lemmy makes this powerful platform accessible with:
 
 Help make Raccoon for Lemmy even better:
 
-- [Source Code](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy)
-- [Issue Tracker](https://github.com/LiveFastEatTrashRaccoon/LiveFastEatTrashRaccoon.github.io/issues)
-- [Contributing Guidelines](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/blob/master/CONTRIBUTING.md)
+- [Source Code](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy){ target = _blank }
+- [Issue Tracker](https://github.com/LiveFastEatTrashRaccoon/LiveFastEatTrashRaccoon.github.io/issues){ target = _blank }
+- [Contributing Guidelines](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/blob/master/CONTRIBUTING.md){ target = _blank }
 
 ## Community
 
 Need help? Have suggestions? Join our community:
 
-- [Lemmy Community](https://lemmy.world/c/raccoonforlemmyapp)
-- [Developer Chat](https://matrix.to/#/#raccoonforlemmyapp:matrix.org)
+- [Lemmy Community](https://lemmy.world/c/raccoonforlemmyapp){ target = _blank }
+- [Developer Chat](https://matrix.to/#/#raccoonforlemmyapp:matrix.org){ target = _blank }
 
 ## Further reading
 
-- [Website](https://livefasteattrashraccoon.github.io/RaccoonForLemmy)
-- [User Manual](https://livefasteattrashraccoon.github.io/RaccoonForLemmy/user_manual/main)
+- [Website](https://livefasteattrashraccoon.github.io/RaccoonForLemmy){ target = _blank }
+- [User Manual](https://livefasteattrashraccoon.github.io/RaccoonForLemmy/user_manual/main){ target = _blank }

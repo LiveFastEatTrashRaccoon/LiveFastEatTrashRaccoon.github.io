@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Raccoon for Friendica
 ---
 
@@ -30,9 +29,9 @@ rights:
 
 ## Download
 
-- [Google Play Store](https://play.google.com/store/apps/details?id=com.livefast.eattrash.raccoonforfriendica)
-- [F-Droid](https://f-droid.org/packages/com.livefast.eattrash.raccoonforfriendica)
-- [GitHub Releases](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.livefast.eattrash.raccoonforfriendica){ target = _blank }
+- [F-Droid](https://f-droid.org/packages/com.livefast.eattrash.raccoonforfriendica){ target = _blank }
+- [GitHub Releases](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/releases){ target = _blank }
 
 ## What makes Raccoon special?
 
@@ -77,18 +76,18 @@ rights:
 
 Help make Raccoon for Friendica even better:
 
-- [Source Code](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica)
-- [Issue Tracker](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/issues)
-- [Contributing Guidelines](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/blob/master/CONTRIBUTING.md)
+- [Source Code](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica){ target = _blank }
+- [Issue Tracker](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/issues){ target = _blank }
+- [Contributing Guidelines](https://github.com/LiveFastEatTrashRaccoon/RaccoonForFriendica/blob/master/CONTRIBUTING.md){ target = _blank }
 
 ## Community
 
 Need help? Have suggestions? Join our community:
 
-- [Friendica Group](https://poliverso.org/profile/raccoonforfriendicaapp)
-- [Developer Chat](https://matrix.to/#/#raccoonforfriendicaapp:matrix.org)
+- [Friendica Group](https://poliverso.org/profile/raccoonforfriendicaapp){ target = _blank }
+- [Developer Chat](https://matrix.to/#/#raccoonforfriendicaapp:matrix.org){ target = _blank }
 
 ## Further reading
 
-- [Website](https://livefasteattrashraccoon.github.io/RaccoonForFriendica)
-- [User Manual](https://livefasteattrashraccoon.github.io/RaccoonForFriendica/manual/main)
+- [Website](https://livefasteattrashraccoon.github.io/RaccoonForFriendica){ target = _blank }
+- [User Manual](https://livefasteattrashraccoon.github.io/RaccoonForFriendica/manual/main){ target = _blank }

@@ -1,5 +1,4 @@
 ---
-layout: home
 title: Mission
 ---
 
@@ -36,4 +35,4 @@ control, but you can also use it with Mastodon and other compatible platforms.
 
 !!! tip title "Join us"
     Join the movement towards an open and decentralized Internet.
-    Visit [our profile](https://github.com/LiveFastEatTrashRaccoon), download the apps and be part of the change!
+    Visit [our profile](https://github.com/LiveFastEatTrashRaccoon){ target = _blank }, download the apps and be part of the change!
