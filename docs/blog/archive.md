@@ -6,6 +6,7 @@ title: Archive
 
 ## May 2026
 
+- [Create adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
 - [Zensical: A better way to manage project documentation](posts/2026-05-11-better-documentation-with-zensical.md)
 
 ## July 2025

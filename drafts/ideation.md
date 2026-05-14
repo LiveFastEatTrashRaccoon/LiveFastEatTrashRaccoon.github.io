@@ -19,13 +19,12 @@ Tips for engagement:
 - [ ] Keep your code spotless with lint tools
 - [ ] Multiplatform mocks with Mokkery
 - [ ] Inline images in your posts: bring WordPress blog posts into the timeline
-- [ ] Seamless mocks with mokkery
 - [ ] Run UI test on multiple platforms with Compose Multiplatform
 
 ## Project history & community ("community", "procyon")
 
 - [x] What happened to Raccoon for Lemmy? (17/06/25)
-- [x] Playful themes: what's in the a name? (01/07/25)
+- [x] Playful themes: what's in a name? (01/07/25)
 - [x] Why I decided to migrate away from the Ktorfit library (09/07/25)
 - [ ] Community feedback integration: case studies and lessons learned
 - [ ] Designing for decentralization: UX patterns for federated apps
@@ -55,8 +54,8 @@ Tips for engagement:
 ## User experience focus ("ux", "a11y", "l10n")
 
 - [x] Swipe navigation, making the Fediverse more enjoyable (24/06/2025)
+- [x] Create adaptive designs with window size classes (15/05/2026)
 - [ ] Design principles for social media apps
 - [ ] Accessibility first: building inclusive social media
 - [ ] Customization vs simplicity in UI design
-- [ ] Create adaptive multiplatform designs with window size classes
 - [ ] The onboarding problem: making the Fediverse accessible

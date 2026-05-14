@@ -24,6 +24,7 @@ In `#community`:
 In `#compose`:
 
 - [Building modern Fediverse apps in KMP & Compose](posts/2025-06-10-building-modern-fediverse-apps.md)
+- [Create Adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
 
 In `#friendica`:
 
@@ -60,3 +61,4 @@ In `#procyon`:
 In `#ux`:
 
 - [Swipe Navigation: turn your Fediverse feed into a page-turner](posts/2025-06-24-swipe-navigation.md)
+- [Create Adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
