@@ -11,6 +11,7 @@ Tips for engagement:
 - [x] Koin vs Kodein for Multiplatform dependency injection (27/06/25)
 - [x] Hold my state: why shared ViewModels are a life-changer (04/07/25)
 - [x] Better documentation with Zensical (11/05/26)
+- [x] Dealing with KMP's shifting sands (17/05/26)
 - [ ] Navigation in Compose Multiplatform: to the infinity and beyond
 - [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] The importance of reproducible builds in open-source development
