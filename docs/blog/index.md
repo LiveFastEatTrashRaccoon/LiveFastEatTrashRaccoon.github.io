@@ -9,7 +9,7 @@ Multiplatform apps, development challenges, and thoughts on the Fediverse.
 
 ## Recent posts
 
-- [Dealing with KMP shifting sands](posts/2026-11-17-dealing-with-kmp-shifting-sands.md)
+- [Dealing with KMP shifting sands: Another Day, Another Project Structure](posts/2026-11-17-dealing-with-kmp-shifting-sands.md)
 - [Create adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
 - [Zensical: A better way to manage project documentation](posts/2026-05-11-better-documentation-with-zensical.md)
 - [Why I decided to migrate away from the Ktorfit library](posts/2025-07-09-ktorfit.md)

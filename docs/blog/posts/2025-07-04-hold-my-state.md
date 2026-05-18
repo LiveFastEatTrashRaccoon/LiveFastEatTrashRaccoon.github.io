@@ -100,7 +100,7 @@ But, on the other hand, it has also several downsides:
   `BottomSheetNavigator` where Compose has `ModalBottomSheet`, etc.) which is needless and makes
   your project diverge more and more from mainstream.
 
-### AndroidX `ViewModels to the rescue
+### AndroidX `ViewModels` to the rescue
 
 This situation changed drastically once for all in May 2024 when JetBrains's port of the popular
 `org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose` library hit the stable distribution.

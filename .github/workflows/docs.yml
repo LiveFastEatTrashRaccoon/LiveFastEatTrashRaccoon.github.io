@@ -31,12 +31,6 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: site
-      - name: Generate RSS Feed
-        uses: bndw/automated-rss-feed@v1
-        with:
-          site_url: https://livefasteattrashraccoon.github.io/blog
-          feed_name: archive/feed.xml
-          source_path: docs/posts
       - name: Deploy
         uses: actions/deploy-pages@v5
         id: deployment

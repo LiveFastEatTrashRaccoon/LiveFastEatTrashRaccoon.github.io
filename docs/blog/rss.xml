@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Procyon Project blog</title>
+        <link>https://livefasteattrashraccoon.github.io/blog/</link>
+        <description>
+            In the Procyon Project's blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.
+        </description>
+        <language>en</language>
+        <lastBuildDate>Tue, 17 Nov 2026 08:08:00 +0200</lastBuildDate>
+        <atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" rel="self" type="application/rss+xml" />
+        <image>
+            <url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
+            <title>Procyon Project blog</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/</link>
+        </image>
+
+        <item>
+            <title>Dealing with KMP’s Shifting Sands: Another Day, Another Project Structure</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-11-17-dealing-with-kmp-shifting-sands</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-11-17-dealing-with-kmp-shifting-sands</guid>
+            <description>JetBrains has announced they are introducing a new default project structure for KMP projects. With the new structure all apps have separate entry points which is a lot cleaner and more flexible. But, at the same time, this is just another change, after a lot of breaking changes have been introduced earlier this year with AGP 9.x. Building on top of KMP is cool, but sometimes it feels like walking on shifting sands, with the risk of major refactorings being needed every few months.</description>
+            <pubDate>Tue, 17 Nov 2026 09:24:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Create Adaptive Designs with Window Size Classes</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-05-15-create-adaptive-multiplatform-designs</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-05-15-create-adaptive-multiplatform-designs</guid>
+            <description>Raccoon's UI was adapted to better leverage the available space in large screens, e.g. foldables, tablets and – of course – the new desktop app. Not only elements have been moved to be to feel native on larger screens, e.g. using a permanent navigation drawer instead of the bottom navigation; but also using canonical layouts such as List-Detail pattern with animated transitions. This is just the beginning of the transition, because more changes and a better UX is going to come with the switch to Navigation 3.</description>
+            <pubDate>Fri, 15 May 2026 06:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Better documentation with Zensical</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-05-11-better-documentation-with-zensical</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-05-11-better-documentation-with-zensical</guid>
+            <description>I've updated this blog as well as the user manuals and websites of the apps to Zensical, the evolution of MkDocs which provides integrated search (with categories), theming, a more user-friendly navigation and a multilingual setup. The switch from Jekyll was easy and the results are awesome, with built-in support for callouts, collapsibles, tabs, syntax highlighting, formulas and much more.</description>
+            <pubDate>Mon, 11 May 2026 21:06:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Why I decided to migrate away from the Ktorfit library</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-07-09-ktorfit</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-07-09-ktorfit</guid>
+            <description>I recently migrated all of my projects away from the Ktorfit library. The balance between cost and benefits simply went off due to continuous breakages whenever new KSP and Kotlin versions were released. With no stable compiler APIs and breaking upstream changes, it is difficult for library maintainers to keep up, but this is absolutely no excuse for being rude to other developers and potential contributors. Working on open source projects is a collaborative task. Failing to understand this means your project is not going to survive.</description>
+            <pubDate>Wed, 09 Jul 2025 13:35:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Hold my state: why shared ViewModels are a life-changer</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-07-04-hold-my-state</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-07-04-hold-my-state</guid>
+            <description>When the Raccoon apps were created AndroidX ViewModels were not ported to KMP so the only viable solution was using 3rd party libraries for state holding, such as Voyager. But having ViewModels available outside the Android source set was a life changer and made it possible to completely rework the app's navigation in order to get a more robust, standard compliant and flexible result. Embracing change, constantly refactoring and evolving in order to adapt as new scenarios emerge makes us better software architects and our users hopefully happier.</description>
+            <pubDate>Fri, 04 Jul 2025 18:48:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Playful themes: what's in a name?</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-07-01-playful-themes</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-07-01-playful-themes</guid>
+            <description>Localization and customization are first-class citizens at Procyon. One feature in which they come together is the choice of the color theme to apply to the app, with playful alliterating names that translate uniquely across different languages.</description>
+            <pubDate>Tue, 01 Jul 2025 21:15:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Koin VS Kodein: a developer's journey through multiplatform DI hell</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-06-27-koin-vs-kodein-for-kmp-di</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-06-27-koin-vs-kodein-for-kmp-di</guid>
+            <description>Dependency injection has been the backbone of Android development for years. But when you venture into Kotlin Multiplatform (KMP) territory, the comfortable world of Dagger and Hilt suddenly becomes unavailable. This is the story of my two-year journey building Raccoon apps and how I learned the hard way that not all DI solutions are created equal.</description>
+            <pubDate>Fri, 27 Jun 2025 10:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Swipe Navigation: turn your Fediverse feed into a page-turner</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-06-24-swipe-navigation</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-06-24-swipe-navigation</guid>
+            <description>Tired of the endless tap-back-tap dance? Swipe navigation transforms your feed into a flowing narrative where each post is simply the next page in your story. No more navigation gymnastics, no more losing your scroll position, no more breaking your reading flow.</description>
+            <pubDate>Tue, 24 Jun 2025 14:30:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Global localization: Building a truly international open source app</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-06-20-i10n-and-l10n-challenges</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-06-20-i10n-and-l10n-challenges</guid>
+            <description>Enabling users to interact with software in their native language isn't just a nice-to-have feature, it's essential for true accessibility and inclusion. Learn how a humanities background shaped the technical decisions behind Raccoon's multilingual journey and our community-driven approach to localization.</description>
+            <pubDate>Fri, 20 Jun 2025 09:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>What happened to Raccoon for Lemmy?</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-06-17-what-happened-to-raccon-for-lemmy</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-06-17-what-happened-to-raccon-for-lemmy</guid>
+            <description>Many people have wondered what happened during August 2024 to the Raccoon for Lemmy app. The original repository was completely shut down overnight. This article recaps the situation before and after the change to clarify things for the community.</description>
+            <pubDate>Tue, 17 Jun 2025 18:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Friendica: the Swiss Army knife of the Fediverse</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-06-13-what-makes-friendica-shine</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-06-13-what-makes-friendica-shine</guid>
+            <description>While most fediverse platforms force you to choose between microblogging, photo sharing, or link aggregation, Friendica refuses to make you pick just one. Learn about the universal federation hub that brings together all of the Fediverse into one experience.</description>
+            <pubDate>Fri, 13 Jun 2025 10:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Building modern Fediverse apps in KMP &amp; Compose: the perfect match</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-06-10-building-modern-fediverse-apps</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-06-10-building-modern-fediverse-apps</guid>
+            <description>Building modern, cross-platform applications for the rapidly evolving Fediverse ecosystem requires a powerful stack. Discover why Kotlin Multiplatform and Compose Multiplatform are the perfect match for solving the unique challenges of Fediverse development.</description>
+            <pubDate>Tue, 10 Jun 2025 15:30:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Contributing to Raccoon apps</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-06-08-contributing-to-raccoon-apps</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-06-08-contributing-to-raccoon-apps</guid>
+            <description>The Raccoon apps embody the spirit of open-source collaboration. At Procyon, every contribution is welcome and everyone's opinion is valued. Learn about our philosophy, our RACCOON code of conduct, and how you can join us in building better tools for the Fediverse.</description>
+            <pubDate>Sun, 08 Jun 2025 11:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Welcome to the Procyon Project!</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2025-06-07-welcome-to-procyon</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2025-06-07-welcome-to-procyon</guid>
+            <description>Welcome to the official blog of the Procyon Project! Learn about our vision for decentralization, our Kotlin Multiplatform apps (Raccoon for Lemmy and Raccoon for Friendica), and why digital freedom matters in today's social media landscape.</description>
+            <pubDate>Sat, 07 Jun 2025 09:00:00 +0200</pubDate>
+        </item>
+    </channel>
+</rss>

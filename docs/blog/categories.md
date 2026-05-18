@@ -36,7 +36,7 @@ In `#kmp`:
 - [Koin VS Kodein: a developer's journey through multiplatform DI hell](posts/2025-06-27-koin-vs-kodein-for-kmp-di.md)
 - [Hold my state: why shared ViewModels are a life-changer](posts/2025-07-04-hold-my-state.md)
 - [Why I decided to migrate away from Ktorfit](posts/2025-07-09-ktorfit.md)
-- [Dealing with KMP shifting sands](posts/2026-11-17-dealing-with-kmp-shifting-sands.md)
+- [Dealing with KMP shifting sands: Another Day, Another Project Structure](posts/2026-11-17-dealing-with-kmp-shifting-sands.md)
 
 In `#lemmy`:
 

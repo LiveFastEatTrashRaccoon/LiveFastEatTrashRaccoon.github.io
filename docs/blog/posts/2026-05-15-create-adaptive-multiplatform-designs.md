@@ -112,8 +112,8 @@ collapsible drawer approach that maintains usability without clutter.
 ## Leveraging Canonical Layouts
 
 A cornerstone of Material Design 3 is the use of
-[Canonical Layouts](https://developer.android.com/develop/ui/compose/layouts/adaptive/canonical-layouts){ target = _blank }. These are battle-tested patterns—like **List-Detail**, **Supporting Pane**, and *
-*Feed**—that provide a rock-solid foundation for adaptive applications.
+[Canonical Layouts](https://developer.android.com/develop/ui/compose/layouts/adaptive/canonical-layouts){ target = _blank }. These are battle-tested patterns—like **List-Detail**, 
+**Supporting Pane**, and **Feed**—that provide a rock-solid foundation for adaptive applications.
 
 In practice, this means reaching for specialized components like `ListDetailPaneScaffold` or
 `SupportingPaneScaffold`. When paired with sub-navigators like `ThreePaneScaffoldNavigator`, they
