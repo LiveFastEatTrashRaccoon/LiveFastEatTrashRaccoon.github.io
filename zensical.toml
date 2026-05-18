@@ -47,7 +47,7 @@ nav = [
     { "Raccoon for Friendica" = "raccoon-friendica.md" },
     { "Raccoon for Lemmy" = "raccoon-lemmy.md" },
     { "Blog" = [
-        { "Archive" = "blog/archive.md" },
+        { "Archive" = "blog/" },
         { "Categories" = "blog/categories.md" },
     ] },
     { "Privacy" = "privacy.md" }
