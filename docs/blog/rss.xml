@@ -7,7 +7,7 @@
             In the Procyon Project's blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.
         </description>
         <language>en</language>
-        <lastBuildDate>Tue, 17 Nov 2026 08:08:00 +0200</lastBuildDate>
+        <lastBuildDate>Tue, 17 May 2026 08:08:00 +0200</lastBuildDate>
         <atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" rel="self" type="application/rss+xml" />
         <image>
             <url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
@@ -16,11 +16,19 @@
         </image>
 
         <item>
+            <title>Bringing Push Notifications to Raccoon</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-05-20-bringing-push-notifications</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-05-20-bringing-push-notifications</guid>
+            <description>One of the most common complaints during Raccoon's first year of development was the lack of support for push notifications. Some time was needed to find the best solution for privacy, flexibility and transparency. UnifiedPush turned out to be a game changer: its innovative architecture makes it possible to provide notifications without sacrificing freedom and security. Through open standards like WebPush it is compatible with Mastodon and Friendica servers, and its SDK allows to remain 100% FOSS on the client. No more excuses to not try the app!</description>
+            <pubDate>Wed, 20 May 2026 22:25:00 +0200</pubDate>
+        </item>
+
+        <item>
             <title>Dealing with KMP’s Shifting Sands: Another Day, Another Project Structure</title>
-            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-11-17-dealing-with-kmp-shifting-sands</link>
-            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-11-17-dealing-with-kmp-shifting-sands</guid>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-05-17-dealing-with-kmp-shifting-sands</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-05-17-dealing-with-kmp-shifting-sands</guid>
             <description>JetBrains has announced they are introducing a new default project structure for KMP projects. With the new structure all apps have separate entry points which is a lot cleaner and more flexible. But, at the same time, this is just another change, after a lot of breaking changes have been introduced earlier this year with AGP 9.x. Building on top of KMP is cool, but sometimes it feels like walking on shifting sands, with the risk of major refactorings being needed every few months.</description>
-            <pubDate>Tue, 17 Nov 2026 09:24:00 +0200</pubDate>
+            <pubDate>Sun, 17 May 2026 09:24:00 +0200</pubDate>
         </item>
 
         <item>

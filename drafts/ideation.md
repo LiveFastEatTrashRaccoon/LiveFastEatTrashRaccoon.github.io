@@ -35,6 +35,7 @@ Tips for engagement:
 ## Fediverse ("friendica", "lemmy", "activitpub")
 
 - [x] What makes Friendica shine in the Fediverse ecosystem (13/06/25)
+- [x] Bringing Push Notifications to Raccoon (20/05/26)
 - [ ] ActivityPub dive-in: master the backbone of the Fediverse
 - [ ] Understanding ActivityPub groups
 - [ ] Mastodon vs Lemmy: UI/UX considerations
