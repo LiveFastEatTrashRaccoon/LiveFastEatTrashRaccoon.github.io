@@ -12,6 +12,7 @@ Tips for engagement:
 - [x] Hold my state: why shared ViewModels are a life-changer (04/07/25)
 - [x] Better documentation with Zensical (11/05/26)
 - [x] Dealing with KMP's shifting sands (17/05/26)
+- [ ] From mobile app to desktop app: our journey
 - [ ] Navigation in Compose Multiplatform: to the infinity and beyond
 - [ ] Multi-module architecture and shared build logic with convention plugins
 - [ ] The importance of reproducible builds in open-source development

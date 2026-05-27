@@ -9,6 +9,8 @@ tags:
   - lib
 ---
 
+*Published on May 20, 2026*
+
 ## The Beginning: a Missing Feature
 
 One of the most common complaints during Raccoon's first year of development, and a major reason why
