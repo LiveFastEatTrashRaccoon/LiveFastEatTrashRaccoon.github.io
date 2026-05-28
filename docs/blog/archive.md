@@ -6,7 +6,8 @@ title: Archive
 
 ## May 2026
 
-- [Bringing Push Notifications to Raccoon: the Open Source Way](posts/2026-05-20-bringing-push-notifications.md)
+- [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
+- [Bringing Push Notifications to Raccoon](posts/2026-05-20-bringing-push-notifications.md)
 - [Dealing with KMP shifting sands: Another Day, Another Project Structure](posts/2026-05-17-dealing-with-kmp-shifting-sands.md)
 - [Create adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
 - [Zensical: A better way to manage project documentation](posts/2026-05-11-better-documentation-with-zensical.md)
@@ -18,6 +19,7 @@ title: Archive
 - [Playful themes: what's in a name?](posts/2025-07-01-playful-themes.md)
 
 ## June 2025
+
 - [Koin VS Kodein: a developer's journey through multiplatform DI hell](posts/2025-06-27-koin-vs-kodein-for-kmp-di.md)
 - [Swipe Navigation: turn your Fediverse feed into a page-turner](posts/2025-06-24-swipe-navigation.md)
 - [Global localization: Building a truly international open source app](posts/2025-06-20-i10n-and-l10n-challenges.md)

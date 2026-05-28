@@ -16,6 +16,14 @@
         </image>
 
         <item>
+            <title>From mobile to desktop: our journey towards a new platform</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-05-28-from-mobile-to-desktop</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-05-28-from-mobile-to-desktop</guid>
+            <description>Did you notice that in the latest beta versions, besides APKs to install on Android a .deb package has popped up to be installed on Debian-based Linux distros? This is not by chance: thanks to Kotlin Multiplatform's power, Raccoon has been ported to JVM and can now run as a desktop app. In this post I'll shortly describe how this came to be, from ideation to implementation; which were the main challenges I found in the migration process and what potential implications it has on the project and its users.</description>
+            <pubDate>Thu, 28 May 2026 23:05:00 +0200</pubDate>
+        </item>
+
+        <item>
             <title>Bringing Push Notifications to Raccoon</title>
             <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-05-20-bringing-push-notifications</link>
             <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-05-20-bringing-push-notifications</guid>
