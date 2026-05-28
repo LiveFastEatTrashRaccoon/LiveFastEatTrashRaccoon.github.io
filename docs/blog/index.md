@@ -9,11 +9,11 @@ Multiplatform apps, development challenges, and thoughts on the Fediverse.
 
 ## Recent posts
 
-- [Bringing Push Notifications to Raccoon: the Open Source Way](posts/2026-05-20-bringing-push-notifications.md)
+- [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
+- [Bringing Push Notifications to Raccoon](posts/2026-05-20-bringing-push-notifications.md)
 - [Dealing with KMP shifting sands: Another Day, Another Project Structure](posts/2026-05-17-dealing-with-kmp-shifting-sands.md)
 - [Create adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
 - [Zensical: A better way to manage project documentation](posts/2026-05-11-better-documentation-with-zensical.md)
-- [Why I decided to migrate away from the Ktorfit library](posts/2025-07-09-ktorfit.md)
 
 ## Archive
 
