@@ -28,7 +28,7 @@ if there are alternatives. For example the [Kotlin toolchain](https://kotlin-too
 backed by JetBrains itself, is very promising and, personally, I foresee that in the future the
 community will gravitate towards leaner and more specialized tools like that.
 
-!! tip
+!!! info
     Gradle is deeply integrated into the Android ecosystem (e.g. with AGP), so it will
     likely remain the requirement for Android-specific packaging in the foreseeable future.
 
@@ -195,7 +195,7 @@ to work on more valuable activities.
 Plus, it taught me not to "fear" Gradle and better understand the tools I use in my everyday life,
 even at work and not only in side projects.
 
-!! question
+!!! question
     What is your experience with Gradle? Did you come to similar solutions or do you have futher
     recommendations? Let me know!
 
