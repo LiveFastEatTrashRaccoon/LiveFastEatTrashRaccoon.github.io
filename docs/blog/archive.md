@@ -4,6 +4,10 @@ title: Archive
 
 # Blog Archive
 
+## June 2026
+
+- [Multi-module architecture and shared build logic](posts/2026-06-06-multi-module-architecture.md)
+
 ## May 2026
 
 - [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)

@@ -39,6 +39,7 @@ In `#kmp`:
 - [Why I decided to migrate away from Ktorfit](posts/2025-07-09-ktorfit.md)
 - [Dealing with KMP shifting sands: Another Day, Another Project Structure](posts/2026-05-17-dealing-with-kmp-shifting-sands.md)
 - [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
+- [Multi-module architecture and shared build logic](posts/2026-06-06-multi-module-architecture.md)
 
 In `#lemmy`:
 

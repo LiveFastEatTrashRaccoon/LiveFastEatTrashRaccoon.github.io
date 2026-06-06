@@ -16,6 +16,14 @@
         </image>
 
         <item>
+            <title>Multi-module architecture and shared build logic</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-06-multi-module-architecture</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-06-multi-module-architecture</guid>
+            <description>Gradle is the de facto standard build tool for KMP projects and for a reason: it is extremely powerful and highly flexible. However, if not configured correctly, it may result in suboptimal build performance or its configuration may become hard to maintain over time. In this article we'll discuss what are the main issues I experienced and what solutions I adopted to mitigate them in Raccoon; namely its module structure and the convention plugins it uses.</description>
+            <pubDate>Sat, 06 Jun 2026 16:15:00 +0200</pubDate>
+        </item>
+
+        <item>
             <title>From mobile to desktop: our journey towards a new platform</title>
             <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-05-28-from-mobile-to-desktop</link>
             <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-05-28-from-mobile-to-desktop</guid>

@@ -13,15 +13,15 @@ Tips for engagement:
 - [x] Better documentation with Zensical (11/05/26)
 - [x] Dealing with KMP's shifting sands (17/05/26)
 - [x] From mobile app to desktop app: our journey (28/05/26)
-- [ ] Navigation in Compose Multiplatform: to the infinity and beyond
-- [ ] Multi-module architecture and shared build logic with convention plugins
+- [x] Multi-module architecture and shared build logic (06/06/26)
 - [ ] The importance of reproducible builds in open-source development
 - [ ] The Markdown rendering challenge: from plain text to rich content
 - [ ] Mastodon glitch-soc, a richer format for your posts
 - [ ] Keep your code spotless with lint tools
 - [ ] Multiplatform mocks with Mokkery
 - [ ] Inline images in your posts: bring WordPress blog posts into the timeline
-- [ ] Run UI test on multiple platforms with Compose Multiplatform
+- [ ] Run UI test on multiple platforms with CMP
+- [ ] Navigation in CMP: to the infinity and beyond (wait for Navigation 3 adoption)
 
 ## Project history & community ("community", "procyon")
 
@@ -40,7 +40,7 @@ Tips for engagement:
 - [ ] ActivityPub dive-in: master the backbone of the Fediverse
 - [ ] Understanding ActivityPub groups
 - [ ] Mastodon vs Lemmy: UI/UX considerations
-- [ ] Federation quirks and how apps handle them (versioning, resolving entities): one app to rule them all
+- [ ] Federation quirks and how apps handle them
 - [ ] Privacy and moderation in decentralized networks
 - [ ] The future of interoperability between platforms
 - [ ] From forums to the Blogosphere, the future of discussion platforms
@@ -48,7 +48,7 @@ Tips for engagement:
 ## Development process ("procyon", "community")
 
 - [x] Internationalization and localization challenges: make contributions count (20/06/2025)
-- [ ] From side project to Procyon: our development journey
+- [ ] How maintaining side projects made me a better developer
 - [ ] Behind the scenes: from concept to release
 - [ ] Open source sustainability: balancing features and maintenance
 - [ ] Testing strategies for federated applications
