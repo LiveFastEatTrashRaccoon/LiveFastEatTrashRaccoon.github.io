@@ -18,11 +18,13 @@ In `#community`:
 - [Global localization: Building a truly international open source app](posts/2025-06-20-i10n-and-l10n-challenges.md)
 - [Playful themes: what's in a name?](posts/2025-07-01-playful-themes.md)
 - [Why I decided to migrate away from Ktorfit](posts/2025-07-09-ktorfit.md)
+- [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
 
 In `#compose`:
 
 - [Building modern Fediverse apps in KMP & Compose](posts/2025-06-10-building-modern-fediverse-apps.md)
 - [Create Adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
+- [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
 
 In `#friendica`:
 
@@ -66,3 +68,4 @@ In `#ux`:
 
 - [Swipe Navigation: turn your Fediverse feed into a page-turner](posts/2025-06-24-swipe-navigation.md)
 - [Create Adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
+- [Beyond contentDescription: Advanced Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
