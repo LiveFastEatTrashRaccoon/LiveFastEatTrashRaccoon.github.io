@@ -2,7 +2,7 @@
 title: Mission
 ---
 
-# Building the future of social communication
+# Building the Future of Social Communication
 
 Welcome to the **Procyon Project** — creating open source **Kotlin Multiplatform** applications that
 make the **Fediverse** accessible to everyone. Our mission is to provide beautiful, user-friendly
@@ -13,18 +13,18 @@ it in discussion or social networking.
 
 ## Our Apps
 
-### 🦝 Raccoon for Lemmy
+### Raccoon for Lemmy 🦝
 
 A modern, feature-rich client for Lemmy — the federated link aggregator and discussion platform.
 
-[Learn More](raccoon-lemmy.md){ .md-button .md-button--primary }
+[Learn More](raccoon-lemmy.md){ .md-button .md-button--primary style="width: 100%; text-align: center;" }
 
-### 🦝 Raccoon for Friendica
+### Raccoon for Friendica 🦝
 
 Connect with friends and communities on Friendica, the distributed social network that puts you in
 control, but you can also use it with Mastodon and other compatible platforms.
 
-[Learn More](raccoon-friendica.md){ .md-button .md-button--primary }
+[Learn More](raccoon-friendica.md){ .md-button .md-button--primary style="width: 100%; text-align: center;" }
 
 ## Why Procyon?
 

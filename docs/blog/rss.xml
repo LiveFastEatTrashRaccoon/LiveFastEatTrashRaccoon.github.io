@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Procyon Project blog</title>
-        <link>https://livefasteattrashraccoon.github.io/blog/</link>
+        <link>https://livefasteattrashraccoon.github.io/blog</link>
         <description>
             In the Procyon Project's blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.
         </description>
         <language>en</language>
-        <lastBuildDate>Tue, 17 May 2026 08:08:00 +0200</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2026 16:15:00 +0200</lastBuildDate>
         <atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" rel="self" type="application/rss+xml" />
+
         <image>
             <url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
             <title>Procyon Project blog</title>
-            <link>https://livefasteattrashraccoon.github.io/blog/</link>
+            <link>https://livefasteattrashraccoon.github.io/blog</link>
         </image>
 
         <item>

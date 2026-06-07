@@ -2,8 +2,6 @@
 title: Archive
 ---
 
-# Blog Archive
-
 ## June 2026
 
 - [Multi-module architecture and shared build logic](posts/2026-06-06-multi-module-architecture.md)

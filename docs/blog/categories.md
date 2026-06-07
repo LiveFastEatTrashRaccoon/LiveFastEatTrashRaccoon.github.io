@@ -2,8 +2,6 @@
 title: Categories
 ---
 
-# Blog Categories
-
 In `#activitypub`:
 
 - [Friendica: the Swiss Army knife of the Fediverse](posts/2025-06-13-what-makes-friendica-shine.md)

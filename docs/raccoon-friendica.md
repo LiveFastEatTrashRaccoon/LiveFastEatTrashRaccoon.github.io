@@ -90,4 +90,4 @@ Need help? Have suggestions? Join our community:
 ## Further reading
 
 - [Website](https://livefasteattrashraccoon.github.io/RaccoonForFriendica){ target = _blank }
-- [User Manual](https://livefasteattrashraccoon.github.io/RaccoonForFriendica/manual/main){ target = _blank }
+- [User Manual](https://livefasteattrashraccoon.github.io/RaccoonForFriendica/manual/en){ target = _blank }

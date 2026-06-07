@@ -15,11 +15,12 @@ Multiplatform apps, development challenges, and thoughts on the Fediverse.
 - [Dealing with KMP shifting sands: Another Day, Another Project Structure](posts/2026-05-17-dealing-with-kmp-shifting-sands.md)
 - [Create adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
 
-## Archive
+## Archive & Categories
 
-Interested in more articles? Have a look at older posts in the [Archive](archive.md)!
+Interested in more articles? Have a look at older posts!
 
-## Categories
+[:material-archive: Open Archive](archive.md){ .md-button .md-button--primary style="width: 100%; text-align: center;" }
 
-Do you prefer to browse articles by theme? We got you covered, have a look at
-our [Categories](categories.md)!
+Do you prefer to browse articles by theme? We got you covered, have a look at our categorized list!
+
+[:material-label: Go to Categories](categories.md){ .md-button .md-button--primary style="width: 100%; text-align: center;" }

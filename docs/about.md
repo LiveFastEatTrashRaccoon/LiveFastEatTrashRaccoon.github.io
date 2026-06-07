@@ -50,6 +50,7 @@ The Procyon Project is community-driven. Here's how you can help:
 
 - GitHub: [@AkesiSeli](https://github.com/AkesiSeli){ target = _blank }
 - Mastodon: [@janTeko@androiddev.social](https://androiddev.social/@janTeko){ target = _blank }
+- Friendica: [@dieguitux8623@poliverso.org](https://poliverso.org/profile/dieguitux8623){ target = _blank }
 - Email: [livefast.eattrash.raccoon at gmail.com](mailto://livefast.eattrash.raccoon@gmail.com)
 
 !!! tip

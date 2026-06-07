@@ -65,4 +65,4 @@ Need help? Have suggestions? Join our community:
 ## Further reading
 
 - [Website](https://livefasteattrashraccoon.github.io/RaccoonForLemmy){ target = _blank }
-- [User Manual](https://livefasteattrashraccoon.github.io/RaccoonForLemmy/user_manual/main){ target = _blank }
+- [User Manual](https://livefasteattrashraccoon.github.io/RaccoonForLemmy/user_manual){ target = _blank }
