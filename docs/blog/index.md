@@ -9,11 +9,11 @@ Multiplatform apps, development challenges, and thoughts on the Fediverse.
 
 ## Recent posts
 
+- [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
 - [Multi-module architecture and shared build logic](posts/2026-06-06-multi-module-architecture.md)
 - [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
 - [Bringing Push Notifications to Raccoon](posts/2026-05-20-bringing-push-notifications.md)
 - [Dealing with KMP shifting sands: Another Day, Another Project Structure](posts/2026-05-17-dealing-with-kmp-shifting-sands.md)
-- [Create adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
 
 ## Archive & Categories
 

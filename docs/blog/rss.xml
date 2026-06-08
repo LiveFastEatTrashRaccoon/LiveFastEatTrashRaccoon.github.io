@@ -7,7 +7,7 @@
             In the Procyon Project's blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.
         </description>
         <language>en</language>
-        <lastBuildDate>Sat, 06 Jun 2026 16:15:00 +0200</lastBuildDate>
+        <lastBuildDate>Mon, 08 Jun 2026 20:40:00 +0200</lastBuildDate>
         <atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" rel="self" type="application/rss+xml" />
 
         <image>
@@ -15,6 +15,14 @@
             <title>Procyon Project blog</title>
             <link>https://livefasteattrashraccoon.github.io/blog</link>
         </image>
+
+        <item>
+            <title>Beyond contentDescription: Accessibility in Compose Multiplatform</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-08-advanced-accessibility-in-cmp</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-08-advanced-accessibility-in-cmp</guid>
+            <description>Beyond contentDescription, this article explores some techniques to improve accessibility in Compose Multiplatform apps. Using Raccoon as a case study, it covers design ideas for better screen reader integration, ensuring content parity and preserving semantics integrity. It highlights that a11y is a collaborative effort: together we can make the Fediverse more inclusive and usable for everyone.</description>
+            <pubDate>Mon, 08 Jun 2026 20:40:00 +0200</pubDate>
+        </item>
 
         <item>
             <title>Multi-module architecture and shared build logic</title>
