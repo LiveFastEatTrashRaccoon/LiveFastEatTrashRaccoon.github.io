@@ -1,8 +1,6 @@
 ---
 title: "Beyond contentDescription: Accessibility in Compose Multiplatform"
 date: 2026-06-08
-categories:
-  - kmp
 tags:
   - community
   - compose

@@ -1,9 +1,6 @@
 ---
 title: "Playful themes: what's in a name?"
 date: 2025-07-01
-categories:
-  - l10n
-  - community
 tags:
   - l10n
   - community

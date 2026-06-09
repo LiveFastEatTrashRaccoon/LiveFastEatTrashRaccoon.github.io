@@ -1,9 +1,6 @@
 ---
 title: "Friendica: the Swiss Army knife of the Fediverse"
 date: 2025-06-13
-categories:
-  - friendica
-  - activitypub
 tags:
   - friendica
   - activitypub

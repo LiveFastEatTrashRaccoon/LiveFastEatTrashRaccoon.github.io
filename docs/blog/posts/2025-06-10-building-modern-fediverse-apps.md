@@ -1,10 +1,6 @@
 ---
 title: "Building modern Fediverse apps in KMP & Compose: the perfect match"
 date: 2025-06-10
-categories:
-  - kmp
-  - compose
-  - community
 tags:
   - kmp
   - compose

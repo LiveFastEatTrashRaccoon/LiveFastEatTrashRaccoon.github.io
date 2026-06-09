@@ -1,9 +1,6 @@
 ---
 title: "Welcome to the Procyon Project!"
 date: 2025-06-07
-categories:
-  - announcement
-  - procyon
 tags:
   - announcement
   - procyon

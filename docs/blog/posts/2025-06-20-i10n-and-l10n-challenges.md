@@ -1,10 +1,6 @@
 ---
 title: "Global localization: Building a truly international open source app"
 date: 2025-06-20
-categories:
-  - l10n
-  - community
-  - procyon
 tags:
   - l10n
   - community

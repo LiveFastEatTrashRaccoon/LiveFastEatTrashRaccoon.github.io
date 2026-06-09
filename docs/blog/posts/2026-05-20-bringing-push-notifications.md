@@ -1,9 +1,6 @@
 ---
 title: "Bringing Push Notifications to Raccoon"
 date: 2026-05-20
-categories:
-  - friendica
-  - lib
 tags:
   - friendica
   - lib

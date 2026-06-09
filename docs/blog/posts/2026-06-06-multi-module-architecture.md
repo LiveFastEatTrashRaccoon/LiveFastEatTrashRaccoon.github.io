@@ -1,8 +1,6 @@
 ---
 title: "Multi-module architecture and shared build logic"
 date: 2026-06-06
-categories:
-  - kmp
 tags:
   - kmp
 ---

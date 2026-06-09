@@ -1,8 +1,6 @@
 ---
 title: "Swipe Navigation: turn your Fediverse feed into a page-turner"
 date: 2025-06-24
-categories:
-  - ux
 tags:
   - ux
 ---

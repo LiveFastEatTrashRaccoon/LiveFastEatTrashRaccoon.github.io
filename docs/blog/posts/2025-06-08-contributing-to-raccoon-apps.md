@@ -1,9 +1,6 @@
 ---
 title: "Contributing to Raccoon apps"
 date: 2025-06-08
-categories:
-  - community
-  - procyon
 tags:
   - community
   - procyon

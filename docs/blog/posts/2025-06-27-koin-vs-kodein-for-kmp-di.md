@@ -1,9 +1,6 @@
 ---
 title: "Koin VS Kodein: a developer's journey through multiplatform DI hell"
 date: 2025-06-27
-categories:
-  - kmp
-  - libs
 tags:
   - kmp
   - libs

@@ -1,8 +1,6 @@
 ---
 title: "Better documentation with Zensical"
 date: 2026-05-11
-categories:
-  - libs
 tags:
   - libs
 ---
