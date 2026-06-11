@@ -59,7 +59,7 @@ Tips for engagement:
 - [x] Swipe navigation, making the Fediverse more enjoyable (24/06/2025)
 - [x] Create adaptive designs with window size classes (15/05/2026)
 - [x] Beyond contentDescription: Accessibility in Compose Multiplatform (08/06/26)
-- [ ] Posts from all over the world: translation in the Fediverse
+- [x] Breaking Language Barriers: Client-Side Translation in the Fediverse (11/06/26)
 - [ ] Design principles for social media apps
 - [ ] Customization vs simplicity in UI design
 - [ ] The onboarding problem: making the Fediverse accessible

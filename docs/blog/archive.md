@@ -4,6 +4,7 @@ title: Archive
 
 ## June 2026
 
+- [Breaking Language Barriers: Client-Side Translation in the Fediverse](posts/2026-06-11-breaking-language-barriers.md)
 - [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
 - [Multi-module architecture and shared build logic](posts/2026-06-06-multi-module-architecture.md)
 

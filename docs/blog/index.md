@@ -9,11 +9,11 @@ Multiplatform apps, development challenges, and thoughts on the Fediverse.
 
 ## Recent posts
 
+- [Breaking Language Barriers: Client-Side Translation in the Fediverse](posts/2026-06-11-breaking-language-barriers.md)
 - [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
 - [Multi-module architecture and shared build logic](posts/2026-06-06-multi-module-architecture.md)
 - [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
 - [Bringing Push Notifications to Raccoon](posts/2026-05-20-bringing-push-notifications.md)
-- [Dealing with KMP shifting sands: Another Day, Another Project Structure](posts/2026-05-17-dealing-with-kmp-shifting-sands.md)
 
 ## Archive & Categories
 

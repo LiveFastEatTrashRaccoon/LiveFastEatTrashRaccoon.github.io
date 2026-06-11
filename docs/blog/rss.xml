@@ -7,7 +7,7 @@
             In the Procyon Project's blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.
         </description>
         <language>en</language>
-        <lastBuildDate>Mon, 08 Jun 2026 20:40:00 +0200</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 22:19:00 +0200</lastBuildDate>
         <atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" rel="self" type="application/rss+xml" />
 
         <image>
@@ -15,6 +15,14 @@
             <title>Procyon Project blog</title>
             <link>https://livefasteattrashraccoon.github.io/blog</link>
         </image>
+
+        <item>
+            <title>Breaking Language Barriers: Client-Side Translation in the Fediverse</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-11-breaking-language-barriers</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-11-breaking-language-barriers</guid>
+            <description>The Fediverse is built on the promise of decentralized communication. However, when users from different instances federate, they often encounter a barrier that code alone can not fix: language. Some platforms are designed to integrate with external translation providers, but this has downsides for instance admins (cost and/or maintenance overhead). In this article we'll discuss how managing translation on clients may help distribute costs and let users configure their favorite service.</description>
+            <pubDate>Thu, 11 Jun 2026 22:19:00 +0200</pubDate>
+        </item>
 
         <item>
             <title>Beyond contentDescription: Accessibility in Compose Multiplatform</title>
