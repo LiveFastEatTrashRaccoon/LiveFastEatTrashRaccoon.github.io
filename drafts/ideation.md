@@ -48,9 +48,9 @@ Tips for engagement:
 ## Development process ("procyon", "community")
 
 - [x] Internationalization and localization challenges: make contributions count (20/06/2025)
+- [x] The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity (20/06/2026)
 - [ ] How maintaining side projects made me a better developer
 - [ ] Behind the scenes: from concept to release
-- [ ] Open source sustainability: balancing features and maintenance
 - [ ] Testing strategies for federated applications
 - [ ] Community-driven development: how user feedback shapes our roadmap
 

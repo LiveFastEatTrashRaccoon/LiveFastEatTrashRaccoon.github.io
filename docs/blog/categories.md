@@ -20,6 +20,7 @@ In `#community`:
 - [Playful themes: what's in a name?](posts/2025-07-01-playful-themes.md)
 - [Why I decided to migrate away from Ktorfit](posts/2025-07-09-ktorfit.md)
 - [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
+- [The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity](posts/2026-06-20-oss-sustainability.md)
 
 In `#compose`:
 
@@ -64,6 +65,7 @@ In `#procyon`:
 - [Contributing to Raccoon apps](posts/2025-06-08-contributing-to-raccoon-apps.md)
 - [Global localization: Building a truly international open source app](posts/2025-06-20-i10n-and-l10n-challenges.md)
 - [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
+- [The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity](posts/2026-06-20-oss-sustainability.md)
 
 In `#ux`:
 
