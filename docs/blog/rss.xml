@@ -17,6 +17,14 @@
         </image>
 
         <item>
+            <title>The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity</title>
+            <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-20-oss-sustainability</link>
+            <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-20-oss-sustainability</guid>
+            <description>Working on open-source apps and balance maintenance, experimentation and feature requests in one's spare time is not always an easy task. If people start pointing fingers and judge by the way social posts (rather than code) are written, we have a problem. In today's article I discuss why I keep working on side projects, how tasks are priorities and why some choices were reverted over time rather than just pile new features one on top of the other.</description>
+            <pubDate>Sat, 20 Jun 2026 16:50:00 +0200</pubDate>
+        </item>
+
+        <item>
             <title>Breaking Language Barriers: Client-Side Translation in the Fediverse</title>
             <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-11-breaking-language-barriers</link>
             <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-11-breaking-language-barriers</guid>
