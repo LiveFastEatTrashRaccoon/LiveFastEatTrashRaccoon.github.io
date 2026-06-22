@@ -40,14 +40,14 @@ employer.
 
 ## The Perfect Storm
 
-In late 2022, the stars aligned. Kotlin Multiplatform[^1] was transitioning from Beta to Stable
-(and Compose Multiplatform was in Alpha).
+In 2023 the stars aligned. Kotlin Multiplatform[^1] transitioned from Beta to Stable(and 
+Compose Multiplatform was in Alpha for iOS and stable elsewhere).
 
-Simultaneously, the "Reddit API Apocalypse" killed off third-party clients, driving a massive
-migration toward the "threadiverse" (Lemmy, Kbin, Sublinks, Friendica, etc.).
+Meanwhile, the "Reddit API Apocalypse" killed off third-party clients, driving a massive migration
+toward the "threadiverse" (Lemmy, Kbin, Sublinks, Friendica, etc.).
 
-On a personal note, I had finally switched to a job that actually respected my evenings and
-weekends, no more unpaid overtime! :tada: :raccoon: :tada:
+On a personal note, in early 2023 I had finally switched to a job that actually respected my 
+evenings and weekends, no more unpaid overtime! :tada: :raccoon: :tada:
 
 These factors converged into a single goal: build a Lemmy client for Android and iOS using KMP. A
 year later, the Friendica client followed.
