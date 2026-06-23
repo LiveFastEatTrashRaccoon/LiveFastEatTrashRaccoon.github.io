@@ -9,11 +9,11 @@ Multiplatform apps, development challenges, and thoughts on the Fediverse.
 
 ## Recent posts
 
+- [One Preview to Rule Them All: Unified Compose Previews in Common Code](posts/2026-06-24-unified-previews.md)
 - [The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity](posts/2026-06-20-oss-sustainability.md)
 - [Breaking Language Barriers: Client-Side Translation in the Fediverse](posts/2026-06-11-breaking-language-barriers.md)
 - [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
 - [Multi-module architecture and shared build logic](posts/2026-06-06-multi-module-architecture.md)
-- [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
 
 ## Archive & Categories
 
