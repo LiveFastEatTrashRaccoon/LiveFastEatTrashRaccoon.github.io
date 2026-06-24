@@ -3,9 +3,16 @@
 
 [versions]
 junit-jupiter-engine = "6.0.1"
+koin = "4.1.1"
+kotlin-xml-builder = "1.9.3"
 
 [libraries]
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter-engine" }
+
+koin-bom = { module = "io.insert-koin:koin-bom", version.ref = "koin" }
+koin-core = { module = "io.insert-koin:koin-core" }
+
+kotlin-xml-builder = { module = "org.redundent:kotlin-xml-builder", version.ref = "kotlin-xml-builder" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.3.21" }
