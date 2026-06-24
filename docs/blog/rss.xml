@@ -7,7 +7,7 @@
             In the Procyon Project's blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.
         </description>
         <language>en</language>
-        <lastBuildDate>Thu, 11 Jun 2026 22:19:00 +0200</lastBuildDate>
+        <lastBuildDate>Thu, 24 Jun 2026 08:30:00 +0200</lastBuildDate>
         <atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" rel="self" type="application/rss+xml" />
 
         <image>
@@ -21,7 +21,7 @@
             <link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-24-unified-previews</link>
             <guid isPermaLink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-24-unified-previews</guid>
             <description>When working on a new technology like KMP and CMP, sometimes you run into sharp edges. One of them was Compose Multiplatform previews, requiring either tons of compromises or a setup nighmare. Sometimes, especially when only Developer Experience is involved, it is better to wait until the technology matures. In this article I'll explain how Preview changed with Compose Multiplatform  1.10.0 and how finally adopting them helped me cleanup and improve code.</description>
-            <pubDate>Thu, 24 Jun 2026 80:30:00 +0200</pubDate>
+            <pubDate>Thu, 24 Jun 2026 08:30:00 +0200</pubDate>
         </item>
 
         <item>
