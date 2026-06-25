@@ -4,12 +4,23 @@ import com.livefast.eattrash.rssgenerator.data.PostRepository
 import com.livefast.eattrash.rssgenerator.domain.FilePrinter
 import com.livefast.eattrash.rssgenerator.domain.RssGenerator
 
-class App(
+/**
+ * Coordinator between the use cases to implement the application logic.
+ */
+interface App {
+    /**
+     * Runs the application logic.
+     */
+    fun run()
+}
+
+class AppImpl(
     private val repository: PostRepository,
     private val generator: RssGenerator,
     private val printer: FilePrinter,
-) {
-    fun run() {
+) : App {
+
+    override fun run() {
         val posts = repository.getAll()
         val feedContent = generator.execute(posts = posts)
         printer.execute(content = feedContent)
