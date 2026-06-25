@@ -5,7 +5,16 @@ import com.livefast.eattrash.rssgenerator.model.PostData
 import org.redundent.kotlin.xml.xml
 import java.util.Date
 
+/**
+ * Use case responsible for generating an RSS feed from a list of blog posts.
+ */
 interface RssGenerator {
+    /**
+     * Transforms a list of [PostData] into a string representation of an RSS XML feed.
+     *
+     * @param posts list of blog posts to include in the feed
+     * @return a formatted XML string containing the RSS feed
+     */
     fun execute(posts: List<PostData>): String
 }
 
@@ -78,7 +87,10 @@ class RssGeneratorImpl(
             }
         }
 
-        return root.toString(true)
+        val result = root
+            .toString(prettyFormat = true)
+            .replace(Regex(">\\s+([^<\\s][^<]*)\\s+<"), ">$1<")
+        return result
     }
 
     companion object {
