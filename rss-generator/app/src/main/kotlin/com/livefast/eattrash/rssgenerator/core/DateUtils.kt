@@ -17,11 +17,14 @@ interface DateUtils {
     ): Date
 
     fun format(date: Date): String
+
+    fun fromIso8601(date: String): Date
 }
 
 class DateUtilsImpl : DateUtils {
 
     private val dateFormat = SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss ZZZ", Locale.US)
+    private val iso8601DateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss ZZZ", Locale.US)
 
     override fun normalized(
         year: Int,
@@ -46,5 +49,9 @@ class DateUtilsImpl : DateUtils {
 
     override fun format(date: Date): String {
         return dateFormat.format(date)
+    }
+
+    override fun fromIso8601(date: String): Date {
+        return iso8601DateFormat.parse(date)
     }
 }
