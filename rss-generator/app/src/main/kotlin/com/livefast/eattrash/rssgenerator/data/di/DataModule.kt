@@ -11,7 +11,7 @@ import org.koin.dsl.module
  */
 val dataModule = module {
     single<PostRepository> {
-        PostRepositoryImpl(dateUtils = get())
+        PostRepositoryImpl(converter = get())
     }
     single<PostDtoToModelConverter> {
         PostDtoToModelConverterImpl(dateUtils = get())
