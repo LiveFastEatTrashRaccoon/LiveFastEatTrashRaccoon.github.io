@@ -4,6 +4,7 @@
 [versions]
 junit-jupiter-engine = "6.0.1"
 koin = "4.1.1"
+kotlin = "2.3.21"
 kotlin-xml-builder = "1.9.3"
 
 [libraries]
@@ -15,4 +16,5 @@ koin-core = { module = "io.insert-koin:koin-core" }
 kotlin-xml-builder = { module = "org.redundent:kotlin-xml-builder", version.ref = "kotlin-xml-builder" }
 
 [plugins]
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.3.21" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
