@@ -89,7 +89,7 @@ class RssGeneratorImpl(
 
         val result = root
             .toString(prettyFormat = true)
-            .replace(Regex(">\\s+([^<\\s][^<]*)\\s+<"), ">$1<")
+            .replace(Regex(">\\s*([^<\\s][^<]*?)\\s*<"), ">$1<")
         return result
     }
 

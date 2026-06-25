@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.kotlinx.serialization)
     application
 }
 
@@ -11,6 +12,7 @@ dependencies {
     implementation(platform(libs.koin.bom))
     implementation(libs.koin.core)
     implementation(libs.kotlin.xml.builder)
+    implementation(libs.yamlkt)
 
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation(libs.junit.jupiter.engine)

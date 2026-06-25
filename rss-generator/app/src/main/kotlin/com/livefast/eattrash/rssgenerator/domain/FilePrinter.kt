@@ -18,6 +18,7 @@ class FilePrinterImpl : FilePrinter {
 
     override fun execute(content: String) {
         val destination = File(OUTPUT_FILE_PATH)
+        destination.parentFile?.mkdirs()
         destination.writer(charset = Charsets.UTF_8).use { writer ->
             writer.write(content)
         }

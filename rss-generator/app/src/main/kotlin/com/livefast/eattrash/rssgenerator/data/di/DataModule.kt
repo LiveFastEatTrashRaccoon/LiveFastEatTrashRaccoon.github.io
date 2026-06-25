@@ -2,6 +2,8 @@ package com.livefast.eattrash.rssgenerator.data.di
 
 import com.livefast.eattrash.rssgenerator.data.PostRepository
 import com.livefast.eattrash.rssgenerator.data.PostRepositoryImpl
+import com.livefast.eattrash.rssgenerator.data.converter.PostDtoToModelConverter
+import com.livefast.eattrash.rssgenerator.data.converter.PostDtoToModelConverterImpl
 import org.koin.dsl.module
 
 /**
@@ -9,6 +11,9 @@ import org.koin.dsl.module
  */
 val dataModule = module {
     single<PostRepository> {
-        PostRepositoryImpl(dateUtils = get())
+        PostRepositoryImpl(converter = get())
+    }
+    single<PostDtoToModelConverter> {
+        PostDtoToModelConverterImpl(dateUtils = get())
     }
 }
