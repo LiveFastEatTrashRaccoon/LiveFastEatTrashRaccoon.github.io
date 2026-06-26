@@ -7,7 +7,5 @@ import com.livefast.eattrash.rssgenerator.di.DiHelper
  */
 fun main() {
     DiHelper.setup()
-
-    val app: App by inject(App::class.java)
-    app.run()
+    App.instance.run()
 }
