@@ -3,6 +3,7 @@ package com.livefast.eattrash.rssgenerator
 import com.livefast.eattrash.rssgenerator.data.PostRepository
 import com.livefast.eattrash.rssgenerator.domain.FilePrinter
 import com.livefast.eattrash.rssgenerator.domain.RssGenerator
+import org.koin.java.KoinJavaComponent.inject
 
 /**
  * Coordinator between the use cases to implement the application logic.
@@ -12,6 +13,13 @@ interface App {
      * Runs the application logic.
      */
     fun run()
+
+    companion object {
+        /**
+         * Instance of the application.
+         */
+        val instance: App by inject(App::class.java)
+    }
 }
 
 class AppImpl(
