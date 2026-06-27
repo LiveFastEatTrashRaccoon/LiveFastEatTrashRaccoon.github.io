@@ -1,6 +1,6 @@
 package com.livefast.eattrash.rssgenerator
 
-import com.livefast.eattrash.rssgenerator.data.PostRepository
+import com.livefast.eattrash.rssgenerator.core.data.PostRepository
 import com.livefast.eattrash.rssgenerator.domain.FilePrinter
 import com.livefast.eattrash.rssgenerator.domain.RssGenerator
 import org.koin.java.KoinJavaComponent.inject
@@ -27,7 +27,6 @@ class AppImpl(
     private val generator: RssGenerator,
     private val printer: FilePrinter,
 ) : App {
-
     override fun run() {
         val posts = repository.getAll()
         val feedContent = generator.execute(posts = posts)
