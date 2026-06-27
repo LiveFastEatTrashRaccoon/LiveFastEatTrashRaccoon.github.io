@@ -1,7 +1,7 @@
 package com.livefast.eattrash.rssgenerator.di
 
-import com.livefast.eattrash.rssgenerator.core.di.coreModule
-import com.livefast.eattrash.rssgenerator.data.di.dataModule
+import com.livefast.eattrash.rssgenerator.core.data.di.dataModule
+import com.livefast.eattrash.rssgenerator.core.utils.di.utilsModule
 import com.livefast.eattrash.rssgenerator.domain.di.domainModule
 import org.koin.core.context.startKoin
 
@@ -15,7 +15,7 @@ object DiHelper {
     fun setup() {
         startKoin {
             modules(
-                coreModule,
+                utilsModule,
                 dataModule,
                 domainModule,
                 appModule,
