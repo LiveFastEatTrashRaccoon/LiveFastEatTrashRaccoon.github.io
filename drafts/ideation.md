@@ -50,6 +50,7 @@ Tips for engagement:
 
 - [x] Internationalization and localization challenges: make contributions count (20/06/2025)
 - [x] The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity (20/06/2026)
+- [x] Is this the end of sideloading on Android? (27/06/26)
 - [ ] How maintaining side projects made me a better developer
 - [ ] Behind the scenes: from concept to release
 - [ ] Testing strategies for federated applications
