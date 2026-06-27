@@ -57,7 +57,7 @@ stuck somewhere in the middle.
 
 On one hand, **publishing on F-Droid has always been a painful experience** for developers. Between
 the strict requirements for reproducible builds and the manual controls involved, every update feels
-like rolling a die. You never really know *when* (or even if) your latest fix will actually reach
+like rolling a die. You never really know *when* (or even *if*) your latest fix will actually reach
 your users. In a world where F-Droid already struggles with distribution lag, adding a 24-hour
 OS-level delay on top of it feels like a kick while you're down.
 
@@ -67,7 +67,6 @@ significantly lowered in the AI era which means the market is flooded with low-e
 potentially deceptive software. Some level of accountability is necessary, and Google had already 
 started going down that path,[^1] if (like me) you choose to distribute your apps through the Play
 Store, you have to follow the rules, no exception for anyone.
-
 
 ## Closing thoughts
 
@@ -87,10 +86,10 @@ having released 1.0.0 twenty days ago. After the hard work of making a new relea
 frustrating to see that users are prevented from installing it (and operating system restrictions 
 are not enforced yet)!
 
-
 [^1]: E.g. In November 2023 they introduced a policy that requires developers with newly created
 personal accounts to conduct closed testing with at least 20 testers for 14 days before applying for
 production access.
 
 *[KYC]: Know your customer
+*[IT]: Information Technology
 *[APK]: Android Package Kit
