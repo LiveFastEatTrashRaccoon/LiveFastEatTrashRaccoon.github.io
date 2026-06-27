@@ -6,7 +6,9 @@ junit-jupiter-engine = "6.0.1"
 koin = "4.1.1"
 kotlin = "2.3.21"
 kotlin-xml-builder = "1.9.3"
+ktlint = "1.6.0"
 yamlkt = "0.13.0"
+spotless = "8.7.0"
 
 [libraries]
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter-engine" }
@@ -21,3 +23,4 @@ yamlkt = { module = "net.mamoe.yamlkt:yamlkt", version.ref = "yamlkt" }
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
