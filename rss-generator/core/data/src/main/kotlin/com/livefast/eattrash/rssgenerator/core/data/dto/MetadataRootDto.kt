@@ -1,4 +1,4 @@
-package com.livefast.eattrash.rssgenerator.data.dto
+package com.livefast.eattrash.rssgenerator.core.data.dto
 
 import kotlinx.serialization.Serializable
 
