@@ -21,6 +21,7 @@ In `#community`:
 - [Why I decided to migrate away from Ktorfit](posts/2025-07-09-ktorfit.md)
 - [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
 - [The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity](posts/2026-06-20-oss-sustainability.md)
+- [Is this the end of sideloading on Android?](posts/2026-06-27-android-sideloading.md)
 
 In `#compose`:
 

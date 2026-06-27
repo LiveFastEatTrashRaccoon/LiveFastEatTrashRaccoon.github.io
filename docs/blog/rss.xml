@@ -5,13 +5,20 @@
 		<link>https://livefasteattrashraccoon.github.io/blog</link>
 		<description>In the Procyon Project&apos;s blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.</description>
 		<language>en</language>
-		<lastBuildDate>Wed, 24 Jun 2026 08:30:00 +0200</lastBuildDate>
+		<lastBuildDate>Sat, 27 Jun 2026 11:10:00 +0200</lastBuildDate>
 		<atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" ref="self" type="application/rss+xml"/>
 		<image>
 			<url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
 			<title>Procyon Project blog</title>
 			<link>https://livefasteattrashraccoon.github.io/blog</link>
 		</image>
+		<item>
+			<title>Is this the end of sideloading on Android?</title>
+			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-27-android-sideloading</link>
+			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-27-android-sideloading</guid>
+			<description>Starting from September 30, 2026 the &quot;Android Developer Verification&quot; initiative is going to be rolled out: this means each app must be linked to a verified developer identity, otherwise users will have to face the Advanced Sideloading Flow. While there are  well-understandable safety reasons for that, on the other hand, this may endanger platforms  like F-Droid, designed around privacy and user freedom. In today&apos;s article we&apos;ll go though what is going to change, the community reactions and how we&apos;ll adapt to this change.</description>
+			<pubDate>Sat, 27 Jun 2026 11:10:00 +0200</pubDate>
+		</item>
 		<item>
 			<title>One Preview to Rule Them All: Unified Compose Previews in Common Code</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-24-unified-previews</link>
