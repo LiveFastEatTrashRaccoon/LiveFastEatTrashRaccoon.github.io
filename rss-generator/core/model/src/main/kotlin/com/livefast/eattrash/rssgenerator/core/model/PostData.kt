@@ -1,4 +1,4 @@
-package com.livefast.eattrash.rssgenerator.model
+package com.livefast.eattrash.rssgenerator.core.model
 
 import java.util.Date
 
