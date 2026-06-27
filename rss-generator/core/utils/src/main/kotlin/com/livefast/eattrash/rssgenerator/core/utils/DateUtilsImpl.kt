@@ -1,4 +1,4 @@
-package com.livefast.eattrash.rssgenerator.core
+package com.livefast.eattrash.rssgenerator.core.utils
 
 import java.text.SimpleDateFormat
 import java.util.Calendar
@@ -6,23 +6,7 @@ import java.util.Date
 import java.util.Locale
 import java.util.TimeZone
 
-interface DateUtils {
-    fun normalized(
-        year: Int,
-        month: Int,
-        day: Int,
-        hour: Int = 0,
-        minute: Int = 0,
-        second: Int = 0
-    ): Date
-
-    fun format(date: Date): String
-
-    fun fromIso8601(date: String): Date
-}
-
-class DateUtilsImpl : DateUtils {
-
+internal class DateUtilsImpl : DateUtils {
     private val dateFormat = SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss ZZZ", Locale.US)
     private val iso8601DateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss ZZZ", Locale.US)
 
@@ -47,11 +31,7 @@ class DateUtilsImpl : DateUtils {
         }
     }
 
-    override fun format(date: Date): String {
-        return dateFormat.format(date)
-    }
+    override fun format(date: Date): String = dateFormat.format(date)
 
-    override fun fromIso8601(date: String): Date {
-        return iso8601DateFormat.parse(date)
-    }
+    override fun fromIso8601(date: String): Date = iso8601DateFormat.parse(date)
 }
