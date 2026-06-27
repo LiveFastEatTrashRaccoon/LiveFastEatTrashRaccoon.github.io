@@ -1,4 +1,14 @@
 metadata:
+  - title: "Is this the end of sideloading on Android?"
+    date: '2026-06-27 11:10:00 +0200'
+    lastSegment: '2026-06-27-android-sideloading'
+    summary: >
+      Starting from September 30, 2026 the "Android Developer Verification" initiative is going
+      to be rolled out: this means each app must be linked to a verified developer identity,
+      otherwise users will have to face the Advanced Sideloading Flow. While there are 
+      well-understandable safety reasons for that, on the other hand, this may endanger platforms 
+      like F-Droid, designed around privacy and user freedom. In today's article we'll go though
+      what is going to change, the community reactions and how we'll adapt to this change.
   - title: 'One Preview to Rule Them All: Unified Compose Previews in Common Code'
     date: '2026-06-24 08:30:00 +0200'
     lastSegment: '2026-06-24-unified-previews'
