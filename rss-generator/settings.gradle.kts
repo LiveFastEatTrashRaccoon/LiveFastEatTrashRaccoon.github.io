@@ -13,6 +13,8 @@ dependencyResolutionManagement {
     }
 }
 
+includeBuild("build-logic")
+
 include(":app")
 
 include(":core:model")

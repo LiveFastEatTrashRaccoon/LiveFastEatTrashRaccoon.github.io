@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.kotlin.jvm)
-    alias(libs.plugins.spotless)
+    id("com.livefast.eattrash.jvm")
+    id("com.livefast.eattrash.spotless")
     application
 }
 
@@ -18,27 +18,10 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
-    }
-}
-
 application {
     mainClass = "com.livefast.eattrash.rssgenerator.MainKt"
 }
 
 tasks.named<Test>("test") {
     useJUnitPlatform()
-}
-
-spotless {
-    kotlin {
-        target("**/*.kt")
-        ktlint(libs.versions.ktlint.get())
-    }
-    kotlinGradle {
-        target("*.gradle.kts")
-        ktlint(libs.versions.ktlint.get())
-    }
 }
