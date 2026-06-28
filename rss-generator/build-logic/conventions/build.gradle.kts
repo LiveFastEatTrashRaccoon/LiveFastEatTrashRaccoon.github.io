@@ -13,5 +13,9 @@ gradlePlugin {
             id = "com.livefast.eattrash.jvm"
             implementationClass = "plugins.JvmPlugin"
         }
+        register("spotlessPlugin") {
+            id = "com.livefast.eattrash.spotless"
+            implementationClass = "plugins.SpotlessPlugin"
+        }
     }
 }
