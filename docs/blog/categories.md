@@ -6,6 +6,7 @@ In `#activitypub`:
 
 - [Friendica: the Swiss Army knife of the Fediverse](posts/2025-06-13-what-makes-friendica-shine.md)
 - [Breaking Language Barriers: Client-Side Translation in the Fediverse](posts/2026-06-11-breaking-language-barriers.md)
+- [Rendering ActivityPub groups (Part 1)](posts/2026-06-29-ap-groups-part-1.md)
 
 In `#announcement`:
 
