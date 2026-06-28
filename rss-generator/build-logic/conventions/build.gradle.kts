@@ -9,5 +9,9 @@ dependencies {
 
 gradlePlugin {
     plugins {
+        register("jvmPlugin") {
+            id = "com.livefast.eattrash.jvm"
+            implementationClass = "plugins.JvmPlugin"
+        }
     }
 }
