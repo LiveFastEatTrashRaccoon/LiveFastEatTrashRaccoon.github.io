@@ -14,5 +14,5 @@ interface DateUtils {
 
     fun format(date: Date): String
 
-    fun fromIso8601(date: String): Date
+    fun fromIso8601(date: String): Date?
 }
