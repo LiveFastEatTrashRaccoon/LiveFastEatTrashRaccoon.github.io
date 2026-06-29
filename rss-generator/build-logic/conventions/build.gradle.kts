@@ -17,5 +17,9 @@ gradlePlugin {
             id = "com.livefast.eattrash.spotless"
             implementationClass = "plugins.SpotlessPlugin"
         }
+        register("testPlugin") {
+            id = "com.livefast.eattrash.test"
+            implementationClass = "plugins.TestPlugin"
+        }
     }
 }
