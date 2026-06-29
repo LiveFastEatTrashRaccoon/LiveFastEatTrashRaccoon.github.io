@@ -1,9 +1,7 @@
 name: documentation
 on:
   push:
-    branches:
-      - master
-      - main
+    branches: [ "main" ]
 permissions:
   contents: read
   pages: write
