@@ -1,4 +1,14 @@
 metadata:
+  - title: 'Rendering ActivityPub groups (Part 1)'
+    date: '2026-06-29 08:45:00 +0200'
+    lastSegment: '2026-06-29-ap-groups-part-1'
+    summary: >
+      This is the first of a two-article sequence on ActivityPub groups. Part 1 covers
+      ActivityStreams definitions, Mastodon API integration, and the client rendering logic.
+      Part 2 will follow with a deep dive into the code behind populating the reply tree.
+      Here we will briefly go through what a "group" Actor is in theory and how this maps to
+      entities returned by APIs, what UX decisions were made to render posts published by a group
+      and, when moving to the list to the detail screen, how conversations are displayed.
   - title: "Is this the end of sideloading on Android?"
     date: '2026-06-27 11:10:00 +0200'
     lastSegment: '2026-06-27-android-sideloading'
@@ -6,7 +16,7 @@ metadata:
       Starting from September 30, 2026 the "Android Developer Verification" initiative is going
       to be rolled out: this means each app must be linked to a verified developer identity,
       otherwise users will have to face the Advanced Sideloading Flow. While there are 
-      well-understandable safety reasons for that, on the other hand, this may endanger platforms 
+      well-understandable safety reasons for that, on the other hand, this may endanger platforms
       like F-Droid, designed around privacy and user freedom. In today's article we'll go though
       what is going to change, the community reactions and how we'll adapt to this change.
   - title: 'One Preview to Rule Them All: Unified Compose Previews in Common Code'

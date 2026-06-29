@@ -5,7 +5,7 @@
 		<link>https://livefasteattrashraccoon.github.io/blog</link>
 		<description>In the Procyon Project&apos;s blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.</description>
 		<language>en</language>
-		<lastBuildDate>Sat, 27 Jun 2026 11:10:00 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 29 Jun 2026 08:45:00 +0200</lastBuildDate>
 		<atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" ref="self" type="application/rss+xml"/>
 		<image>
 			<url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
@@ -13,10 +13,17 @@
 			<link>https://livefasteattrashraccoon.github.io/blog</link>
 		</image>
 		<item>
+			<title>Rendering ActivityPub groups (Part 1)</title>
+			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-29-ap-groups-part-1</link>
+			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-29-ap-groups-part-1</guid>
+			<description>This is the first of a two-article sequence on ActivityPub groups. Part 1 covers ActivityStreams definitions, Mastodon API integration, and the client rendering logic. Part 2 will follow with a deep dive into the code behind populating the reply tree. Here we will briefly go through what a &quot;group&quot; Actor is in theory and how this maps to entities returned by APIs, what UX decisions were made to render posts published by a group and, when moving to the list to the detail screen, how conversations are displayed.</description>
+			<pubDate>Mon, 29 Jun 2026 08:45:00 +0200</pubDate>
+		</item>
+		<item>
 			<title>Is this the end of sideloading on Android?</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-27-android-sideloading</link>
 			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-27-android-sideloading</guid>
-			<description>Starting from September 30, 2026 the &quot;Android Developer Verification&quot; initiative is going to be rolled out: this means each app must be linked to a verified developer identity, otherwise users will have to face the Advanced Sideloading Flow. While there are  well-understandable safety reasons for that, on the other hand, this may endanger platforms  like F-Droid, designed around privacy and user freedom. In today&apos;s article we&apos;ll go though what is going to change, the community reactions and how we&apos;ll adapt to this change.</description>
+			<description>Starting from September 30, 2026 the &quot;Android Developer Verification&quot; initiative is going to be rolled out: this means each app must be linked to a verified developer identity, otherwise users will have to face the Advanced Sideloading Flow. While there are  well-understandable safety reasons for that, on the other hand, this may endanger platforms like F-Droid, designed around privacy and user freedom. In today&apos;s article we&apos;ll go though what is going to change, the community reactions and how we&apos;ll adapt to this change.</description>
 			<pubDate>Sat, 27 Jun 2026 11:10:00 +0200</pubDate>
 		</item>
 		<item>

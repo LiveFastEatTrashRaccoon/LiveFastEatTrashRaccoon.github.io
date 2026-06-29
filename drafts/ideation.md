@@ -38,8 +38,9 @@ Tips for engagement:
 
 - [x] What makes Friendica shine in the Fediverse ecosystem (13/06/25)
 - [x] Bringing Push Notifications to Raccoon (20/05/26)
+- [x] Rendering ActivityPub groups (Part 1) (29/06/26)
+- [ ] Rendering ActivityPub groups (Part 2)
 - [ ] ActivityPub dive-in: master the backbone of the Fediverse
-- [ ] Understanding ActivityPub groups
 - [ ] Mastodon vs Lemmy: UI/UX considerations
 - [ ] Federation quirks and how apps handle them
 - [ ] Privacy and moderation in decentralized networks
