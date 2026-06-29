@@ -9,5 +9,15 @@ interface FilePrinter {
      *
      * @param content text content to be written.
      */
-    fun execute(content: String)
+    fun execute(
+        content: String,
+        destinationPath: String = OUTPUT_FILE_PATH,
+    )
+
+    companion object {
+        /**
+         * Relative destination path where the RSS feed XML file is saved.
+         */
+        private const val OUTPUT_FILE_PATH = "docs/blog/rss.xml"
+    }
 }

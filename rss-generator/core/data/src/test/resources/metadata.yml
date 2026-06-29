@@ -1,0 +1,9 @@
+metadata:
+  - title: 'post 1'
+    date: '2026-06-29 12:00:00 +0200'
+    lastSegment: 'post-1-slug'
+    summary: 'summary 1'
+  - title: 'post 2'
+    date: '2026-06-27 12:00:00 +0200'
+    lastSegment: 'post-2-slug'
+    summary: 'summary 2'

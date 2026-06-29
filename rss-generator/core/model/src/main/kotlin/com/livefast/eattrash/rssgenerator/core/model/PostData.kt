@@ -9,5 +9,5 @@ data class PostData(
     val title: String,
     val lastSegment: String,
     val summary: String,
-    val date: Date,
+    val date: Date?,
 )

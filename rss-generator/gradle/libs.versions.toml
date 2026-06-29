@@ -9,9 +9,11 @@ kotlin-xml-builder = "1.9.3"
 ktlint = "1.6.0"
 yamlkt = "0.13.0"
 spotless = "8.7.0"
+mockk = "1.14.11"
 
 [libraries]
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter-engine" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 
 koin-bom = { module = "io.insert-koin:koin-bom", version.ref = "koin" }
 koin-core = { module = "io.insert-koin:koin-core" }

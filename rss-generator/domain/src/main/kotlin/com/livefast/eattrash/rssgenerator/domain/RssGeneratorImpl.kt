@@ -70,8 +70,10 @@ internal class RssGeneratorImpl(
                             "description" {
                                 -post.summary
                             }
-                            "pubDate" {
-                                -dateUtils.format(post.date)
+                            post.date?.let { date ->
+                                "pubDate" {
+                                    -dateUtils.format(date)
+                                }
                             }
                         }
                     }
