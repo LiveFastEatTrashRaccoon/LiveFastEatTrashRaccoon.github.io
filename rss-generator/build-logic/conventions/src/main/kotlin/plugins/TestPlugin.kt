@@ -12,6 +12,7 @@ class TestPlugin : Plugin<Project> {
         with(target) {
             dependencies {
                 "testImplementation"(kotlin("test"))
+                "testImplementation"(libs.findLibrary("kotlinx-coroutines-test").get())
                 "testImplementation"(libs.findLibrary("mockk").get())
                 "testImplementation"(libs.findLibrary("junit.jupiter.engine").get())
                 "testRuntimeOnly"("org.junit.platform:junit-platform-launcher")

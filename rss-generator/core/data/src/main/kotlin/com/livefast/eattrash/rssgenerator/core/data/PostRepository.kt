@@ -9,5 +9,5 @@ interface PostRepository {
     /**
      * Get all post data.
      */
-    fun getAll(): List<PostData>
+    suspend fun getAll(): List<PostData>
 }

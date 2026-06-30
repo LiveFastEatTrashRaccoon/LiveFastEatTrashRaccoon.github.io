@@ -12,7 +12,7 @@ interface App {
     /**
      * Runs the application logic.
      */
-    fun run()
+    suspend fun run()
 
     companion object {
         /**
@@ -22,12 +22,12 @@ interface App {
     }
 }
 
-class AppImpl(
+internal class AppImpl(
     private val repository: PostRepository,
     private val generator: RssGenerator,
     private val printer: FilePrinter,
 ) : App {
-    override fun run() {
+    override suspend fun run() {
         val posts = repository.getAll()
         val feedContent = generator.execute(posts = posts)
         printer.execute(content = feedContent)

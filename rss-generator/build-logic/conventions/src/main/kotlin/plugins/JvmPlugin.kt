@@ -4,6 +4,7 @@ import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.jvm.toolchain.JavaLanguageVersion
+import org.gradle.kotlin.dsl.dependencies
 import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
 import utils.libs
 import utils.pluginId
@@ -16,6 +17,9 @@ class JvmPlugin : Plugin<Project> {
         with(target) {
             with(pluginManager) {
                 apply(libs.findPlugin("kotlin-jvm").pluginId)
+            }
+            dependencies {
+                "implementation"(libs.findLibrary("kotlinx-coroutines-core").get())
             }
             extensions.configure(JavaPluginExtension::class.java) {
                 toolchain.languageVersion.set(JavaLanguageVersion.of(21))
