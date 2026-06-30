@@ -9,7 +9,7 @@ interface FilePrinter {
      *
      * @param content text content to be written.
      */
-    fun execute(
+    suspend fun execute(
         content: String,
         destinationPath: String = OUTPUT_FILE_PATH,
     )
