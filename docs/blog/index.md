@@ -11,6 +11,7 @@ Multiplatform apps, development challenges, and thoughts on the Fediverse.
 
 ## Recent posts
 
+- [Rendering ActivityPub groups (Part 2)](posts/2026-07-04-ap-groups-part-2.md)
 - [Rendering ActivityPub groups (Part 1)](posts/2026-06-29-ap-groups-part-1.md)
 - [Is this the end of sideloading on Android?](posts/2026-06-27-android-sideloading.md)
 - [One Preview to Rule Them All: Unified Compose Previews in Common Code](posts/2026-06-24-unified-previews.md)

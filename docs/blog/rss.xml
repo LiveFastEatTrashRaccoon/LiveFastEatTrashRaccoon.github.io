@@ -5,7 +5,7 @@
 		<link>https://livefasteattrashraccoon.github.io/blog</link>
 		<description>In the Procyon Project&apos;s blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.</description>
 		<language>en</language>
-		<lastBuildDate>Mon, 29 Jun 2026 08:45:00 +0200</lastBuildDate>
+		<lastBuildDate>Sat, 04 Jul 2026 19:12:00 +0200</lastBuildDate>
 		<atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" ref="self" type="application/rss+xml"/>
 		<image>
 			<url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
@@ -13,10 +13,17 @@
 			<link>https://livefasteattrashraccoon.github.io/blog</link>
 		</image>
 		<item>
+			<title>Rendering ActivityPub groups (Part 2)</title>
+			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-07-04-ap-groups-part-2</link>
+			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-07-04-ap-groups-part-2</guid>
+			<description>This is the last post of our sequence dedicated to ActivityPub groups. It covers how replies are fetched, organized and laid out inside the detail screen for each thread in a given topic. We will describe the tree-like structure of replies, with particular attention on which visual guidelines are added to make it easier to identify relationships between posts. We will then proceed to describe how the structure can be recreated using the available APIs, how the tree is linearized to a user-digestible list and how the points where the tree was pruned are identified.</description>
+			<pubDate>Sat, 04 Jul 2026 19:12:00 +0200</pubDate>
+		</item>
+		<item>
 			<title>Rendering ActivityPub groups (Part 1)</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-29-ap-groups-part-1</link>
 			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-29-ap-groups-part-1</guid>
-			<description>This is the first of a two-article sequence on ActivityPub groups. Part 1 covers ActivityStreams definitions, Mastodon API integration, and the client rendering logic. Part 2 will follow with a deep dive into the code behind populating the reply tree. Here we will briefly go through what a &quot;group&quot; Actor is in theory and how this maps to entities returned by APIs, what UX decisions were made to render posts published by a group and, when moving to the list to the detail screen, how conversations are displayed.</description>
+			<description>This is the first of a two-article sequence on ActivityPub groups. Part 1 covers ActivityStreams definitions, Mastodon API integration, and the client rendering logic. Part 2 will follow with a deep dive into the code behind populating the reply tree. Here we will briefly go through what a &quot;group&quot; Actor is in theory and how this maps to entities returned by APIs, what UX decisions were made to render posts published by a group and, when moving from the list to the detail screen, how conversations are displayed.</description>
 			<pubDate>Mon, 29 Jun 2026 08:45:00 +0200</pubDate>
 		</item>
 		<item>
@@ -30,7 +37,7 @@
 			<title>One Preview to Rule Them All: Unified Compose Previews in Common Code</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-06-24-unified-previews</link>
 			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-06-24-unified-previews</guid>
-			<description>When working on a new technology like KMP and CMP, sometimes you run into sharp edges. One of  them was Compose Multiplatform previews, requiring either tons of compromises or a setup nighmare.  Sometimes, especially when only Developer Experience is involved, it is better to wait until the  technology matures. In this article I&apos;ll explain how Preview changed with Compose Multiplatform  1.10.0 and how finally adopting them helped me cleanup and improve code.</description>
+			<description>When working on a new technology like KMP and CMP, sometimes you run into sharp edges. One of  them was Compose Multiplatform previews, requiring either tons of compromises or a setup nightmare.  Sometimes, especially when only Developer Experience is involved, it is better to wait until the  technology matures. In this article I&apos;ll explain how Preview changed with Compose Multiplatform  1.10.0 and how finally adopting them helped me cleanup and improve code.</description>
 			<pubDate>Wed, 24 Jun 2026 08:30:00 +0200</pubDate>
 		</item>
 		<item>
@@ -86,7 +93,7 @@
 			<title>Create Adaptive Designs with Window Size Classes</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-05-15-create-adaptive-multiplatform-designs</link>
 			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-05-15-create-adaptive-multiplatform-designs</guid>
-			<description>Raccoon&apos;s UI was adapted to better leverage the available space in large screens, e.g. foldables,  tablets and – of course – the new desktop app. Not only elements have been moved to be to feel  native on larger screens, e.g. using a permanent navigation drawer instead of the bottom  navigation; but also using canonical layouts such as List-Detail pattern with animated transitions.  This is just the beginning of the transition, because more changes and a better UX is going to come  with the switch to Navigation 3.</description>
+			<description>Raccoon&apos;s UI was adapted to better leverage the available space in large screens, e.g. foldables,  tablets and – of course – the new desktop app. Not only elements have been moved to feel native on larger screens, e.g. using a permanent navigation drawer instead of the bottom  navigation; but also using canonical layouts such as List-Detail pattern with animated transitions.  This is just the beginning of the transition, because more changes and a better UX is going to come  with the switch to Navigation 3.</description>
 			<pubDate>Fri, 15 May 2026 06:00:00 +0200</pubDate>
 		</item>
 		<item>
