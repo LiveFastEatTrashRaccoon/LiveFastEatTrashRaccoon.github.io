@@ -1,4 +1,15 @@
 metadata:
+  - title: 'Rendering ActivityPub groups (Part 2)'
+    date: '2026-07-04 19:12:00 +0200'
+    lastSegment: '2026-07-04-ap-groups-part-2'
+    summary: >
+      This is the last post of our sequence dedicated to ActivityPub groups. It covers how replies
+      are fetched, organized and laid out inside the detail screen for each thread in a given topic.
+      We will describe the tree-like structure of replies, with particular attention on which
+      visual guidelines are added to make it easier to identify relationships between posts.
+      We will then proceed to describe how the structure can be recreated using the available
+      APIs, how the tree is linearized to a user-digestible list and how the points where the tree
+      was pruned are identified.
   - title: 'Rendering ActivityPub groups (Part 1)'
     date: '2026-06-29 08:45:00 +0200'
     lastSegment: '2026-06-29-ap-groups-part-1'
@@ -8,7 +19,7 @@ metadata:
       Part 2 will follow with a deep dive into the code behind populating the reply tree.
       Here we will briefly go through what a "group" Actor is in theory and how this maps to
       entities returned by APIs, what UX decisions were made to render posts published by a group
-      and, when moving to the list to the detail screen, how conversations are displayed.
+      and, when moving from the list to the detail screen, how conversations are displayed.
   - title: "Is this the end of sideloading on Android?"
     date: '2026-06-27 11:10:00 +0200'
     lastSegment: '2026-06-27-android-sideloading'
@@ -24,7 +35,7 @@ metadata:
     lastSegment: '2026-06-24-unified-previews'
     summary: >
       When working on a new technology like KMP and CMP, sometimes you run into sharp edges. One of 
-      them was Compose Multiplatform previews, requiring either tons of compromises or a setup nighmare. 
+      them was Compose Multiplatform previews, requiring either tons of compromises or a setup nightmare. 
       Sometimes, especially when only Developer Experience is involved, it is better to wait until the 
       technology matures. In this article I'll explain how Preview changed with Compose Multiplatform 
       1.10.0 and how finally adopting them helped me cleanup and improve code.
@@ -100,8 +111,8 @@ metadata:
     lastSegment: '2026-05-15-create-adaptive-multiplatform-designs'
     summary: >
       Raccoon's UI was adapted to better leverage the available space in large screens, e.g. foldables, 
-      tablets and – of course – the new desktop app. Not only elements have been moved to be to feel 
-      native on larger screens, e.g. using a permanent navigation drawer instead of the bottom 
+      tablets and – of course – the new desktop app. Not only elements have been moved to feel native
+      on larger screens, e.g. using a permanent navigation drawer instead of the bottom 
       navigation; but also using canonical layouts such as List-Detail pattern with animated transitions. 
       This is just the beginning of the transition, because more changes and a better UX is going to come 
       with the switch to Navigation 3.
