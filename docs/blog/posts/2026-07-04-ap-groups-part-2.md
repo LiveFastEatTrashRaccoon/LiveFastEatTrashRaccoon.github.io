@@ -133,7 +133,7 @@ private suspend fun populateTree(node: Node, depth: Int, max: Int) {
     }
     val descendants = repository.getContext(node.entry.id)?.descendants.orEmpty()
     val children = descendants.mapNotNull { child ->
-        Node(entry = child.copy(depth = depth + 1))
+        Node(entry = child.copy(depth = node.entry.depth + 1))
     }
     for (child in children) {
         populateTree(node = child, depth = depth + 1, max = max)
