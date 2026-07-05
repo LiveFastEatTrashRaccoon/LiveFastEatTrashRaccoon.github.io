@@ -67,12 +67,21 @@ sure that:
 
 As anticipated in part 1, Mastodon APIs offer an endpoint to fetch the context of a post:
 [GET `v1/statuses/:id/context`](https://docs.joinmastodon.org/methods/statuses/#context){ target=_blank }.
+On Mastodon instances, the resulting context is capped to 40 ancestors and 60 descendants with a max
+depth of 20 for unauthenticated requests, 4096 ancestors and 4096 descendants with unlimited depth
+for authenticated requests.
 
-Unfortunately, this API is not suite for long discussions and the descendants, which actual span
-multiple levels, are not always 100% reliable.
+!!! warning "API Considerations"
 
-Let's imagine "`P0"`, `"P1"`, etc. to be the post IDs. The response for a GET
-`v1/statuses/P0/context` would be a JSON with the following structure:
+    Unfortunately, on Friendica this API has historically always been problematic. Friendica is 
+    built to **aggregate different networks and protocols** (ActivityPub, Diaspora, RSS feeds, etc.).
+    Probably due to the more complex DB structure, results of the context API are kwnown to be
+    truncated, with some reply branches entirely missing.
+
+In order to overcome this issue, the only solution was to populate the tree manually. As an example,
+let's imagine "`P0"`, `"P1"`, etc. to be the post IDs. Let's also assume that response for a GET 
+`v1/statuses/P0/context` would be the following JSON, where descendants are truncated at the first
+level:
 
 ```
 {
@@ -92,11 +101,13 @@ Let's imagine "`P0"`, `"P1"`, etc. to be the post IDs. The response for a GET
 }
 ```
 
-So we know that the post has no ancestors and has two descendants, one with three replies. In order
-to reconstruct the rest of the tree, we need to: iterate over all descendants having "replies_count"
-greater than zero (non-leaves) and collect their first-level descendants, then proceed downwards in
-all subtrees recursively until leaves are reached in every path. In the process, we need to
-retain the depth of each post in order to properly indent them.
+We know that the post has no ancestors and has two descendants, one of which with three replies. 
+In order to reconstruct the rest of the tree, we need to: iterate over all descendants having a
+reply count greater than zero (non-leaves), collect their first-level descendants, then proceed 
+downwards in all subtrees recursively until leaves are reached in every path. 
+
+In the process, it is important that we keep track the **depth** of each post, in order to properly
+indent them in the layout and for another reason we'll discuss later.
 
 Considering that conversations can grow indefinitely, another condition should be imposed:
 stop fetching data when a threshold depth is reached, to avoid overloading the server with too
