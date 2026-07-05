@@ -213,3 +213,4 @@ color.
 *[OP]: Original Poster
 *[UI]: User interface
 *[API]: Application Programming Interface
+*[RSS]: Really Simple Syndication
