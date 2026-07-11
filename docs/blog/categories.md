@@ -31,6 +31,7 @@ In `#compose`:
 - [Create Adaptive Designs with Window Size Classes](posts/2026-05-15-create-adaptive-multiplatform-designs.md)
 - [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
 - [One Preview to Rule Them All: Unified Compose Previews in Common Code](posts/2026-06-24-unified-previews.md)
+- [Navigation in CMP: To Infinity and Beyond!](posts/2026-07-12-navigation-in-cmp.md)
 
 In `#friendica`:
 
@@ -47,6 +48,7 @@ In `#kmp`:
 - [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
 - [Multi-module architecture and shared build logic](posts/2026-06-06-multi-module-architecture.md)
 - [One Preview to Rule Them All: Unified Compose Previews in Common Code](posts/2026-06-24-unified-previews.md)
+- [Navigation in CMP: To Infinity and Beyond!](posts/2026-07-12-navigation-in-cmp.md)
 
 In `#lemmy`:
 
@@ -58,6 +60,7 @@ In `#libs`:
 - [Why I decided to migrate away from Ktorfit](posts/2025-07-09-ktorfit.md)
 - [Zensical: A better way to manage project documentation](posts/2026-05-11-better-documentation-with-zensical.md)
 - [Bringing Push Notifications to Raccoon](posts/2026-05-20-bringing-push-notifications.md)
+- [Navigation in CMP: To Infinity and Beyond!](posts/2026-07-12-navigation-in-cmp.md)
 
 In `#localization`:
 
