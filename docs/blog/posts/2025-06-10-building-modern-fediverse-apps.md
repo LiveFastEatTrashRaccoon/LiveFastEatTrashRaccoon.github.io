@@ -123,7 +123,7 @@ adoption.
 ### Faster federation support
 
 When new ActivityPub extensions or features emerge, you can implement them once in shared KMP
-code and immediately have support everywgere. This is crucial to keep up with the
+code and immediately have support everywhere. This is crucial to keep up with the
 fast-moving Fediverse ecosystem.
 
 For example, Raccoon is going to provide Lemmy 1.x support to all its target platform (Android, iOS)
