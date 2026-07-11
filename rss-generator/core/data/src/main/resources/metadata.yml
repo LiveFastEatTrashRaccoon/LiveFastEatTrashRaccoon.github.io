@@ -1,4 +1,16 @@
 metadata:
+  - title: 'Navigation in CMP: To Infinity and Beyond!'
+    date: '2026-07-13 17:45:00 +0200'
+    lastSegment: '2026-07-12-navigation-in-cmp'
+    summary: >
+      Navigation is a core feature of every app, it has deep implications in architecture, component
+      lifecycle, state management and restoration and presentation strategies to better adapt to the
+      available space. In Compose Multiplatform, until 2024, there were no official libraries. 
+      In today's article we'll see how Raccoon switched from a third-pary solution (Voyager) to 
+      Navigation Compose in 2025, to end with Navigation 3 (introduced in CMP 1.10.0) in 2026. 
+      We'll briefly analyze how nested navigation, deep links and adaptive layouts were dealt with
+      in each approach, when custom adapters were useful or not during migrations, and conclude with
+      some consideration about how to choose libraries and use them in a future-proof way.
   - title: 'Rendering ActivityPub groups (Part 2)'
     date: '2026-07-04 19:12:00 +0200'
     lastSegment: '2026-07-04-ap-groups-part-2'
@@ -96,7 +108,7 @@ metadata:
       architecture makes it possible to provide notifications without sacrificing freedom and security. 
       Through open standards like WebPush it is compatible with Mastodon and Friendica servers, and its 
       SDK allows to remain 100% FOSS on the client. No more excuses to not try the app!
-  - title: 'Dealing with KMP’s Shifting Sands: Another Day, Another Project Structure'
+  - title: "Dealing with KMP's Shifting Sands: Another Day, Another Project Structure"
     date: '2026-05-17 09:24:00 +0200'
     lastSegment: '2026-05-17-dealing-with-kmp-shifting-sands'
     summary: >
