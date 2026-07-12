@@ -4,6 +4,7 @@ title: Archive
 
 ## June 2026
 
+- [Navigation in CMP: To Infinity and Beyond!](posts/2026-07-12-navigation-in-cmp.md)
 - [Rendering ActivityPub groups (Part 2)](posts/2026-07-04-ap-groups-part-2.md)
 - [Rendering ActivityPub groups (Part 1)](posts/2026-06-29-ap-groups-part-1.md)
 - [Is this the end of sideloading on Android?](posts/2026-06-27-android-sideloading.md)

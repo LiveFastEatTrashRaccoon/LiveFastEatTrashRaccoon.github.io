@@ -10,14 +10,14 @@ tags:
 If you have
 visited [Raccoon's user manual](https://livefasteattrashraccoon.github.io/RaccoonForFriendica)
 recently, you might have noticed a major shift. The layout is cleaner, navigation is intuitive,
-there’s a native search box, and you can finally toggle between  light and dark themes.
+there's a native search box, and you can finally toggle between  light and dark themes.
 
 But why the sudden change?
 
 ### Beyond GitHub Pages
 
 It all started when I began exploring hosting alternatives like [Codeberg](https://codeberg.org).
-As more open-source projects move toward independent platforms, I wanted to see how Raccoon’s
+As more open-source projects move toward independent platforms, I wanted to see how Raccoon's
 documentation would fare outside the GitHub ecosystem.
 
 While GitHub Pages is highly integrated, Codeberg favors a "DIY approach." This forced me to
@@ -26,7 +26,7 @@ modern, fast, and specifically built for software documentation.
 
 ### Search for the right tool
 
-I briefly considered [Hugo](https://gohugo.io), Jekyll's successor: it’s incredibly powerful, but it
+I briefly considered [Hugo](https://gohugo.io), Jekyll's successor: it's incredibly powerful, but it
 felt like overkill for just documentation. 
 Then I found out about [Material for MkDocs](https://github.com/squidfunk/mkdocs-material).
 It was an "ah-ha" moment: beautiful defaults, easy configuration, and a professional look
@@ -48,9 +48,9 @@ incompatible with the philosophy of Material for MkDocs.
 
 ### Enter Zensical
 
-That’s when I discovered [Zensical](https://zensical.org/).
+That's when I discovered [Zensical](https://zensical.org/).
 
-Zensical isn't just another theme; it’s the successor to Material for MkDocs, built to solve the
+Zensical isn't just another theme; it's the successor to Material for MkDocs, built to solve the
 fragmentation and maintenance issues of the MkDocs ecosystem. It takes everything I loved about
 Material — the aesthetics, the ease of use, the rich feature set — and builds it on a more stable,
 forward-looking foundation.

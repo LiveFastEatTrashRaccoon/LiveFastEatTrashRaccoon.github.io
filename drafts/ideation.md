@@ -15,6 +15,7 @@ Tips for engagement:
 - [x] From mobile app to desktop app: our journey (28/05/26)
 - [x] Multi-module architecture and shared build logic (06/06/26)
 - [x] One Preview to Rule Them All: Unified Compose Previews in Common Code (24/06/26)
+- [x] Navigation in CMP: To Infinity and Beyond! (12/07/2026)
 - [ ] The importance of reproducible builds in open-source development
 - [ ] The Markdown rendering challenge: from plain text to rich content
 - [ ] Mastodon glitch-soc, a richer format for your posts
@@ -22,7 +23,6 @@ Tips for engagement:
 - [ ] Multiplatform mocks with Mokkery
 - [ ] Inline images in your posts: bring WordPress blog posts into the timeline
 - [ ] Run UI test on multiple platforms with CMP
-- [ ] Navigation in CMP: to the infinity and beyond (wait for Navigation 3 adoption)
 
 ## Project history & community ("community", "procyon")
 
