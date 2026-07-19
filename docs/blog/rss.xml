@@ -5,13 +5,20 @@
 		<link>https://livefasteattrashraccoon.github.io/blog</link>
 		<description>In the Procyon Project&apos;s blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.</description>
 		<language>en</language>
-		<lastBuildDate>Mon, 13 Jul 2026 17:45:00 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 20 Jul 2026 08:00:00 +0200</lastBuildDate>
 		<atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" ref="self" type="application/rss+xml"/>
 		<image>
 			<url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
 			<title>Procyon Project blog</title>
 			<link>https://livefasteattrashraccoon.github.io/blog</link>
 		</image>
+		<item>
+			<title>The Intentional Raccoon: Why I Code the Hard Way</title>
+			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-07-20-why-i-code-the-hard-way</link>
+			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-07-20-why-i-code-the-hard-way</guid>
+			<description>Shortly after releasing version 1.0.0, someone else&apos;s announcement was under the spot  for being machine-translated and, transitively, the entire app was labelled as &quot;AI slop&quot;.  The OP and me trying to defend myself were pointed at like &quot;bots&quot; and the discussion  degenerated in a weird conversation where everyone had to prove being human (despite account creation dates being messed up due to federation). In today&apos;s article, I clarify why a project like Raccoon is not the right use case for AI: why I develop it, what return on investment I  get from maintaining it and why it is still important to create things &quot;by hand&quot; for both personal and professional enrichment. In corporate environments some logics apply, in personal projects the dynamics are a little bit different.</description>
+			<pubDate>Mon, 20 Jul 2026 08:00:00 +0200</pubDate>
+		</item>
 		<item>
 			<title>Navigation in CMP: To Infinity and Beyond!</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-07-12-navigation-in-cmp</link>
