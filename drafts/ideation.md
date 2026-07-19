@@ -39,7 +39,7 @@ Tips for engagement:
 - [x] What makes Friendica shine in the Fediverse ecosystem (13/06/25)
 - [x] Bringing Push Notifications to Raccoon (20/05/26)
 - [x] Rendering ActivityPub groups (Part 1) (29/06/26)
-- [ ] Rendering ActivityPub groups (Part 2)
+- [x] Rendering ActivityPub groups (Part 2) (04/07/26)
 - [ ] ActivityPub dive-in: master the backbone of the Fediverse
 - [ ] Mastodon vs Lemmy: UI/UX considerations
 - [ ] Federation quirks and how apps handle them
@@ -51,7 +51,8 @@ Tips for engagement:
 
 - [x] Internationalization and localization challenges: make contributions count (20/06/2025)
 - [x] The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity (20/06/2026)
-- [x] Is this the end of sideloading on Android? (27/06/26)
+- [x] Is this the end of sideloading on Android? (27/06/2026)
+- [x] The Intentional Raccoon: Why I Code the Hard Way (20/07/2026)
 - [ ] How maintaining side projects made me a better developer
 - [ ] Behind the scenes: from concept to release
 - [ ] Testing strategies for federated applications
