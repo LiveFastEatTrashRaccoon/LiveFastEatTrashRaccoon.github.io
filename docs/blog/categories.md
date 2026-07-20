@@ -24,6 +24,7 @@ In `#community`:
 - [Beyond contentDescription: Accessibility in Compose Multiplatform](posts/2026-06-08-advanced-accessibility-in-cmp.md)
 - [The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity](posts/2026-06-20-oss-sustainability.md)
 - [Is this the end of sideloading on Android?](posts/2026-06-27-android-sideloading.md)
+- [The Intentional Raccoon: Why I Code the Hard Way](posts/2026-07-20-why-i-code-the-hard-way.md)
 
 In `#compose`:
 
@@ -74,6 +75,7 @@ In `#procyon`:
 - [Global localization: Building a truly international open source app](posts/2025-06-20-i10n-and-l10n-challenges.md)
 - [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
 - [The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity](posts/2026-06-20-oss-sustainability.md)
+- [The Intentional Raccoon: Why I Code the Hard Way](posts/2026-07-20-why-i-code-the-hard-way.md)
 
 In `#ux`:
 
