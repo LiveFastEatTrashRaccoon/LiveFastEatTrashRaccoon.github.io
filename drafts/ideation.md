@@ -16,6 +16,7 @@ Tips for engagement:
 - [x] Multi-module architecture and shared build logic (06/06/26)
 - [x] One Preview to Rule Them All: Unified Compose Previews in Common Code (24/06/26)
 - [x] Navigation in CMP: To Infinity and Beyond! (12/07/2026)
+- [x] Koin is back, b*tches! (11/08/2026)
 - [ ] The importance of reproducible builds in open-source development
 - [ ] The Markdown rendering challenge: from plain text to rich content
 - [ ] Mastodon glitch-soc, a richer format for your posts
