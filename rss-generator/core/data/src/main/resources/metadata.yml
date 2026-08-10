@@ -1,4 +1,17 @@
 metadata:
+  - title: 'Koin is back, b*tches!'
+    date: '2026-08-11 00:10:00 +0200'
+    lastSegment: '2026-08-11-koin-is-back'
+    summary: >
+      During the last weeks, I've been busy migrating Raccoon for Mastodon / Friendica dependency
+      injection to Koin with the new compiler plugin and annotation set. This shift allows to
+      combine the best of both worlds: the flexibility of a service locator, the safety of a 
+      full-fledged framework. The decision was not easy, after having sworn to myself I would never
+      switch back to Koin after an issue with one beta version of their annotation library prevented
+      the app distribution on F-Droid due to build being not reproducible any more. Koin has grown 
+      and matured over time, showing openness to community feedback, as opposed to other projects in
+      which maintainers seem to ignore both the direction of the industry, user requests and 
+      volunteer applications.
   - title: 'The Intentional Raccoon: Why I Code the Hard Way'
     date: '2026-07-20 08:00:00 +0200'
     lastSegment: '2026-07-20-why-i-code-the-hard-way'
