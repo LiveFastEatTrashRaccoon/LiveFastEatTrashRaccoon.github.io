@@ -7,8 +7,8 @@ tags:
 ---
 
 If you remember, last summer I wrote a
-[technical article](2025-06-27-koin-vs-kodein-for-kmp-di.md){ target=_blank } about DI and why
-our Raccoon apps, which had always used **Koin** from the beginning in 2023, were both migrated to
+[technical article](2025-06-27-koin-vs-kodein-for-kmp-di.md){ target=_blank } about DI and why our
+Raccoon apps, which had always used **Koin** from the beginning in 2023, were both migrated to
 **Kodein** at the end of 2024.
 
 !!! info "TL;DR"
@@ -30,8 +30,8 @@ wiring, just as with Koin's classic DSL.
 So I was left with all the advantages and disadvantages of a classic DSL-based service locator
 (which apply both to Kodein and to Koin with the classic DSL):
 
-| Feature                                |   |
-|----------------------------------------|---|
+| Feature                                |    |
+|----------------------------------------|----|
 | Multiplatform support                  | ✅ | 
 | Flexibility (definition and call site) | ✅ |
 | Conciseness                            | ❌ |
@@ -89,7 +89,8 @@ second set of reasons why I was considering a change.
 ### Political considerations
 
 There were increasingly worrying signals about how the KOSI project is maintained, detailed in the
-public [Manifesto](https://medium.com/kodein-koders/moving-forward-with-the-kodein-open-source-initiative-9fc4f6160c84){ target=_blank } .
+public
+[Manifesto](https://medium.com/kodein-koders/moving-forward-with-the-kodein-open-source-initiative-9fc4f6160c84){ target=_blank }.
 
 - **Development Bottleneck:** core maintainers operate as a commercial agency and explicitly shifted
   focus, reducing their open-source bandwidth;
@@ -104,15 +105,16 @@ public [Manifesto](https://medium.com/kodein-koders/moving-forward-with-the-kode
 Salomon Brys, one of the two core maintainers, publicly stated:
 
 > we believe that compile-time verification is way to \[sic\] restrictive and leads to a lot of
-> complications when we want to provide flexibility.
+> complications when we want to provide flexibility
 
 This sets them apart from the current industry trend towards increased compile-time safety.
 
 ## The migration steps
 
-In our [RACCOON Code of Conduct](2025-06-08-contributing-to-raccoon-apps.md#our-code-of-conduct), the
-last bit says "Never give up". Even when this implies taking difficult decisions. Every technical
-challenge is an opportunity for improvement, experimenting and having fun.
+In our
+[Code of Conduct](2025-06-08-contributing-to-raccoon-apps.md#our-code-of-conduct){ target=_blank },
+the last bit says "Never give up". Even when this implies taking difficult decisions. Every
+technical challenge is an opportunity for improvement, experimenting and having fun.
 
 Sometimes development, like life, moves in spirals rather than in a straight line and in order to
 advance further a phase when it seems like you are going backwards may be required.
@@ -127,9 +129,9 @@ advance further a phase when it seems like you are going backwards may be requir
 The first step was migrating back from Kodein to the initial "classic DSL" Koin, where each use case
 had almost a one-to-one equivalent[^2] at least at the definition site.
 
-Secondly, I worked on cleaning up all the cruft, i.e. removing the "glue code" I had to
-write to make up for what Kodein was lacking (Compose integration, `ViewModel` integration etc.),
-which mostly was on the call site.
+Secondly, I worked on cleaning up all the cruft, i.e. removing the "glue code" I had to write to
+make up for what Kodein was lacking (Compose integration, `ViewModel` integration etc.), which
+mostly was on the call site.
 
 In the third place I migrated from the "classic DSL" to the new Compiler Plugin (KCP) DSL at the
 definition site, which already added compile-time validation and performance: all dependencies were
@@ -144,8 +146,8 @@ an interface the binding is automatically done).
 The result has the best of both worlds: the flexibility of a service locator, the safety of a
 full-fledged DI framework.
 
-| Feature                 |   |
-|-------------------------|---|
+| Feature                 |    |
+|-------------------------|----|
 | Multiplatform support   | ✅ | 
 | Flexibility             | ✅ |
 | Conciseness             | ✅ |
@@ -159,28 +161,33 @@ grown over time, showing maturity and openness towards community feedback.
 ## Lessons learned
 
 I tend to be open-minded towards tools and I chose to use libraries like Koin and Kodein no matter
-how much they were frowned upon. by my colleagues as professional Android developers (accustomed to
-Dagger-Hilt safety and power); however I remember having thought my coworkers were probably right
-when the problem hit.
+how much they were frowned upon by my colleagues as professional Android developers (accustomed to
+Dagger/Hilt safety and power). However, I remember having thought my coworkers were probably right
+when the reproducibility problem hit.
 
-I remember how angry I was when one single library was acting as a road blocker and preventing the
+I remember how angry I was when one single library was acting as a road blocker and preventing
 updates from being distributed on app stores, and I swore I would never go back to Koin in my life.
 
-But, in the end, I appreciated the commitment of Arnaud and his team; I listened to him in person at
-a KotlinConf some year ago, really impressive. I was really grateful for their listening to our
-feedback, abandoning the old KSP approach (based on annotation processing and code generation) in
-favor of the new KCP.
+But eventually I appreciated the commitment of Arnaud and his team; I listened to him in person at
+KotlinConf some year ago, which was really impressive. I was really grateful for their listening to
+community feedback, abandoning the old KSP-based approach in favor of the new KCP.
 
-Changing one's mind is a sign of intelligence and maturity, and I had to change my mind with this
-respect. Consider this the end, for now, of my concerns about DI in Raccoon.
+Changing one's mind is a sign of intelligence and maturity, and I was genuinely happy to change my
+mind with this respect.
 
-[^1]: For example, the official [Kodein-DB](https://github.com/kosi-libs/Kodein-DB) repository has
-been explicitly labeled as a "Project paused" with the caveat that it would not be maintained in its
-current form.
+You can consider this the end, for now, of my concerns about DI in Raccoon.[^3]
+
+[^1]: For example, the official [Kodein-DB](https://github.com/kosi-libs/Kodein-DB){ target=_blank }
+repository has been explicitly labeled as a "Project paused" with the caveat that it would not be
+maintained in its current form.
 
 [^2]: Except that Kodein has three ways of defining bindings: singleton (single instance), provider
 (new instance each time, no arguments) and factory (new instance each time with assisted arguments);
 whereas Koin has only two: single and factory (with or without arguments).
+
+[^3]: As told in the previous article, [Metro](https://github.com/ZacSweers/metro){ target=_blank }
+looks great, but I am still evaluating it, considering both technical features and the way is
+maintained.
 
 *[DSL]: Domain-Specific Language
 *[DI]: Dependency Injection
