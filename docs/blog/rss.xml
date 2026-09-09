@@ -5,13 +5,20 @@
 		<link>https://livefasteattrashraccoon.github.io/blog</link>
 		<description>In the Procyon Project&apos;s blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.</description>
 		<language>en</language>
-		<lastBuildDate>Tue, 11 Aug 2026 00:10:00 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 10 Sep 2026 08:00:00 +0200</lastBuildDate>
 		<atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" ref="self" type="application/rss+xml"/>
 		<image>
 			<url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
 			<title>Procyon Project blog</title>
 			<link>https://livefasteattrashraccoon.github.io/blog</link>
 		</image>
+		<item>
+			<title>Rekindling the Spark: Moving Raccoon to Metro</title>
+			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-09-10-moving-to-metro</link>
+			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/2026-09-10-moving-to-metro</guid>
+			<description>It ain&apos;t over &apos;til it&apos;s over. The end of my concerns turned out to not be the end at all. Frustrated by Koin Compiler Plugin&apos;s build warnings, iOS false positives, and runtime  crashes, in this hot summer I decided to migrate Raccoon (with its 50+ modules) to Metro,  Zac Sweers&apos; Dagger-inspired DI framework. In this article, I&apos;ll walk through my six-step migration strategy: setting up build logic, defining multiplatform root graphs, porting core  infrastrucure, migrating the domain layers, adapting ViewModels &amp; UI, cleaning up legacy  code. I&apos;ll also detail the top four technical blockers encountered, from multi-module  dependency visibilities issues and ViewModel multibindings to Swift exports on the native  iOS side. Was it worth it? Yes it was, it made me rekindle that &quot;little spark&quot;: the feeling  every developer gets when they finish a piece of work and are satisfied with the outcome.</description>
+			<pubDate>Thu, 10 Sep 2026 08:00:00 +0200</pubDate>
+		</item>
 		<item>
 			<title>Koin is back, b*tches!</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/posts/2026-08-11-koin-is-back</link>
