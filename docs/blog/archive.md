@@ -2,6 +2,10 @@
 title: Archive
 ---
 
+## September 2026
+
+- [Rekindling the spark: moving Raccoon to Metro](posts/2026-09-10-moving-to-metro.md)
+
 ## August 2026
 
 - [Koin is back, b*tches!](posts/2026-08-11-koin-is-back.md)
