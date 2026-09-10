@@ -1,4 +1,18 @@
 metadata:
+  - title: 'Rekindling the Spark: Moving Raccoon to Metro'
+    date: '2026-09-10 08:00:00 +0200'
+    lastSegment: '2026-09-10-moving-to-metro'
+    summary: >
+      It ain't over 'til it's over. The end of my concerns turned out to not be the end at all.
+      Frustrated by Koin Compiler Plugin's build warnings, iOS false positives, and runtime 
+      crashes, in this hot summer I decided to migrate Raccoon (with its 50+ modules) to Metro, 
+      Zac Sweers' Dagger-inspired DI framework. In this article, I'll walk through my six-step
+      migration strategy: setting up build logic, defining multiplatform root graphs, porting core 
+      infrastrucure, migrating the domain layers, adapting ViewModels & UI, cleaning up legacy 
+      code. I'll also detail the top four technical blockers encountered, from multi-module 
+      dependency visibilities issues and ViewModel multibindings to Swift exports on the native 
+      iOS side. Was it worth it? Yes it was, it made me rekindle that "little spark": the feeling 
+      every developer gets when they finish a piece of work and are satisfied with the outcome.
   - title: 'Koin is back, b*tches!'
     date: '2026-08-11 00:10:00 +0200'
     lastSegment: '2026-08-11-koin-is-back'

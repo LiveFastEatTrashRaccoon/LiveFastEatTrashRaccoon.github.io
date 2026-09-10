@@ -51,6 +51,7 @@ In `#kmp`:
 - [One Preview to Rule Them All: Unified Compose Previews in Common Code](posts/2026-06-24-unified-previews.md)
 - [Navigation in CMP: To Infinity and Beyond!](posts/2026-07-12-navigation-in-cmp.md)
 - [Koin is back, b*tches!](posts/2026-08-11-koin-is-back.md)
+- [Rekindling the spark: moving Raccoon to Metro](posts/2026-09-10-moving-to-metro.md)
 
 In `#lemmy`:
 
@@ -64,6 +65,7 @@ In `#libs`:
 - [Bringing Push Notifications to Raccoon](posts/2026-05-20-bringing-push-notifications.md)
 - [Navigation in CMP: To Infinity and Beyond!](posts/2026-07-12-navigation-in-cmp.md)
 - [Koin is back, b*tches!](posts/2026-08-11-koin-is-back.md)
+- [Rekindling the spark: moving Raccoon to Metro](posts/2026-09-10-moving-to-metro.md)
 
 In `#localization`:
 
