@@ -87,8 +87,8 @@ Given its multi-module architecture, I mapped out a six-step plan:
 
 This step involved creating a Gradle convention plugin to factor out the common DI configuration
 across all subprojects. The convention plugin applies the `dev.zacsweers.metro` plugin (version
-`1.4.2`) and provides an extension option to include the`dev.zacsweers.metro:metrox-viewmodel-compose`
-dependency when needed.[^1]
+`1.4.3`) and provides an extension option to also add the
+`dev.zacsweers.metro:metrox-viewmodel-compose` dependency when needed.[^1]
 
 ### Step 2: Defining the root graph and entry points
 
@@ -392,8 +392,8 @@ mistakes I made along the way—along with their symptoms, root causes, and fixe
   `@ContributesIntoMap-annotated class doesn't declare an explicit binding type but has multiple supertypes`.
 - **Cause:** `ViewModel`s that extended `ViewModel()` and also implemented MVI contract interfaces
   had multiple supertypes, creating ambiguity for Metro's implicit supertype resolution.
-- **Solution:** Explicitly declare the `binding` type parameter inside `@ViewModelKey` (as shown
-  in [Step 5](#step-5-migrating-all-feature-modules)).
+- **Solution:** Explicitly pass the `binding` parameter and use `@ViewModelKey` inside the
+  generic type argument e.g. `binding<@ViewModelKey ViewModel>()` (leaving the interred class key).
 
 ### 4. Swift / KMP Framework export boundaries
 
@@ -417,6 +417,8 @@ cleaner).
 
 [^3]: In my case, it was slightly more involved because in my MVI setup all `ViewModel`s also
 implement another interface, and the UI refers to them through that interface type.
+See [Blocker 3](#3-viewmodel-multi-bindings-with-multiple-supertypes) for a more detailed
+explanation.
 
 *[DSL]: Domain-Specific Language
 *[DI]: Dependency Injection
