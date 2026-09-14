@@ -112,10 +112,10 @@ Finally, tech-wise, I am looking forward to the moment when rich errors are intr
 language. In the meantime, I still have to adopt other features already in preview like name-based
 destructuring.
 
-* [HTML]: HyperText Markup Language
-* [KMP]: Kotlin Multiplatform
-* [CMP]: Compose Multiplatform
-* [DI]: Dependency Injection
-* [KSP]: Kotlin Symbol Processor
-* [AGP]: Android Gradle Plugin
-* [JVM]: Java Virtual Machine
+*[HTML]: HyperText Markup Language
+*[KMP]: Kotlin Multiplatform
+*[CMP]: Compose Multiplatform
+*[DI]: Dependency Injection
+*[KSP]: Kotlin Symbol Processor
+*[AGP]: Android Gradle Plugin
+*[JVM]: Java Virtual Machine
