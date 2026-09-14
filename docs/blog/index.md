@@ -11,11 +11,11 @@ Multiplatform apps, development challenges, and thoughts on the Fediverse.
 
 ## Recent posts
 
+- [From side project to Procyon: a look behind](posts/2026-09-14-from-side-project-to-procyon.md)
 - [Rekindling the spark: moving Raccoon to Metro](posts/2026-09-10-moving-to-metro.md)
 - [Koin is back, b*tches!](posts/2026-08-11-koin-is-back.md)
 - [The Intentional Raccoon: Why I Code the Hard Way](posts/2026-07-20-why-i-code-the-hard-way.md)
 - [Navigation in CMP: To Infinity and Beyond!](posts/2026-07-12-navigation-in-cmp.md)
-- [Rendering ActivityPub groups (Part 2)](posts/2026-07-04-ap-groups-part-2.md)
 
 ## Archive & Categories
 
