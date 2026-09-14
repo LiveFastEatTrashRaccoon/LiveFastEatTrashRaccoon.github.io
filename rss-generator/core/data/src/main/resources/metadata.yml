@@ -1,4 +1,17 @@
 metadata:
+  - title: "From side project to Procyon: a look behind"
+    date: '2026-09-14 09:00:00 +0200'
+    lastSegment: '2026-09-14-from-side-project-to-procyon'
+    summary: >
+      As the last quarter of 2026 approaches, here is a recap of what has been accomplished over the
+      last year in the Raccoon app, alongside a look ahead at what's coming next. The project 
+      started in 2024 as a spin-off of the Lemmy client, and many early technical decisions 
+      reflected the state of KMP at a time when it was still in its infancy. As the ecosystem
+      matured over the last couple of years, an effort was made to keep Raccoon aligned with 
+      cutting-edge technologies: Kotlin, AGP, Gradle, Compose Multiplatform, Navigation 3, Metro DI,
+      networking, and more. This enabled a gradual cleanup of the codebase, transitioning Raccoon 
+      from a "quick and dirty" experiment to create a client for Mastodon and Friendica into a 
+      solid and healthy project, built to scale in the coming years.
   - title: 'Rekindling the Spark: Moving Raccoon to Metro'
     date: '2026-09-10 08:00:00 +0200'
     lastSegment: '2026-09-10-moving-to-metro'
