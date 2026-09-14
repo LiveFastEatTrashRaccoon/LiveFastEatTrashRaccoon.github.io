@@ -8,6 +8,7 @@ title: Archive
 
 ## August 2026
 
+- [From side project to Procyon: a look behind](posts/2026-09-14-from-side-project-to-procyon.md)
 - [Koin is back, b*tches!](posts/2026-08-11-koin-is-back.md)
 
 ## July 2026

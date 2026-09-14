@@ -80,6 +80,7 @@ In `#procyon`:
 - [From mobile to desktop: our journey towards a new platform](posts/2026-05-28-from-mobile-to-desktop.md)
 - [The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity](posts/2026-06-20-oss-sustainability.md)
 - [The Intentional Raccoon: Why I Code the Hard Way](posts/2026-07-20-why-i-code-the-hard-way.md)
+- [From side project to Procyon: a look behind](posts/2026-09-14-from-side-project-to-procyon.md)
 
 In `#ux`:
 
