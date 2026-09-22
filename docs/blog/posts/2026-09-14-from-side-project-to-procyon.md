@@ -20,9 +20,12 @@ with Mastodon/Friendica instances, rewrite the content rendering engine (since L
 Markdown-based while Mastodon posts are HTML-based), distribute it fast and see how it is received
 by the public.
 
-There were minimal variations in the tech stack, e.g. using Room multiplatform instead of
-SQLDelight for local persistence, using Sentry for crash reporting (instead of saving traces on
-device and rely on manual reports), using Mokkery in `commonTest` instead of MockK on
+There were minimal variations in the tech stack, e.g. using
+[Room Multiplatform](https://developer.android.com/kotlin/multiplatform/room){ target=_blank }
+instead of SQLDelight for local persistence, using 
+[Sentry](https://docs.sentry.io/platforms/kotlin/guides/kotlin-multiplatform){ target=_blank }
+for crash reporting (instead of saving traces on device and rely on manual reports),
+using [Mokkery](https://mokkery.dev){ target=_blank } in `commonTest` instead of MockK on
 `androidHostTest`.
 
 ## KMP in its infancy: the technical debt
@@ -65,9 +68,9 @@ Therefore, a series of tough decisions had to be made in order to keep the proje
 release a stable 1.0.0 version:
 
 - revamp the project's website and documentation to get a more modern and functional look (using
-  Zensical);
+  [Zensical](https://zensical.org){ target=_blank });
 - update Gradle and AGP, aligning with the now recommended project structure;
-- add the JVM target and introduce desktop (with .deb package published at every stable release);
+- add the JVM target and introduce desktop (with `.deb` package published at every stable release);
 - introduce support for tablets and large screens using adaptive layouts;
 - replace Material Icons with Material Symbols.
 
@@ -78,12 +81,14 @@ And that was exactly what I prioritized for version 1.0.0, which was released on
 After the first stable release, I started working on the areas which still needed improvement, such
 as:
 
-- Navigation 3 with the concept of `Scene` and `SceneStrategy` offers a much more elegant solution
+- [Navigation 3](https://kotlinlang.org/docs/multiplatform/compose-navigation-3.html){ target=_blank }
+  with the concept of `Scene` and `SceneStrategy` offers a much more elegant solution
   to the problem of adapting navigation and screen layout to the available screen size;
-- a new player entered the DI scene on KMP: Metro, which finally promises to solve all the issues of
+- a new player entered the DI scene on KMP: [Metro](https://zacsweers.github.io/metro){ target=_blank },
+  which finally promises to solve all the issues of
   previous solutions: conciseness, compile-time safety, power and flexibility;
-- a new unified `@Preview` annotation to be used in common code was introduced, making it easier to
-  integrate tooling previews.
+- a new [Preview](https://kotlinlang.org/docs/multiplatform/compose-previews.html){ target=_blank }
+  annotation to be used in common code was introduced, making setup easier and cleaner.
 
 Those were essentially the areas where I have been working in the last months, alongside
 a lot of code cleanup and keeping an "aggressive" update strategy for Kotlin versions (adopting new
@@ -109,8 +114,12 @@ On the UX side, I'd like to leverage some new features of CMP (e.g. `Grid`) for 
 rendering (instead of the existing carousels).
 
 Finally, tech-wise, I am looking forward to the moment when rich errors are introduced in the
-language. In the meantime, I still have to adopt other features already in preview like name-based
-destructuring.
+language. 
+
+In the meantime, I still have to adopt other language features already in preview, like name-based
+destructuring. Or, since `androidx.lifecycle:lifecycle-*:2.11.0` (and its multiplatform port) 
+introduced [Scoped ViewModels](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.11.0){ target=_blank },
+this will be the occasion to isolate responsibilities and trim some VM which had grown too large.
 
 *[HTML]: HyperText Markup Language
 *[KMP]: Kotlin Multiplatform
