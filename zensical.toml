@@ -46,10 +46,7 @@ nav = [
     { "About" = "about.md" },
     { "Raccoon for Friendica" = "raccoon-friendica.md" },
     { "Raccoon for Lemmy" = "raccoon-lemmy.md" },
-    { "Blog" = [
-        { "Archive" = "blog/" },
-        { "Categories" = "blog/categories.md" },
-    ] },
+    { "Blog" = ["blog/index.md"] },
     { "Privacy" = "privacy.md" }
 ]
 
@@ -76,11 +73,10 @@ nav = [
 post_dir = "blog/posts"
 archive = true
 categories = true
-tags = true
-archive_name = "Archive"
-categories_name = "Categories"
-post_date_format = "MMMM D, YYYY"
 post_readtime = true
+
+# Tags plugin configuration
+[project.plugins.tags]
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
