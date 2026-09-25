@@ -6,8 +6,6 @@ tags:
   - community
 ---
 
-*Published on June 17, 2025*
-
 Many people have wondered what happened during August 2024 to the Raccoon for Lemmy app. The
 original repository was completely shut down overnight, and development continued in what was then
 the main fork — fortunately updated to the latest commit before the shutdown.

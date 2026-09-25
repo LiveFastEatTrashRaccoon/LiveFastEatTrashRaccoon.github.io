@@ -6,8 +6,6 @@ tags:
   - kmp
 ---
 
-*Published on June 24, 2026*
-
 Until late 2025, managing UI previews in a Compose Multiplatform (CMP) project felt like navigating
 a minefield of compromises. The ecosystem was fragmented, and achieving a seamless "write once, see
 everywhere" experience was surprisingly difficult.

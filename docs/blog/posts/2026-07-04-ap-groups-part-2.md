@@ -5,8 +5,6 @@ tags:
   - activitypub
 ---
 
-*Published on July 04, 2026*
-
 In [Part 1](2026-06-29-ap-groups-part-1.md) we described what a group is and how its contents are
 displayed in the so-called "Forum Mode" in Raccoon. As a quick reminder, the main page contains the
 list of first-level posts re-shared by the group, which roughly correspond to classic forum

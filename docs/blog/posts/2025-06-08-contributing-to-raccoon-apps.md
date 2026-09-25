@@ -6,8 +6,6 @@ tags:
   - procyon
 ---
 
-*Published on June 8, 2025*
-
 ## Community-driven approach
 
 The Raccoon apps are Kotlin Multiplatform clients for Friendica and Lemmy that embody the spirit of

@@ -7,8 +7,6 @@ tags:
   - procyon
 ---
 
-*Published on June 20, 2025*
-
 *How a humanities background shaped the technical decisions behind Raccoon's multilingual journey*
 
 Let me start with an adaptation from the Raccoon for Lemmy [manifesto](https://github.com/LiveFastEatTrashRaccoon/RaccoonForLemmy/blob/master/CONTRIBUTING.md):

@@ -6,8 +6,6 @@ tags:
   - activitypub
 ---
 
-*Published on June 13, 2025*
-
 While most fediverse platforms force you to choose between microblogging, photo sharing, or link
 aggregation, one platform refuses to make you pick just one.
 

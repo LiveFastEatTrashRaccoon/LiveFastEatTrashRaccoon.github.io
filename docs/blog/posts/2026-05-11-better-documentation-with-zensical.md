@@ -5,8 +5,6 @@ tags:
   - libs
 ---
 
-*Published on May 11, 2026*
-
 If you have
 visited [Raccoon's user manual](https://livefasteattrashraccoon.github.io/RaccoonForFriendica)
 recently, you might have noticed a major shift. The layout is cleaner, navigation is intuitive,

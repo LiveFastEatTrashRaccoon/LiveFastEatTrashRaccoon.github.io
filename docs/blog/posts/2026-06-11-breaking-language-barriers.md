@@ -5,8 +5,6 @@ tags:
   - activitypub
 ---
 
-*Published on June 11, 2026*
-
 ## The Multilingual Reality of ActivityPub
 
 The Fediverse is built on the promise of decentralized, equal communication. However, when users

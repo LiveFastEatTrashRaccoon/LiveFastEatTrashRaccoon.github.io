@@ -5,8 +5,6 @@ tags:
   - kmp
 ---
 
-*Published on May 17, 2026*
-
 **Hurray!** A few days ago, JetBrains's blog published
 a [new post](https://blog.jetbrains.com/kotlin/2026/05/new-kmp-default-structure) highlighting the
 new default structure for KMP projects, which goes hand in hand with the migration to AGP 9.x.

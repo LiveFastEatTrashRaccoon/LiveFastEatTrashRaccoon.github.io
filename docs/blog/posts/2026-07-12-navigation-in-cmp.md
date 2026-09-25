@@ -7,8 +7,6 @@ tags:
   - libs
 ---
 
-*Published on July 12, 2026*
-
 On mobile, and increasingly on desktop, every app needs a solid navigation system. It isn't just a
 UI pattern (like master-detail) or managing back gestures; it's the very skeleton of the user
 experience and a fundamental block in the user's mental model. When taking certain actions, users

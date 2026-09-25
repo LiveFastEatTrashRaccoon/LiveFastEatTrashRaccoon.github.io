@@ -5,8 +5,6 @@ tags:
   - community
 ---
 
-*Published on June 27, 2026*
-
 If you've been following the news from Google I/O 2026, you probably felt a bit of a chill down
 your spine when the "Android Developer Verification" initiative was announced. For those who were
 too busy debugging like me, the news is: starting **September 30, 2026**, Android will

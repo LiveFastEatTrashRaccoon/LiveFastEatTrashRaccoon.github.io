@@ -5,8 +5,6 @@ tags:
   - ux
 ---
 
-*Published on June 24, 2025*
-
 !!! question
     Tired of the endless tap-back-tap dance? There's a better way to browse!
 

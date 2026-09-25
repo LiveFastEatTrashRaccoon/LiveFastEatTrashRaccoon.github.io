@@ -7,8 +7,6 @@ tags:
   - ux
 ---
 
-*Published on June 08, 2026*
-
 ## Accessibility in a nutshell
 
 Let's start with a quick recap about definitions and general principles. a11y is the practice of

@@ -6,8 +6,6 @@ tags:
   - procyon
 ---
 
-*Published on May 28, 2026*
-
 ## Premise
 
 KMP is a remarkably flexible and unintrusive technology: it allows you to choose exactly which code

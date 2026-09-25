@@ -5,8 +5,6 @@ tags:
   - activitypub
 ---
 
-*Published on June 29, 2026*
-
 This is Part 1 of a two-article sequence on ActivityPub groups. This post covers ActivityStreams
 definitions, Mastodon API integration, and the Raccoon rendering logic.
 

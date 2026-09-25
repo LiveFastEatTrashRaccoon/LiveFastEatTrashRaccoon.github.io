@@ -6,8 +6,6 @@ tags:
   - community
 ---
 
-*Published on July 1, 2025*
-
 Localization and customization are first-class citizens at
 Procyon, [as already discussed](2025-06-20-i10n-and-l10n-challenges.md). An feature in which they
 come together is the choice of the color theme to apply to the app.

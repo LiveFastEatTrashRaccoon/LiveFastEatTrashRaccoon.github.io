@@ -6,8 +6,6 @@ tags:
   - procyon
 ---
 
-*Published on July 20, 2026*
-
 Do you remember the
 [reaction](2026-06-20-oss-sustainability.md#the-why-behind-the-trash){ target=_blank }
 my admin friend got when they published a post about Raccoon's 1.0.0 release on `lemmy.world`?

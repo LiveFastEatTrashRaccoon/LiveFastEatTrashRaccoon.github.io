@@ -6,8 +6,6 @@ tags:
   - ux
 ---
 
-*Published on May 15, 2026*
-
 ## What are Window Size Classes?
 
 Material Design 3 has introduced the concept of **Window Size Classes** to help developers abstract

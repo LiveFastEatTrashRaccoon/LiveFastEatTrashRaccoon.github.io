@@ -6,8 +6,6 @@ tags:
   - libs
 ---
 
-*Published on June 27, 2025*
-
 Dependency injection (or DI) has been the backbone of Android development for years, bringing
 flexibility, easier refactoring, and proper lifecycle management through decoupling and abstraction.
 But when you venture into Kotlin Multiplatform (KMP) territory, the comfortable world

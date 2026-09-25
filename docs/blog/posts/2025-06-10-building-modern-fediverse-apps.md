@@ -7,8 +7,6 @@ tags:
   - community
 ---
 
-*Published on June 10, 2025*
-
 The Fediverse represents the future of social media — decentralized, open, and user-controlled. As
 platforms like Mastodon, Friendica, and Lemmy gain momentum, developers face a crucial question:
 how do you build modern, cross-platform applications that can keep pace with this rapidly evolving
