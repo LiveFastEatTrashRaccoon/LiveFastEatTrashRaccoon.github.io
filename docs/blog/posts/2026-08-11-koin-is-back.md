@@ -1,9 +1,12 @@
 ---
 title: "Koin is back, b*tches!"
 date: 2026-08-11
+categories:
+  - dev
+  - libs
 tags:
   - kmp
-  - libs
+  - di
 ---
 
 If you remember, last summer I wrote a

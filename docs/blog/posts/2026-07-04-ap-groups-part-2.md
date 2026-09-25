@@ -1,11 +1,13 @@
 ---
 title: "Rendering ActivityPub groups (Part 2)"
 date: 2026-07-04
+categories:
+  - activitypub
 tags:
   - activitypub
+  - fediverse
+  - groups
 ---
-
-*Published on July 04, 2026*
 
 In [Part 1](2026-06-29-ap-groups-part-1.md) we described what a group is and how its contents are
 displayed in the so-called "Forum Mode" in Raccoon. As a quick reminder, the main page contains the

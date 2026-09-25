@@ -1,12 +1,14 @@
 ---
 title: "The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity"
 date: 2026-06-20
-tags:
+categories:
   - community
   - procyon
+tags:
+  - community
+  - foss
+  - procyon
 ---
-
-*Published on June 20, 2026*
 
 The idea of writing about the balance between features and maintenance in our apps has been
 lingering in my mind for over a year. But it never *felt like* the right moment, so I kept

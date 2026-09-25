@@ -1,11 +1,12 @@
 ---
 title: "Is this the end of sideloading on Android?"
 date: 2026-06-27
+categories:
+  - community
 tags:
   - community
+  - android
 ---
-
-*Published on June 27, 2026*
 
 If you've been following the news from Google I/O 2026, you probably felt a bit of a chill down
 your spine when the "Android Developer Verification" initiative was announced. For those who were

@@ -1,13 +1,15 @@
 ---
 title: "Beyond contentDescription: Accessibility in Compose Multiplatform"
 date: 2026-06-08
-tags:
+categories:
   - community
   - compose
   - ux
+tags:
+  - compose
+  - accessibility
+  - ux
 ---
-
-*Published on June 08, 2026*
 
 ## Accessibility in a nutshell
 

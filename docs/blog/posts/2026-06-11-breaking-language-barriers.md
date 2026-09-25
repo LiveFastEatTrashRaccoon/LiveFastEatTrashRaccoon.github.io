@@ -1,11 +1,14 @@
 ---
 title: "Breaking Language Barriers: Client-Side Translation in the Fediverse"
 date: 2026-06-11
+categories:
+  - activitypub
+  - l10n
 tags:
   - activitypub
+  - fediverse
+  - translation
 ---
-
-*Published on June 11, 2026*
 
 ## The Multilingual Reality of ActivityPub
 

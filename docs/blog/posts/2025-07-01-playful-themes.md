@@ -1,12 +1,13 @@
 ---
 title: "Playful themes: what's in a name?"
 date: 2025-07-01
-tags:
+categories:
   - l10n
   - community
+tags:
+  - l10n
+  - ux
 ---
-
-*Published on July 1, 2025*
 
 Localization and customization are first-class citizens at
 Procyon, [as already discussed](2025-06-20-i10n-and-l10n-challenges.md). An feature in which they

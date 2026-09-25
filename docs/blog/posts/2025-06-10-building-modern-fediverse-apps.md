@@ -1,13 +1,14 @@
 ---
 title: "Building modern Fediverse apps in KMP & Compose: the perfect match"
 date: 2025-06-10
+categories:
+  - dev
+  - community
 tags:
   - kmp
   - compose
-  - community
+  - fediverse
 ---
-
-*Published on June 10, 2025*
 
 The Fediverse represents the future of social media — decentralized, open, and user-controlled. As
 platforms like Mastodon, Friendica, and Lemmy gain momentum, developers face a crucial question:

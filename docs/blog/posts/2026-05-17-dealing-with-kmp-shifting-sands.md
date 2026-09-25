@@ -1,11 +1,13 @@
 ---
 title: "Dealing with KMP’s Shifting Sands: Another Day, Another Project Structure"
 date: 2026-05-17
+categories:
+  - dev
+  - kmp
 tags:
   - kmp
+  - gradle
 ---
-
-*Published on May 17, 2026*
 
 **Hurray!** A few days ago, JetBrains's blog published
 a [new post](https://blog.jetbrains.com/kotlin/2026/05/new-kmp-default-structure) highlighting the

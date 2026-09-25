@@ -1,12 +1,13 @@
 ---
 title: "What happened to Raccoon for Lemmy?"
 date: 2025-06-17
-tags:
+categories:
   - lemmy
   - community
+tags:
+  - fediverse
+  - lemmy
 ---
-
-*Published on June 17, 2025*
 
 Many people have wondered what happened during August 2024 to the Raccoon for Lemmy app. The
 original repository was completely shut down overnight, and development continued in what was then

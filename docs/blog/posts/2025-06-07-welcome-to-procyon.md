@@ -1,12 +1,11 @@
 ---
 title: "Welcome to the Procyon Project!"
 date: 2025-06-07
-tags:
+categories:
   - announcement
+tags:
   - procyon
 ---
-
-*Published on June 7, 2025*
 
 Welcome to the official blog of the Procyon Project! This is where I'll be sharing updates about our
 Kotlin Multiplatform apps for the Fediverse, development progress, and thoughts on decentralized

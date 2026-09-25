@@ -1,11 +1,13 @@
 ---
 title: "Rendering ActivityPub groups (Part 1)"
 date: 2026-06-29
+categories:
+  - activitypub
 tags:
   - activitypub
+  - fediverse
+  - groups
 ---
-
-*Published on June 29, 2026*
 
 This is Part 1 of a two-article sequence on ActivityPub groups. This post covers ActivityStreams
 definitions, Mastodon API integration, and the Raccoon rendering logic.

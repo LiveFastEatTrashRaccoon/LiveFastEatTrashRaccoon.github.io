@@ -1,11 +1,12 @@
 ---
 title: "Better documentation with Zensical"
 date: 2026-05-11
-tags:
+categories:
   - libs
+tags:
+  - documentation
+  - zensical
 ---
-
-*Published on May 11, 2026*
 
 If you have
 visited [Raccoon's user manual](https://livefasteattrashraccoon.github.io/RaccoonForFriendica)

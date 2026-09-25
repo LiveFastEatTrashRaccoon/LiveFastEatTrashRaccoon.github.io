@@ -1,12 +1,14 @@
 ---
 title: "From mobile to desktop: our journey towards a new platform"
 date: 2026-05-28
-tags:
+categories:
   - kmp
   - procyon
+tags:
+  - kmp
+  - desktop
+  - procyon
 ---
-
-*Published on May 28, 2026*
 
 ## Premise
 

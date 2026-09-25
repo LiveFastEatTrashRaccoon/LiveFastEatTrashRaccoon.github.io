@@ -1,11 +1,12 @@
 ---
 title: "Swipe Navigation: turn your Fediverse feed into a page-turner"
 date: 2025-06-24
+categories:
+  - ux
 tags:
   - ux
+  - navigation
 ---
-
-*Published on June 24, 2025*
 
 !!! question
     Tired of the endless tap-back-tap dance? There's a better way to browse!

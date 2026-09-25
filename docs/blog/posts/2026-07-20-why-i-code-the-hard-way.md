@@ -1,12 +1,13 @@
 ---
 title: "The Intentional Raccoon: Why I Code the Hard Way"
 date: 2026-07-20
+categories:
+  - community
+  - procyon
 tags:
   - community
   - procyon
 ---
-
-*Published on July 20, 2026*
 
 Do you remember the
 [reaction](2026-06-20-oss-sustainability.md#the-why-behind-the-trash){ target=_blank }

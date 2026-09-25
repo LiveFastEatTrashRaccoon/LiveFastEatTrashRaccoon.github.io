@@ -1,13 +1,15 @@
 ---
 title: "Navigation in CMP: To Infinity and Beyond!"
 date: 2026-07-12
-tags:
+categories:
   - compose
   - kmp
   - libs
+tags:
+  - compose
+  - kmp
+  - navigation
 ---
-
-*Published on July 12, 2026*
 
 On mobile, and increasingly on desktop, every app needs a solid navigation system. It isn't just a
 UI pattern (like master-detail) or managing back gestures; it's the very skeleton of the user

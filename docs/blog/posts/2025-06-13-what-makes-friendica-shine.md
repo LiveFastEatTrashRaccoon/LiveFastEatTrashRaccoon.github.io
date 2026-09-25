@@ -1,12 +1,13 @@
 ---
 title: "Friendica: the Swiss Army knife of the Fediverse"
 date: 2025-06-13
-tags:
+categories:
   - friendica
   - activitypub
+tags:
+  - fediverse
+  - friendica
 ---
-
-*Published on June 13, 2025*
 
 While most fediverse platforms force you to choose between microblogging, photo sharing, or link
 aggregation, one platform refuses to make you pick just one.

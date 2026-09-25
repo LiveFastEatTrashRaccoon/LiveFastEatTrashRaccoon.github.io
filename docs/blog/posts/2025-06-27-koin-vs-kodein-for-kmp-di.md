@@ -1,12 +1,13 @@
 ---
 title: "Koin VS Kodein: a developer's journey through multiplatform DI hell"
 date: 2025-06-27
+categories:
+  - dev
+  - libs
 tags:
   - kmp
-  - libs
+  - di
 ---
-
-*Published on June 27, 2025*
 
 Dependency injection (or DI) has been the backbone of Android development for years, bringing
 flexibility, easier refactoring, and proper lifecycle management through decoupling and abstraction.
