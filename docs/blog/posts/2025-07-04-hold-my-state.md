@@ -1,6 +1,8 @@
 ---
 title: "Hold my state: why shared ViewModels are a life-changer"
 date: 2025-07-04
+categories:
+  - dev
 tags:
   - kmp
 ---

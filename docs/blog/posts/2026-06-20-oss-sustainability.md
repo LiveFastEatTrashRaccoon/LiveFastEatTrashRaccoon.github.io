@@ -1,8 +1,12 @@
 ---
 title: "The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity"
 date: 2026-06-20
+categories:
+  - community
+  - procyon
 tags:
   - community
+  - foss
   - procyon
 ---
 

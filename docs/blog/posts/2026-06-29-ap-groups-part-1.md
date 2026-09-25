@@ -1,8 +1,12 @@
 ---
 title: "Rendering ActivityPub groups (Part 1)"
 date: 2026-06-29
+categories:
+  - activitypub
 tags:
   - activitypub
+  - fediverse
+  - groups
 ---
 
 This is Part 1 of a two-article sequence on ActivityPub groups. This post covers ActivityStreams

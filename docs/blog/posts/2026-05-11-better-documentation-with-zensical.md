@@ -1,8 +1,11 @@
 ---
 title: "Better documentation with Zensical"
 date: 2026-05-11
-tags:
+categories:
   - libs
+tags:
+  - documentation
+  - zensical
 ---
 
 If you have

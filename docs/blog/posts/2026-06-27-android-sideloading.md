@@ -1,8 +1,11 @@
 ---
 title: "Is this the end of sideloading on Android?"
 date: 2026-06-27
+categories:
+  - community
 tags:
   - community
+  - android
 ---
 
 If you've been following the news from Google I/O 2026, you probably felt a bit of a chill down

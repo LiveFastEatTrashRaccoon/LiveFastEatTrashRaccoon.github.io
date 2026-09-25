@@ -1,9 +1,13 @@
 ---
 title: "One Preview to Rule Them All: Unified Compose Previews in Common Code"
 date: 2026-06-24
+categories:
+  - compose
+  - kmp
 tags:
   - compose
   - kmp
+  - previews
 ---
 
 Until late 2025, managing UI previews in a Compose Multiplatform (CMP) project felt like navigating

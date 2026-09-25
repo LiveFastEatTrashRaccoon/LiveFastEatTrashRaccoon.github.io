@@ -1,6 +1,9 @@
 ---
 title: "From side project to Procyon: a look behind"
 date: 2026-09-14
+categories:
+  - procyon
+  - community
 tags:
   - procyon
 ---

@@ -1,8 +1,13 @@
 ---
 title: "Multi-module architecture and shared build logic"
 date: 2026-06-06
+categories:
+  - dev
+  - kmp
 tags:
   - kmp
+  - gradle
+  - architecture
 ---
 
 Raccoon apps are Gradle projects, meaning that all tasks (compilation, verification, packaging) are

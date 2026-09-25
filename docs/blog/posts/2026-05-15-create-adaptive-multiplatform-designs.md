@@ -1,9 +1,13 @@
 ---
 title: "Create Adaptive Designs with Window Size Classes"
 date: 2026-05-15
+categories:
+  - compose
+  - ux
 tags:
   - compose
   - ux
+  - adaptive
 ---
 
 ## What are Window Size Classes?

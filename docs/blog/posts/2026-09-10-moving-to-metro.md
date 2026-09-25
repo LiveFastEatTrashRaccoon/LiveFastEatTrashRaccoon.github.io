@@ -1,9 +1,12 @@
 ---
 title: "Rekindling the spark: moving Raccoon to Metro"
 date: 2026-09-10
+categories:
+  - dev
+  - libs
 tags:
   - kmp
-  - libs
+  - di
 ---
 
 ## "For now" was doing a lot of heavy lifting

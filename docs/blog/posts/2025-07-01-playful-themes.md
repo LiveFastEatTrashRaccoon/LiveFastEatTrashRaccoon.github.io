@@ -1,9 +1,12 @@
 ---
 title: "Playful themes: what's in a name?"
 date: 2025-07-01
-tags:
+categories:
   - l10n
   - community
+tags:
+  - l10n
+  - ux
 ---
 
 Localization and customization are first-class citizens at

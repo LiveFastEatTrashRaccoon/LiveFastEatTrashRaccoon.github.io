@@ -1,9 +1,11 @@
 ---
 title: "Contributing to Raccoon apps"
 date: 2025-06-08
-tags:
+categories:
   - community
+tags:
   - procyon
+  - foss
 ---
 
 ## Community-driven approach

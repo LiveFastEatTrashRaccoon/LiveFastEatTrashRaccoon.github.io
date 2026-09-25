@@ -1,8 +1,12 @@
 ---
 title: "Dealing with KMP’s Shifting Sands: Another Day, Another Project Structure"
 date: 2026-05-17
+categories:
+  - dev
+  - kmp
 tags:
   - kmp
+  - gradle
 ---
 
 **Hurray!** A few days ago, JetBrains's blog published

@@ -1,6 +1,9 @@
 ---
 title: "The Intentional Raccoon: Why I Code the Hard Way"
 date: 2026-07-20
+categories:
+  - community
+  - procyon
 tags:
   - community
   - procyon
