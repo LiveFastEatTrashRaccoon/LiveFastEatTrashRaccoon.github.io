@@ -3,7 +3,10 @@ package com.livefast.eattrash.rssgenerator
 import com.livefast.eattrash.rssgenerator.core.data.PostRepository
 import com.livefast.eattrash.rssgenerator.domain.FilePrinter
 import com.livefast.eattrash.rssgenerator.domain.RssGenerator
-import org.koin.java.KoinJavaComponent.inject
+import dev.zacsweers.metro.AppScope
+import dev.zacsweers.metro.ContributesBinding
+import dev.zacsweers.metro.Inject
+import dev.zacsweers.metro.SingleIn
 
 /**
  * Coordinator between the use cases to implement the application logic.
@@ -13,15 +16,11 @@ interface App {
      * Runs the application logic.
      */
     suspend fun run()
-
-    companion object {
-        /**
-         * Instance of the application.
-         */
-        val instance: App by inject(App::class.java)
-    }
 }
 
+@SingleIn(AppScope::class)
+@ContributesBinding(AppScope::class)
+@Inject
 internal class AppImpl(
     private val repository: PostRepository,
     private val generator: RssGenerator,

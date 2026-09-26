@@ -13,6 +13,10 @@ gradlePlugin {
             id = "com.livefast.eattrash.jvm"
             implementationClass = "plugins.JvmPlugin"
         }
+        register("diPlugin") {
+            id = "com.livefast.eattrash.di"
+            implementationClass = "plugins.DiPlugin"
+        }
         register("spotlessPlugin") {
             id = "com.livefast.eattrash.spotless"
             implementationClass = "plugins.SpotlessPlugin"
