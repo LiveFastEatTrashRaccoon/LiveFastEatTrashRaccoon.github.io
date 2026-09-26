@@ -1,5 +1,8 @@
 package com.livefast.eattrash.rssgenerator.core.utils
 
+import dev.zacsweers.metro.AppScope
+import dev.zacsweers.metro.ContributesBinding
+import dev.zacsweers.metro.Inject
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.Calendar
@@ -7,7 +10,9 @@ import java.util.Date
 import java.util.Locale
 import java.util.TimeZone
 
-internal class DateUtilsImpl : DateUtils {
+@ContributesBinding(AppScope::class)
+@Inject
+class DateUtilsImpl : DateUtils {
     private val timeZone = TimeZone.getTimeZone("Europe/Rome")
 
     private val dateFormat =

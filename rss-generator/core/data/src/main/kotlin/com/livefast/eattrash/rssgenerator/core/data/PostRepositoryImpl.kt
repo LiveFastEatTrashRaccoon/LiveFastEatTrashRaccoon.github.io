@@ -3,11 +3,16 @@ package com.livefast.eattrash.rssgenerator.core.data
 import com.livefast.eattrash.rssgenerator.core.data.converter.PostDtoToModelConverter
 import com.livefast.eattrash.rssgenerator.core.data.dto.MetadataRootDto
 import com.livefast.eattrash.rssgenerator.core.model.PostData
+import dev.zacsweers.metro.AppScope
+import dev.zacsweers.metro.ContributesBinding
+import dev.zacsweers.metro.Inject
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import net.mamoe.yamlkt.Yaml
 
-internal class PostRepositoryImpl(
+@ContributesBinding(AppScope::class)
+@Inject
+class PostRepositoryImpl(
     private val converter: PostDtoToModelConverter,
 ) : PostRepository {
     override suspend fun getAll(): List<PostData> =

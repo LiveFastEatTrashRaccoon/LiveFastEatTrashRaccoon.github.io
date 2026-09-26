@@ -1,6 +1,6 @@
 package com.livefast.eattrash.rssgenerator
 
-import com.livefast.eattrash.rssgenerator.di.DiHelper
+import dev.zacsweers.metro.createGraph
 import kotlinx.coroutines.runBlocking
 
 /**
@@ -8,6 +8,6 @@ import kotlinx.coroutines.runBlocking
  */
 fun main() =
     runBlocking {
-        DiHelper.setup()
-        App.instance.run()
+        val rootGraph = createGraph<RootGraph>()
+        rootGraph.app.run()
     }
