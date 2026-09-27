@@ -66,11 +66,11 @@ class RssGeneratorImpl(
                                 -post.title
                             }
                             "link" {
-                                -"$POST_URL/${post.lastSegment}"
+                                -"$BLOG_URL/${post.lastSegment}"
                             }
                             "guid" {
                                 attribute("isPermalink", true)
-                                -"$POST_URL/${post.lastSegment}"
+                                -"$BLOG_URL/${post.lastSegment}"
                             }
                             "description" {
                                 -post.summary
@@ -95,6 +95,5 @@ class RssGeneratorImpl(
     companion object {
         const val BASE_URL = "https://livefasteattrashraccoon.github.io"
         const val BLOG_URL = "$BASE_URL/blog"
-        const val POST_URL = "$BLOG_URL/posts"
     }
 }

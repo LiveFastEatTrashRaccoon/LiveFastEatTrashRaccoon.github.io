@@ -26,7 +26,7 @@ Tips for engagement:
 - [ ] Inline images in your posts: bring WordPress blog posts into the timeline
 - [ ] Run UI test on multiple platforms with CMP
 
-## Project history & community ("community", "procyon")
+## Project history & community ("community")
 
 - [x] What happened to Raccoon for Lemmy? (17/06/25)
 - [x] Playful themes: what's in a name? (01/07/25)
@@ -36,7 +36,7 @@ Tips for engagement:
 - [ ] Moderation tools: empowering users in decentralized networks
 - [ ] The future of mobile Fediverse applications
 
-## Fediverse ("friendica", "lemmy", "activitpub")
+## Fediverse ("fediverse")
 
 - [x] What makes Friendica shine in the Fediverse ecosystem (13/06/25)
 - [x] Bringing Push Notifications to Raccoon (20/05/26)
@@ -49,13 +49,14 @@ Tips for engagement:
 - [ ] The future of interoperability between platforms
 - [ ] From forums to the Blogosphere, the future of discussion platforms
 
-## Development process ("procyon", "community")
+## Development process ("dev", "community", "foss")
 
 - [x] Internationalization and localization challenges: make contributions count (20/06/2025)
 - [x] The Raccoon's Dilemma: Balancing Features, Maintenance, and Sanity (20/06/2026)
 - [x] Is this the end of sideloading on Android? (27/06/2026)
 - [x] The Intentional Raccoon: Why I Code the Hard Way (20/07/2026)
 - [x] From side project to Procyon: a look behind (14/09/2026)
+- [ ] Community contributions: sharing is caring
 - [ ] How maintaining side projects made me a better developer
 - [ ] Behind the scenes: from concept to release
 - [ ] Testing strategies for federated applications
