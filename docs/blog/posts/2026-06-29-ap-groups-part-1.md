@@ -2,7 +2,7 @@
 title: "Rendering ActivityPub groups (Part 1)"
 date: 2026-06-29
 categories:
-  - activitypub
+  - fediverse
 tags:
   - activitypub
   - fediverse

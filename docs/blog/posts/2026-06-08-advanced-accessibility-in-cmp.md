@@ -2,12 +2,12 @@
 title: "Beyond contentDescription: Accessibility in Compose Multiplatform"
 date: 2026-06-08
 categories:
-  - community
   - compose
+  - a11y
   - ux
 tags:
   - compose
-  - accessibility
+  - a11y
   - ux
 ---
 

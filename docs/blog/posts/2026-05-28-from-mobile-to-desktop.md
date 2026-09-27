@@ -3,7 +3,6 @@ title: "From mobile to desktop: our journey towards a new platform"
 date: 2026-05-28
 categories:
   - kmp
-  - procyon
 tags:
   - kmp
   - desktop

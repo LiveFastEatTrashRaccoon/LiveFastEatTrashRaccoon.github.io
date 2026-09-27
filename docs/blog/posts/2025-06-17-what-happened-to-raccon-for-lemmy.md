@@ -2,7 +2,6 @@
 title: "What happened to Raccoon for Lemmy?"
 date: 2025-06-17
 categories:
-  - lemmy
   - community
 tags:
   - fediverse
