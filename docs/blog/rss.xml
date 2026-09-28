@@ -5,13 +5,20 @@
 		<link>https://livefasteattrashraccoon.github.io/blog</link>
 		<description>In the Procyon Project&apos;s blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.</description>
 		<language>en</language>
-		<lastBuildDate>Sun, 27 Sep 2026 21:13:00 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 28 Sep 2026 21:52:00 +0200</lastBuildDate>
 		<atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" ref="self" type="application/rss+xml"/>
 		<image>
 			<url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
 			<title>Procyon Project blog</title>
 			<link>https://livefasteattrashraccoon.github.io/blog</link>
 		</image>
+		<item>
+			<title>Community contributions: sharing is caring</title>
+			<link>https://livefasteattrashraccoon.github.io/blog/2026/09/28/community-contributions-sharing-is-caring</link>
+			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/2026/09/28/community-contributions-sharing-is-caring</guid>
+			<description>In English, there is this popular phrase &quot;sharing is caring&quot;. In today&apos;s post we&apos;ll see the different types of contributors I met in the last three years while working on the Raccoon apps: developers, translators, accessibility experts, strategic advisors and bug reporters. Engaging which each kind of contribution was both an enriching and somehow a &quot;healing&quot; experience. Even though, sometimes, dealing with public criticism can be hard for someone who grew up in fear of judgment, this made me meet good-intentioned people who made both the  project and the community around it better. I&apos;ll never regret deciding to work on these open source projects.</description>
+			<pubDate>Mon, 28 Sep 2026 21:52:00 +0200</pubDate>
+		</item>
 		<item>
 			<title>From side project to Procyon: a look behind</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/2026/09/14/from-side-project-to-procyon-a-look-behind</link>
