@@ -42,8 +42,8 @@ class RssGeneratorImplTest {
         </image>
         <item>
             <title>fake-title</title>
-            <link>https://livefasteattrashraccoon.github.io/blog/posts/fake-slug</link>
-            <guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/posts/fake-slug</guid>
+            <link>https://livefasteattrashraccoon.github.io/blog/fake-slug</link>
+            <guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/fake-slug</guid>
             <description>fake-summary</description>
             <pubDate>2026-06-29 12:00:00 +0200</pubDate>
         </item>
