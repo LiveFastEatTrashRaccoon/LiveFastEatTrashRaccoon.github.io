@@ -6,8 +6,8 @@ import org.gradle.api.plugins.JavaPluginExtension
 import org.gradle.jvm.toolchain.JavaLanguageVersion
 import org.gradle.kotlin.dsl.dependencies
 import org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension
+import utils.getPluginId
 import utils.libs
-import utils.pluginId
 
 /**
  * Convention plugin to apply common JVM configuration.
@@ -16,7 +16,7 @@ class JvmPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
             with(pluginManager) {
-                apply(libs.findPlugin("kotlin-jvm").pluginId)
+                apply(libs.getPluginId("kotlin-jvm"))
             }
             dependencies {
                 "implementation"(libs.findLibrary("kotlinx-coroutines-core").get())

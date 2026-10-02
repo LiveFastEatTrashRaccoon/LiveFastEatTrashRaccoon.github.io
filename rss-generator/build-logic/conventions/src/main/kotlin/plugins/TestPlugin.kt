@@ -5,6 +5,7 @@ import org.gradle.api.Project
 import org.gradle.api.tasks.testing.Test
 import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.kotlin
+import utils.getLibrary
 import utils.libs
 
 class TestPlugin : Plugin<Project> {
@@ -12,10 +13,10 @@ class TestPlugin : Plugin<Project> {
         with(target) {
             dependencies {
                 "testImplementation"(kotlin("test"))
-                "testImplementation"(libs.findLibrary("kotlinx-coroutines-test").get())
-                "testImplementation"(libs.findLibrary("mockk").get())
-                "testImplementation"(libs.findLibrary("junit.jupiter.engine").get())
-                "testRuntimeOnly"("org.junit.platform:junit-platform-launcher")
+                "testImplementation"(libs.getLibrary("kotlinx-coroutines-test"))
+                "testImplementation"(libs.getLibrary("mockk"))
+                "testImplementation"(libs.getLibrary("junit-jupiter-engine"))
+                "testRuntimeOnly"(libs.getLibrary("junit-platform-launcher"))
             }
 
             tasks.withType(Test::class.java) {
