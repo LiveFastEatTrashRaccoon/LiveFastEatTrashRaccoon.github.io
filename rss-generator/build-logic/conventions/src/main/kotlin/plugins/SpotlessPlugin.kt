@@ -20,13 +20,13 @@ class SpotlessPlugin : Plugin<Project> {
                 kotlin {
                     target("**/*.kt")
                     targetExclude("**/build/**/*.kt")
-                    ktlint(libs.getVersion("ktlint").toString())
+                    ktlint(libs.getVersion("ktlint"))
                     trimTrailingWhitespace()
                     endWithNewline()
                 }
                 kotlinGradle {
                     target("*.gradle.kts")
-                    ktlint(libs.getVersion("ktlint").toString())
+                    ktlint(libs.getVersion("ktlint"))
                 }
             }
         }

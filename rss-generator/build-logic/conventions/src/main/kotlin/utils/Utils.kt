@@ -24,7 +24,7 @@ internal fun VersionCatalog.getPluginId(alias: String): String = findPlugin(alia
 /**
  * Retrieves a version value from the version catalog by its [alias] as an [Int].
  */
-internal fun VersionCatalog.getVersion(alias: String): Int = findVersion(alias).get().requiredVersion.toInt()
+internal fun VersionCatalog.getVersion(alias: String): String = findVersion(alias).get().requiredVersion
 
 /**
  * Retrieves a library dependency provider from the version catalog by its [alias].
