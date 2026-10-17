@@ -5,13 +5,20 @@
 		<link>https://livefasteattrashraccoon.github.io/blog</link>
 		<description>In the Procyon Project&apos;s blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.</description>
 		<language>en</language>
-		<lastBuildDate>Mon, 28 Sep 2026 21:52:00 +0200</lastBuildDate>
+		<lastBuildDate>Sat, 17 Oct 2026 21:50:00 +0200</lastBuildDate>
 		<atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" ref="self" type="application/rss+xml"/>
 		<image>
 			<url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
 			<title>Procyon Project blog</title>
 			<link>https://livefasteattrashraccoon.github.io/blog</link>
 		</image>
+		<item>
+			<title>The Devil in the Details: Polishing Raccoon&apos;s UX</title>
+			<link>https://livefasteattrashraccoon.github.io/blog/2026/10/17/the-devil-in-the-details-polishing-raccoons-ux</link>
+			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/2026/10/17/the-devil-in-the-details-polishing-raccoons-ux</guid>
+			<description>A user suggested making Classic mode the default layout for group account details. This got me  wondering where Forum mode was falling short. I realized that while there was a lot of emphasis on topic and reply creation, the other basic interaction with a group (joining it) was missing. Ironically, users had to switch back to Classic mode just to see the &quot;Follow&quot; button.  This was recently solved by adding a compact top header with the standard relationship button,  preserving space for discussion topics. This is part of a continuous effort to make the UI more functional and appealing (e.g. the info dialog in recent versions) while retaining the focus on aggregation, which is one of the distinctive features of the app.</description>
+			<pubDate>Sat, 17 Oct 2026 21:50:00 +0200</pubDate>
+		</item>
 		<item>
 			<title>Community contributions: sharing is caring</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/2026/09/28/community-contributions-sharing-is-caring</link>

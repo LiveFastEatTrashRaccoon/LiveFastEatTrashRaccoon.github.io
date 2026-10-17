@@ -1,4 +1,16 @@
 metadata:
+  - title: "The Devil in the Details: Polishing Raccoon's UX"
+    date: '2026-10-17 21:50:00 +0200'
+    lastSegment: '2026/10/17/the-devil-in-the-details-polishing-raccoons-ux'
+    summary: >
+      A user suggested making Classic mode the default layout for group account details. This got me 
+      wondering where Forum mode was falling short. I realized that while there was a lot of emphasis
+      on topic and reply creation, the other basic interaction with a group (joining it) was
+      missing. Ironically, users had to switch back to Classic mode just to see the "Follow" button. 
+      This was recently solved by adding a compact top header with the standard relationship button, 
+      preserving space for discussion topics. This is part of a continuous effort to make the UI
+      more functional and appealing (e.g. the info dialog in recent versions) while retaining the
+      focus on aggregation, which is one of the distinctive features of the app.
   - title: 'Community contributions: sharing is caring'
     date: '2026-09-28 21:52:00 +0200'
     lastSegment: '2026/09/28/community-contributions-sharing-is-caring'
