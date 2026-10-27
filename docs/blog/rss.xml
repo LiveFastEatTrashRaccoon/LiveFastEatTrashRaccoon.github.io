@@ -5,13 +5,20 @@
 		<link>https://livefasteattrashraccoon.github.io/blog</link>
 		<description>In the Procyon Project&apos;s blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.</description>
 		<language>en</language>
-		<lastBuildDate>Sat, 17 Oct 2026 21:50:00 +0200</lastBuildDate>
+		<lastBuildDate>Tue, 27 Oct 2026 23:15:00 +0100</lastBuildDate>
 		<atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" ref="self" type="application/rss+xml"/>
 		<image>
 			<url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
 			<title>Procyon Project blog</title>
 			<link>https://livefasteattrashraccoon.github.io/blog</link>
 		</image>
+		<item>
+			<title>Labor Limae: When &quot;Mostly Working&quot; isn&apos;t Enough</title>
+			<link>https://livefasteattrashraccoon.github.io/blog/2026/10/27/labor-limae-when-mostly-working-isnt-enough</link>
+			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/2026/10/27/labor-limae-when-mostly-working-isnt-enough</guid>
+			<description>In his Ars Poetica, Horace uses the term &quot;labor limae&quot; to define the process by which artists refine their work as if progressively smoothing down sharp edges with a file. Without any  intention to compare myself to the great Latin poet, I resonate with the idea of the filing  work. In the last few months, I&apos;ve addressed a series of questionable architectural decisions, inconsistencies, poor naming choices, overcomplications, lacks of optimization, accessibility  pitfalls and subtle bugs which accumulated over time; some dating back to the early days when  I was completing the MVP. It&apos;s easy to let legacy code pile up when things work in &quot;most cases&quot;. But true project health isn&apos;t always about shipping new features: it&apos;s also about the mindset to go back, smooth down rough edges and  previous choices if the experience suggests so. With the double benefit of delivering a better experience to users and, at the same time, build a stronger foundation for whatever comes next.</description>
+			<pubDate>Tue, 27 Oct 2026 23:15:00 +0100</pubDate>
+		</item>
 		<item>
 			<title>The Devil in the Details: Polishing Raccoon&apos;s UX</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/2026/10/17/the-devil-in-the-details-polishing-raccoons-ux</link>
