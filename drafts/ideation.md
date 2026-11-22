@@ -18,7 +18,6 @@ Tips for engagement:
 - [x] Navigation in CMP: To Infinity and Beyond! (12/07/2026)
 - [x] Koin is back, b*tches! (11/08/2026)
 - [x] Rekindling the spark: moving Raccoon to Metro (10/09/2026)
-- [ ] The importance of reproducible builds in open-source development
 - [ ] The Markdown rendering challenge: from plain text to rich content
 - [ ] Mastodon glitch-soc, a richer format for your posts
 - [ ] Keep your code spotless with lint tools
@@ -57,6 +56,7 @@ Tips for engagement:
 - [x] The Intentional Raccoon: Why I Code the Hard Way (20/07/2026)
 - [x] From side project to Procyon: a look behind (14/09/2026)
 - [x] Community contributions: sharing is caring (28/09/2026)
+- [x] The importance of reproducible builds in FOSS (22/11/2026)
 - [ ] How maintaining side projects made me a better developer
 - [ ] Behind the scenes: from concept to release
 - [ ] Testing strategies for federated applications
