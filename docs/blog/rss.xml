@@ -5,13 +5,20 @@
 		<link>https://livefasteattrashraccoon.github.io/blog</link>
 		<description>In the Procyon Project&apos;s blog we share updates about our Kotlin Multiplatform apps, development challenges, and thoughts on the Fediverse.</description>
 		<language>en</language>
-		<lastBuildDate>Tue, 27 Oct 2026 23:15:00 +0100</lastBuildDate>
+		<lastBuildDate>Sun, 22 Nov 2026 21:50:00 +0100</lastBuildDate>
 		<atom:link href="https://livefasteattrashraccoon.github.io/blog/rss.xml" ref="self" type="application/rss+xml"/>
 		<image>
 			<url>https://livefasteattrashraccoon.github.io/assets/logo.png</url>
 			<title>Procyon Project blog</title>
 			<link>https://livefasteattrashraccoon.github.io/blog</link>
 		</image>
+		<item>
+			<title>The importance of reproducible builds in FOSS</title>
+			<link>https://livefasteattrashraccoon.github.io/blog/2026/11/22/the-importance-of-reproducible-builds-in-foss</link>
+			<guid isPermalink="true">https://livefasteattrashraccoon.github.io/blog/2026/11/22/the-importance-of-reproducible-builds-in-foss</guid>
+			<description>Until last week, there was a huge gap between the versions available on Google Play Store, GitHub releases (1.x), or IzzyOnDroid and what was available on F-Droid (0.4.2). This was due to a combination of factors: on the one side F-Droid checkupdates bot was not able to  extract versioning information to update the metadata file; on the other side the build instructions had to be adapted after the app was migrated to AGP 9.x earlier this year. In this article we&apos;ll see how different stores have different philosophies and how this  determines different requirement on maintainers. In particular, in F-Droid, build  reproducibility is a strict requirement to ensure inspectability and full transparency. Making it all click together is not an easy task, especially because software ecosystems are  under continuous evolution. Is is therefore important to carefully choose libraries so that  reproducibility can be enforced and write flexible build configurations that can adapt to different environments.</description>
+			<pubDate>Sun, 22 Nov 2026 21:50:00 +0100</pubDate>
+		</item>
 		<item>
 			<title>Labor Limae: When &quot;Mostly Working&quot; isn&apos;t Enough</title>
 			<link>https://livefasteattrashraccoon.github.io/blog/2026/10/27/labor-limae-when-mostly-working-isnt-enough</link>
